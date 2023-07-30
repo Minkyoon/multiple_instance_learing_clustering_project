@@ -1,0 +1,33 @@
+2023-07-03 10:23:38,274 INFO    MainThread:3514044 [wandb_setup.py:_flush():76] Current SDK version is 0.15.4
+2023-07-03 10:23:38,274 INFO    MainThread:3514044 [wandb_setup.py:_flush():76] Configure stats pid to 3514044
+2023-07-03 10:23:38,274 INFO    MainThread:3514044 [wandb_setup.py:_flush():76] Loading settings from /home/minkyoon/.config/wandb/settings
+2023-07-03 10:23:38,274 INFO    MainThread:3514044 [wandb_setup.py:_flush():76] Loading settings from /home/minkyoon/crohn/end_to_end/backpro/relapse/wandb/settings
+2023-07-03 10:23:38,275 INFO    MainThread:3514044 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-03 10:23:38,275 INFO    MainThread:3514044 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-07-03 10:23:38,275 INFO    MainThread:3514044 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'backpro_batch_test_complete2.py', 'program': '/home/minkyoon/crohn/end_to_end/backpro/relapse/backpro_batch_test_complete2.py'}
+2023-07-03 10:23:38,275 INFO    MainThread:3514044 [wandb_init.py:_log_setup():507] Logging user logs to /home/minkyoon/crohn/end_to_end/backpro/relapse/wandb/run-20230703_102338-mier1wx8/logs/debug.log
+2023-07-03 10:23:38,275 INFO    MainThread:3514044 [wandb_init.py:_log_setup():508] Logging internal logs to /home/minkyoon/crohn/end_to_end/backpro/relapse/wandb/run-20230703_102338-mier1wx8/logs/debug-internal.log
+2023-07-03 10:23:38,275 INFO    MainThread:3514044 [wandb_init.py:init():547] calling init triggers
+2023-07-03 10:23:38,275 INFO    MainThread:3514044 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'user': 'minkyoon', 'data_split': {'train': 0.8, 'val': 0.1, 'test': 0.1}, 'epoch': 100, 'batch_size': 4, 'learning_rate': 0.0001}
+2023-07-03 10:23:38,275 INFO    MainThread:3514044 [wandb_init.py:init():596] starting backend
+2023-07-03 10:23:38,275 INFO    MainThread:3514044 [wandb_init.py:init():600] setting up manager
+2023-07-03 10:23:38,279 INFO    MainThread:3514044 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-07-03 10:23:38,281 INFO    MainThread:3514044 [wandb_init.py:init():606] backend started and connected
+2023-07-03 10:23:38,284 INFO    MainThread:3514044 [wandb_init.py:init():703] updated telemetry
+2023-07-03 10:23:38,285 INFO    MainThread:3514044 [wandb_init.py:init():736] communicating run to backend with 60.0 second timeout
+2023-07-03 10:23:38,884 INFO    MainThread:3514044 [wandb_run.py:_on_init():2176] communicating current version
+2023-07-03 10:23:38,932 INFO    MainThread:3514044 [wandb_run.py:_on_init():2185] got version response 
+2023-07-03 10:23:38,932 INFO    MainThread:3514044 [wandb_init.py:init():787] starting run threads in backend
+2023-07-03 10:23:43,334 INFO    MainThread:3514044 [wandb_run.py:_console_start():2155] atexit reg
+2023-07-03 10:23:43,334 INFO    MainThread:3514044 [wandb_run.py:_redirect():2010] redirect: SettingsConsole.WRAP_RAW
+2023-07-03 10:23:43,334 INFO    MainThread:3514044 [wandb_run.py:_redirect():2075] Wrapping output streams.
+2023-07-03 10:23:43,335 INFO    MainThread:3514044 [wandb_run.py:_redirect():2100] Redirects installed.
+2023-07-03 10:23:43,336 INFO    MainThread:3514044 [wandb_init.py:init():828] run started, returning control to user process
+2023-07-03 11:31:31,443 INFO    MainThread:3514044 [wandb_run.py:_finish():1890] finishing run minkyoonyoo/relapse/mier1wx8
+2023-07-03 11:31:31,515 INFO    MainThread:3514044 [wandb_run.py:_atexit_cleanup():2124] got exitcode: 0
+2023-07-03 11:31:31,515 INFO    MainThread:3514044 [wandb_run.py:_restore():2107] restore
+2023-07-03 11:31:31,515 INFO    MainThread:3514044 [wandb_run.py:_restore():2113] restore done
+2023-07-03 11:31:53,180 INFO    MainThread:3514044 [wandb_run.py:_footer_history_summary_info():3467] rendering history
+2023-07-03 11:31:53,181 INFO    MainThread:3514044 [wandb_run.py:_footer_history_summary_info():3499] rendering summary
+2023-07-03 11:31:53,188 INFO    MainThread:3514044 [wandb_run.py:_footer_sync_info():3426] logging synced files

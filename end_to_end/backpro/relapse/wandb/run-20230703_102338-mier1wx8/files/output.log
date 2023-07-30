@@ -1,0 +1,3008 @@
+User: minkyoon
+Data Split: {'train': 0.8, 'val': 0.1, 'test': 0.1}
+Epoch: 100
+Batch Size: 4
+Learning Rate: 0.0001
+Setting tau to 1.0
+Epoch [1/100], Step [1/26], Loss: 0.8793138265609741
+Epoch [1/100], Step [2/26], Loss: 0.639004647731781
+Epoch [1/100], Step [3/26], Loss: 1.070204496383667
+Epoch [1/100], Step [4/26], Loss: 0.41614478826522827
+Epoch [1/100], Step [5/26], Loss: 2.6045076847076416
+Epoch [1/100], Step [6/26], Loss: 1.2944536209106445
+Epoch [1/100], Step [7/26], Loss: 0.6875553131103516
+Epoch [1/100], Step [8/26], Loss: 0.8435196876525879
+Epoch [1/100], Step [9/26], Loss: 0.9363082051277161
+Epoch [1/100], Step [10/26], Loss: 1.1659749746322632
+Epoch [1/100], Step [11/26], Loss: 0.8881396055221558
+Epoch [1/100], Step [12/26], Loss: 1.0443518161773682
+Epoch [1/100], Step [13/26], Loss: 0.9452921748161316
+Epoch [1/100], Step [14/26], Loss: 0.7519721984863281
+Epoch [1/100], Step [15/26], Loss: 0.863472580909729
+Epoch [1/100], Step [16/26], Loss: 0.717140793800354
+Epoch [1/100], Step [17/26], Loss: 0.6940482258796692
+Epoch [1/100], Step [18/26], Loss: 0.5926830172538757
+Epoch [1/100], Step [19/26], Loss: 0.850033164024353
+Epoch [1/100], Step [20/26], Loss: 1.050642967224121
+Epoch [1/100], Step [21/26], Loss: 0.9439730048179626
+Epoch [1/100], Step [22/26], Loss: 0.6760443449020386
+Epoch [1/100], Step [23/26], Loss: 0.6891394257545471
+Epoch [1/100], Step [24/26], Loss: 0.7094590663909912
+Epoch [1/100], Step [25/26], Loss: 0.6497522592544556
+Epoch [1/100], Step [26/26], Loss: 0.5594087243080139
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Validation at Epoch 1 , Accuracy: 0.58333 , sensitivity: 1.0, specificity: 0.0 , roc_score: 0.31428
+Epoch [2/100], Step [1/26], Loss: 0.6160009503364563
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch [2/100], Step [2/26], Loss: 0.36102765798568726
+Epoch [2/100], Step [3/26], Loss: 0.5348103642463684
+Epoch [2/100], Step [4/26], Loss: 0.11496764421463013
+Epoch [2/100], Step [5/26], Loss: 1.5646257400512695
+Epoch [2/100], Step [6/26], Loss: 1.0704845190048218
+Epoch [2/100], Step [7/26], Loss: 0.9452739953994751
+Epoch [2/100], Step [8/26], Loss: 0.957069456577301
+Epoch [2/100], Step [9/26], Loss: 0.9182870388031006
+Epoch [2/100], Step [10/26], Loss: 0.8391956686973572
+Epoch [2/100], Step [11/26], Loss: 0.7931641340255737
+Epoch [2/100], Step [12/26], Loss: 1.2344616651535034
+Epoch [2/100], Step [13/26], Loss: 0.9311928749084473
+Epoch [2/100], Step [14/26], Loss: 0.8501229882240295
+Epoch [2/100], Step [15/26], Loss: 0.8795353174209595
+Epoch [2/100], Step [16/26], Loss: 0.861893892288208
+Epoch [2/100], Step [17/26], Loss: 0.8399612903594971
+Epoch [2/100], Step [18/26], Loss: 0.7588768005371094
+Epoch [2/100], Step [19/26], Loss: 0.9210425019264221
+Epoch [2/100], Step [20/26], Loss: 1.099638819694519
+Epoch [2/100], Step [21/26], Loss: 1.0372291803359985
+Epoch [2/100], Step [22/26], Loss: 0.883873462677002
+Epoch [2/100], Step [23/26], Loss: 0.8624922633171082
+Epoch [2/100], Step [24/26], Loss: 0.8657793402671814
+Epoch [2/100], Step [25/26], Loss: 0.8654439449310303
+Epoch [2/100], Step [26/26], Loss: 0.8548725247383118
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Epoch [3/100], Step [1/26], Loss: 0.8713632822036743
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch [3/100], Step [2/26], Loss: 0.786118745803833
+Epoch [3/100], Step [3/26], Loss: 0.8192872405052185
+Epoch [3/100], Step [4/26], Loss: 0.7235034704208374
+Epoch [3/100], Step [5/26], Loss: 1.0283141136169434
+Epoch [3/100], Step [6/26], Loss: 0.9282860159873962
+Epoch [3/100], Step [7/26], Loss: 0.6619449853897095
+Epoch [3/100], Step [8/26], Loss: 0.9263566732406616
+Epoch [3/100], Step [9/26], Loss: 0.9215294122695923
+Epoch [3/100], Step [10/26], Loss: 0.6452837586402893
+Epoch [3/100], Step [11/26], Loss: 0.7869910001754761
+Epoch [3/100], Step [12/26], Loss: 1.0851867198944092
+Epoch [3/100], Step [13/26], Loss: 0.9320882558822632
+Epoch [3/100], Step [14/26], Loss: 0.7832844853401184
+Epoch [3/100], Step [15/26], Loss: 0.9064574241638184
+Epoch [3/100], Step [16/26], Loss: 0.7956588268280029
+Epoch [3/100], Step [17/26], Loss: 0.7955869436264038
+Epoch [3/100], Step [18/26], Loss: 0.7177178859710693
+Epoch [3/100], Step [19/26], Loss: 0.8972690105438232
+Epoch [3/100], Step [20/26], Loss: 1.010142207145691
+Epoch [3/100], Step [21/26], Loss: 1.0006804466247559
+Epoch [3/100], Step [22/26], Loss: 0.8814324140548706
+Epoch [3/100], Step [23/26], Loss: 0.8274411559104919
+Epoch [3/100], Step [24/26], Loss: 0.8401027917861938
+Epoch [3/100], Step [25/26], Loss: 0.837703287601471
+Epoch [3/100], Step [26/26], Loss: 0.8406546115875244
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Epoch [4/100], Step [1/26], Loss: 0.8691375851631165
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch [4/100], Step [2/26], Loss: 0.7585152983665466
+Epoch [4/100], Step [3/26], Loss: 0.8038186430931091
+Epoch [4/100], Step [4/26], Loss: 0.6817156076431274
+Epoch [4/100], Step [5/26], Loss: 1.069496989250183
+Epoch [4/100], Step [6/26], Loss: 0.936414361000061
+Epoch [4/100], Step [7/26], Loss: 0.6235719919204712
+Epoch [4/100], Step [8/26], Loss: 0.944575846195221
+Epoch [4/100], Step [9/26], Loss: 0.9265272617340088
+Epoch [4/100], Step [10/26], Loss: 0.6214064359664917
+Epoch [4/100], Step [11/26], Loss: 0.7691199779510498
+Epoch [4/100], Step [12/26], Loss: 1.1100369691848755
+Epoch [4/100], Step [13/26], Loss: 0.920947790145874
+Epoch [4/100], Step [14/26], Loss: 0.7770535349845886
+Epoch [4/100], Step [15/26], Loss: 0.8982310891151428
+Epoch [4/100], Step [16/26], Loss: 0.8000558614730835
+Epoch [4/100], Step [17/26], Loss: 0.7890670895576477
+Epoch [4/100], Step [18/26], Loss: 0.6920408010482788
+Epoch [4/100], Step [19/26], Loss: 0.8795676231384277
+Epoch [4/100], Step [20/26], Loss: 0.9930130839347839
+Epoch [4/100], Step [21/26], Loss: 0.9831596612930298
+Epoch [4/100], Step [22/26], Loss: 0.8663464188575745
+Epoch [4/100], Step [23/26], Loss: 0.8078497648239136
+Epoch [4/100], Step [24/26], Loss: 0.8242634534835815
+Epoch [4/100], Step [25/26], Loss: 0.8218299150466919
+Epoch [4/100], Step [26/26], Loss: 0.8262304663658142
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch [5/100], Step [1/26], Loss: 0.8677895069122314
+Epoch [5/100], Step [2/26], Loss: 0.7556250095367432
+Epoch [5/100], Step [3/26], Loss: 0.8015238046646118
+Epoch [5/100], Step [4/26], Loss: 0.6920967102050781
+Epoch [5/100], Step [5/26], Loss: 1.0347256660461426
+Epoch [5/100], Step [6/26], Loss: 0.8832604885101318
+Epoch [5/100], Step [7/26], Loss: 0.6129071712493896
+Epoch [5/100], Step [8/26], Loss: 0.9336536526679993
+Epoch [5/100], Step [9/26], Loss: 0.9221233129501343
+Epoch [5/100], Step [10/26], Loss: 0.5800103545188904
+Epoch [5/100], Step [11/26], Loss: 0.7378735542297363
+Epoch [5/100], Step [12/26], Loss: 1.1108245849609375
+Epoch [5/100], Step [13/26], Loss: 0.9036325216293335
+Epoch [5/100], Step [14/26], Loss: 0.7576980590820312
+Epoch [5/100], Step [15/26], Loss: 0.8841844797134399
+Epoch [5/100], Step [16/26], Loss: 0.7565216422080994
+Epoch [5/100], Step [17/26], Loss: 0.7642402648925781
+Epoch [5/100], Step [18/26], Loss: 0.6874095797538757
+Epoch [5/100], Step [19/26], Loss: 0.8554579019546509
+Epoch [5/100], Step [20/26], Loss: 0.9546563625335693
+Epoch [5/100], Step [21/26], Loss: 0.9308788180351257
+Epoch [5/100], Step [22/26], Loss: 0.7992517352104187
+Epoch [5/100], Step [23/26], Loss: 0.8055049777030945
+Epoch [5/100], Step [24/26], Loss: 0.8274654746055603
+Epoch [5/100], Step [25/26], Loss: 0.7909613847732544
+Epoch [5/100], Step [26/26], Loss: 0.8049592971801758
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch [6/100], Step [1/26], Loss: 0.8269259929656982
+Epoch [6/100], Step [2/26], Loss: 0.6876285076141357
+Epoch [6/100], Step [3/26], Loss: 0.7450511455535889
+Epoch [6/100], Step [4/26], Loss: 0.5267797708511353
+Epoch [6/100], Step [5/26], Loss: 1.3627054691314697
+Epoch [6/100], Step [6/26], Loss: 0.9978968501091003
+Epoch [6/100], Step [7/26], Loss: 0.4944922626018524
+Epoch [6/100], Step [8/26], Loss: 0.9244571328163147
+Epoch [6/100], Step [9/26], Loss: 0.8683007955551147
+Epoch [6/100], Step [10/26], Loss: 0.5996657609939575
+Epoch [6/100], Step [11/26], Loss: 0.7112284302711487
+Epoch [6/100], Step [12/26], Loss: 0.9414082169532776
+Epoch [6/100], Step [13/26], Loss: 0.8141376972198486
+Epoch [6/100], Step [14/26], Loss: 0.7723913192749023
+Epoch [6/100], Step [15/26], Loss: 0.8662039637565613
+Epoch [6/100], Step [16/26], Loss: 0.7647830247879028
+Epoch [6/100], Step [17/26], Loss: 0.7877672910690308
+Epoch [6/100], Step [18/26], Loss: 0.713238000869751
+Epoch [6/100], Step [19/26], Loss: 0.7870857119560242
+Epoch [6/100], Step [20/26], Loss: 1.0212924480438232
+Epoch [6/100], Step [21/26], Loss: 0.955387532711029
+Epoch [6/100], Step [22/26], Loss: 0.7986756563186646
+Epoch [6/100], Step [23/26], Loss: 0.7411245107650757
+Epoch [6/100], Step [24/26], Loss: 0.7067673206329346
+Epoch [6/100], Step [25/26], Loss: 0.7228472232818604
+Epoch [6/100], Step [26/26], Loss: 0.7357040643692017
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Epoch [7/100], Step [1/26], Loss: 0.7670912742614746
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch [7/100], Step [2/26], Loss: 0.6385051012039185
+Epoch [7/100], Step [3/26], Loss: 0.660420298576355
+Epoch [7/100], Step [4/26], Loss: 0.44095802307128906
+Epoch [7/100], Step [5/26], Loss: 1.421748399734497
+Epoch [7/100], Step [6/26], Loss: 1.0169074535369873
+Epoch [7/100], Step [7/26], Loss: 0.42811962962150574
+Epoch [7/100], Step [8/26], Loss: 0.9081650972366333
+Epoch [7/100], Step [9/26], Loss: 0.8563969135284424
+Epoch [7/100], Step [10/26], Loss: 0.6158280372619629
+Epoch [7/100], Step [11/26], Loss: 0.6860095262527466
+Epoch [7/100], Step [12/26], Loss: 0.9130447506904602
+Epoch [7/100], Step [13/26], Loss: 0.7852466106414795
+Epoch [7/100], Step [14/26], Loss: 0.7296462059020996
+Epoch [7/100], Step [15/26], Loss: 0.8364909887313843
+Epoch [7/100], Step [16/26], Loss: 0.7555727958679199
+Epoch [7/100], Step [17/26], Loss: 0.7195217609405518
+Epoch [7/100], Step [18/26], Loss: 0.6531775593757629
+Epoch [7/100], Step [19/26], Loss: 0.7139552235603333
+Epoch [7/100], Step [20/26], Loss: 0.9681951403617859
+Epoch [7/100], Step [21/26], Loss: 0.9689622521400452
+Epoch [7/100], Step [22/26], Loss: 0.7946968674659729
+Epoch [7/100], Step [23/26], Loss: 0.6472587585449219
+Epoch [7/100], Step [24/26], Loss: 0.7049956321716309
+Epoch [7/100], Step [25/26], Loss: 0.6642013788223267
+Epoch [7/100], Step [26/26], Loss: 0.6782959699630737
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch [8/100], Step [1/26], Loss: 0.7129985094070435
+Epoch [8/100], Step [2/26], Loss: 0.5319761037826538
+Epoch [8/100], Step [3/26], Loss: 0.5298823118209839
+Epoch [8/100], Step [4/26], Loss: 0.3898910880088806
+Epoch [8/100], Step [5/26], Loss: 1.4736509323120117
+Epoch [8/100], Step [6/26], Loss: 0.9179192781448364
+Epoch [8/100], Step [7/26], Loss: 0.34286269545555115
+Epoch [8/100], Step [8/26], Loss: 0.8100763559341431
+Epoch [8/100], Step [9/26], Loss: 0.6133971214294434
+Epoch [8/100], Step [10/26], Loss: 0.6351576447486877
+Epoch [8/100], Step [11/26], Loss: 0.6336398720741272
+Epoch [8/100], Step [12/26], Loss: 0.6663798093795776
+Epoch [8/100], Step [13/26], Loss: 0.657343327999115
+Epoch [8/100], Step [14/26], Loss: 0.5669852495193481
+Epoch [8/100], Step [15/26], Loss: 0.6369307637214661
+Epoch [8/100], Step [16/26], Loss: 0.6072506308555603
+Epoch [8/100], Step [17/26], Loss: 0.5085630416870117
+Epoch [8/100], Step [18/26], Loss: 0.3202689290046692
+Epoch [8/100], Step [19/26], Loss: 0.8217191696166992
+Epoch [8/100], Step [20/26], Loss: 1.5021419525146484
+Epoch [8/100], Step [21/26], Loss: 0.8465933799743652
+Epoch [8/100], Step [22/26], Loss: 0.6226599216461182
+Epoch [8/100], Step [23/26], Loss: 0.8201544880867004
+Epoch [8/100], Step [24/26], Loss: 0.7900972962379456
+Epoch [8/100], Step [25/26], Loss: 0.790951669216156
+Epoch [8/100], Step [26/26], Loss: 0.751200795173645
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 1]
+Validation at Epoch 8 , Accuracy: 0.75 , sensitivity: 0.71428, specificity: 0.8 , roc_score: 0.71428
+Epoch [9/100], Step [1/26], Loss: 0.6740050315856934
+Epoch [9/100], Step [2/26], Loss: 0.5659205913543701
+Epoch [9/100], Step [3/26], Loss: 0.5539060831069946
+Epoch [9/100], Step [4/26], Loss: 0.4049101769924164
+Epoch [9/100], Step [5/26], Loss: 1.0328501462936401
+Epoch [9/100], Step [6/26], Loss: 0.8240441083908081
+Epoch [9/100], Step [7/26], Loss: 0.3443867564201355
+Epoch [9/100], Step [8/26], Loss: 0.9121496677398682
+Epoch [9/100], Step [9/26], Loss: 0.9043102860450745
+Epoch [9/100], Step [10/26], Loss: 0.3311454951763153
+Epoch [9/100], Step [11/26], Loss: 0.5709248781204224
+Epoch [9/100], Step [12/26], Loss: 0.9198904633522034
+Epoch [9/100], Step [13/26], Loss: 0.8155325651168823
+Epoch [9/100], Step [14/26], Loss: 0.5590723752975464
+Epoch [9/100], Step [15/26], Loss: 0.7719148397445679
+Epoch [9/100], Step [16/26], Loss: 0.6449699401855469
+Epoch [9/100], Step [17/26], Loss: 0.6162644624710083
+Epoch [9/100], Step [18/26], Loss: 0.5367213487625122
+Epoch [9/100], Step [19/26], Loss: 0.6802459955215454
+Epoch [9/100], Step [20/26], Loss: 0.675244927406311
+Epoch [9/100], Step [21/26], Loss: 0.7177899479866028
+Epoch [9/100], Step [22/26], Loss: 0.5972477197647095
+Epoch [9/100], Step [23/26], Loss: 0.6341161131858826
+Epoch [9/100], Step [24/26], Loss: 0.6458341479301453
+Epoch [9/100], Step [25/26], Loss: 0.6304298639297485
+Epoch [9/100], Step [26/26], Loss: 0.5529993176460266
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Epoch [10/100], Step [1/26], Loss: 0.6687743067741394
+Epoch [10/100], Step [2/26], Loss: 0.41342371702194214
+Epoch [10/100], Step [3/26], Loss: 0.5176613926887512
+Epoch [10/100], Step [4/26], Loss: 0.17821955680847168
+Epoch [10/100], Step [5/26], Loss: 1.7815313339233398
+Epoch [10/100], Step [6/26], Loss: 0.8864834308624268
+Epoch [10/100], Step [7/26], Loss: 0.3546951413154602
+Epoch [10/100], Step [8/26], Loss: 0.5256195664405823
+Epoch [10/100], Step [9/26], Loss: 0.5455247759819031
+Epoch [10/100], Step [10/26], Loss: 0.5247328877449036
+Epoch [10/100], Step [11/26], Loss: 0.5859956741333008
+Epoch [10/100], Step [12/26], Loss: 0.5936946868896484
+Epoch [10/100], Step [13/26], Loss: 0.5870466232299805
+Epoch [10/100], Step [14/26], Loss: 0.4972435235977173
+Epoch [10/100], Step [15/26], Loss: 0.6361901760101318
+Epoch [10/100], Step [16/26], Loss: 0.6078916788101196
+Epoch [10/100], Step [17/26], Loss: 0.47733548283576965
+Epoch [10/100], Step [18/26], Loss: 0.34828898310661316
+Epoch [10/100], Step [19/26], Loss: 0.6585176587104797
+Epoch [10/100], Step [20/26], Loss: 1.1811331510543823
+Epoch [10/100], Step [21/26], Loss: 1.171696662902832
+Epoch [10/100], Step [22/26], Loss: 0.5875363349914551
+Epoch [10/100], Step [23/26], Loss: 0.55879145860672
+Epoch [10/100], Step [24/26], Loss: 0.5718648433685303
+Epoch [10/100], Step [25/26], Loss: 0.6594437956809998
+Epoch [10/100], Step [26/26], Loss: 0.6810768842697144
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+Epoch [11/100], Step [1/26], Loss: 0.5931867957115173
+Epoch [11/100], Step [2/26], Loss: 0.6153593063354492
+Epoch [11/100], Step [3/26], Loss: 0.5546808242797852
+Epoch [11/100], Step [4/26], Loss: 0.3667755722999573
+Epoch [11/100], Step [5/26], Loss: 0.8370392322540283
+Epoch [11/100], Step [6/26], Loss: 0.819929838180542
+Epoch [11/100], Step [7/26], Loss: 0.28557705879211426
+Epoch [11/100], Step [8/26], Loss: 0.7664969563484192
+Epoch [11/100], Step [9/26], Loss: 0.8049077987670898
+Epoch [11/100], Step [10/26], Loss: 0.28660348057746887
+Epoch [11/100], Step [11/26], Loss: 0.5180343389511108
+Epoch [11/100], Step [12/26], Loss: 0.9559166431427002
+Epoch [11/100], Step [13/26], Loss: 0.764570951461792
+Epoch [11/100], Step [14/26], Loss: 0.5047093033790588
+Epoch [11/100], Step [15/26], Loss: 0.6766201853752136
+Epoch [11/100], Step [16/26], Loss: 0.5913134813308716
+Epoch [11/100], Step [17/26], Loss: 0.532658576965332
+Epoch [11/100], Step [18/26], Loss: 0.5780786275863647
+Epoch [11/100], Step [19/26], Loss: 0.5496571063995361
+Epoch [11/100], Step [20/26], Loss: 0.6291510462760925
+Epoch [11/100], Step [21/26], Loss: 0.6318817138671875
+Epoch [11/100], Step [22/26], Loss: 0.5182933807373047
+Epoch [11/100], Step [23/26], Loss: 0.6138212084770203
+Epoch [11/100], Step [24/26], Loss: 0.5770642161369324
+Epoch [11/100], Step [25/26], Loss: 0.6191590428352356
+Epoch [11/100], Step [26/26], Loss: 0.5547476410865784
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+Epoch [12/100], Step [1/26], Loss: 0.5873397588729858
+Epoch [12/100], Step [2/26], Loss: 0.45740678906440735
+Epoch [12/100], Step [3/26], Loss: 0.45340627431869507
+Epoch [12/100], Step [4/26], Loss: 0.2626573443412781
+Epoch [12/100], Step [5/26], Loss: 1.0987982749938965
+Epoch [12/100], Step [6/26], Loss: 0.8560034036636353
+Epoch [12/100], Step [7/26], Loss: 0.23427358269691467
+Epoch [12/100], Step [8/26], Loss: 0.7344866991043091
+Epoch [12/100], Step [9/26], Loss: 0.7363154292106628
+Epoch [12/100], Step [10/26], Loss: 0.29655760526657104
+Epoch [12/100], Step [11/26], Loss: 0.5006040334701538
+Epoch [12/100], Step [12/26], Loss: 0.7692193984985352
+Epoch [12/100], Step [13/26], Loss: 0.6178215742111206
+Epoch [12/100], Step [14/26], Loss: 0.5630406737327576
+Epoch [12/100], Step [15/26], Loss: 0.469919353723526
+Epoch [12/100], Step [16/26], Loss: 0.6283310055732727
+Epoch [12/100], Step [17/26], Loss: 0.5516698360443115
+Epoch [12/100], Step [18/26], Loss: 0.5630220770835876
+Epoch [12/100], Step [19/26], Loss: 0.6313154101371765
+Epoch [12/100], Step [20/26], Loss: 0.6258344650268555
+Epoch [12/100], Step [21/26], Loss: 0.7302455306053162
+Epoch [12/100], Step [22/26], Loss: 0.5865764617919922
+Epoch [12/100], Step [23/26], Loss: 0.5733530521392822
+Epoch [12/100], Step [24/26], Loss: 0.5587623715400696
+Epoch [12/100], Step [25/26], Loss: 0.4883151650428772
+Epoch [12/100], Step [26/26], Loss: 0.5127584338188171
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Epoch [13/100], Step [1/26], Loss: 0.6767945289611816
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch [13/100], Step [2/26], Loss: 0.4204269051551819
+Epoch [13/100], Step [3/26], Loss: 0.46078288555145264
+Epoch [13/100], Step [4/26], Loss: 0.2733476758003235
+Epoch [13/100], Step [5/26], Loss: 1.0211793184280396
+Epoch [13/100], Step [6/26], Loss: 0.8058490753173828
+Epoch [13/100], Step [7/26], Loss: 0.2458571046590805
+Epoch [13/100], Step [8/26], Loss: 0.700076699256897
+Epoch [13/100], Step [9/26], Loss: 0.7365840077400208
+Epoch [13/100], Step [10/26], Loss: 0.3835029602050781
+Epoch [13/100], Step [11/26], Loss: 0.5215933918952942
+Epoch [13/100], Step [12/26], Loss: 0.7740065455436707
+Epoch [13/100], Step [13/26], Loss: 0.5329234600067139
+Epoch [13/100], Step [14/26], Loss: 0.4655054211616516
+Epoch [13/100], Step [15/26], Loss: 0.5869629979133606
+Epoch [13/100], Step [16/26], Loss: 0.5241811871528625
+Epoch [13/100], Step [17/26], Loss: 0.5539188385009766
+Epoch [13/100], Step [18/26], Loss: 0.5085811614990234
+Epoch [13/100], Step [19/26], Loss: 0.5818266868591309
+Epoch [13/100], Step [20/26], Loss: 0.5559953451156616
+Epoch [13/100], Step [21/26], Loss: 0.7280815839767456
+Epoch [13/100], Step [22/26], Loss: 0.5459719896316528
+Epoch [13/100], Step [23/26], Loss: 0.5914740562438965
+Epoch [13/100], Step [24/26], Loss: 0.49888572096824646
+Epoch [13/100], Step [25/26], Loss: 0.593538224697113
+Epoch [13/100], Step [26/26], Loss: 0.5168461799621582
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Epoch [14/100], Step [1/26], Loss: 0.6574686169624329
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch [14/100], Step [2/26], Loss: 0.3644304871559143
+Epoch [14/100], Step [3/26], Loss: 0.44246625900268555
+Epoch [14/100], Step [4/26], Loss: 0.3318735659122467
+Epoch [14/100], Step [5/26], Loss: 1.0852960348129272
+Epoch [14/100], Step [6/26], Loss: 0.8011788129806519
+Epoch [14/100], Step [7/26], Loss: 0.2389766126871109
+Epoch [14/100], Step [8/26], Loss: 0.7520473003387451
+Epoch [14/100], Step [9/26], Loss: 0.6730048060417175
+Epoch [14/100], Step [10/26], Loss: 0.2822445333003998
+Epoch [14/100], Step [11/26], Loss: 0.4908347427845001
+Epoch [14/100], Step [12/26], Loss: 0.7354368567466736
+Epoch [14/100], Step [13/26], Loss: 0.5287787914276123
+Epoch [14/100], Step [14/26], Loss: 0.648184061050415
+Epoch [14/100], Step [15/26], Loss: 0.6734849214553833
+Epoch [14/100], Step [16/26], Loss: 0.5999119877815247
+Epoch [14/100], Step [17/26], Loss: 0.5488415956497192
+Epoch [14/100], Step [18/26], Loss: 0.5268325805664062
+Epoch [14/100], Step [19/26], Loss: 0.5625803470611572
+Epoch [14/100], Step [20/26], Loss: 0.6270800232887268
+Epoch [14/100], Step [21/26], Loss: 0.7075523138046265
+Epoch [14/100], Step [22/26], Loss: 0.5614392757415771
+Epoch [14/100], Step [23/26], Loss: 0.5364093780517578
+Epoch [14/100], Step [24/26], Loss: 0.4597053527832031
+Epoch [14/100], Step [25/26], Loss: 0.532945990562439
+Epoch [14/100], Step [26/26], Loss: 0.4933569133281708
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch [15/100], Step [1/26], Loss: 0.6205529570579529
+Epoch [15/100], Step [2/26], Loss: 0.41357868909835815
+Epoch [15/100], Step [3/26], Loss: 0.48710548877716064
+Epoch [15/100], Step [4/26], Loss: 0.3363400101661682
+Epoch [15/100], Step [5/26], Loss: 0.9846082925796509
+Epoch [15/100], Step [6/26], Loss: 0.7201071381568909
+Epoch [15/100], Step [7/26], Loss: 0.201852485537529
+Epoch [15/100], Step [8/26], Loss: 0.6589264273643494
+Epoch [15/100], Step [9/26], Loss: 0.6843681335449219
+Epoch [15/100], Step [10/26], Loss: 0.3257155120372772
+Epoch [15/100], Step [11/26], Loss: 0.4251840114593506
+Epoch [15/100], Step [12/26], Loss: 0.8327739238739014
+Epoch [15/100], Step [13/26], Loss: 0.6506175398826599
+Epoch [15/100], Step [14/26], Loss: 0.45345285534858704
+Epoch [15/100], Step [15/26], Loss: 0.5671879649162292
+Epoch [15/100], Step [16/26], Loss: 0.5406549572944641
+Epoch [15/100], Step [17/26], Loss: 0.6473228931427002
+Epoch [15/100], Step [18/26], Loss: 0.5768204927444458
+Epoch [15/100], Step [19/26], Loss: 0.6377812027931213
+Epoch [15/100], Step [20/26], Loss: 0.6615338325500488
+Epoch [15/100], Step [21/26], Loss: 0.770846962928772
+Epoch [15/100], Step [22/26], Loss: 0.5682884454727173
+Epoch [15/100], Step [23/26], Loss: 0.5504859685897827
+Epoch [15/100], Step [24/26], Loss: 0.5178881883621216
+Epoch [15/100], Step [25/26], Loss: 0.5874879360198975
+Epoch [15/100], Step [26/26], Loss: 0.579414963722229
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch [16/100], Step [1/26], Loss: 0.6200910210609436
+Epoch [16/100], Step [2/26], Loss: 0.4281523525714874
+Epoch [16/100], Step [3/26], Loss: 0.48669540882110596
+Epoch [16/100], Step [4/26], Loss: 0.31780439615249634
+Epoch [16/100], Step [5/26], Loss: 1.000969648361206
+Epoch [16/100], Step [6/26], Loss: 0.8405437469482422
+Epoch [16/100], Step [7/26], Loss: 0.3075879216194153
+Epoch [16/100], Step [8/26], Loss: 0.6749812960624695
+Epoch [16/100], Step [9/26], Loss: 0.7386699914932251
+Epoch [16/100], Step [10/26], Loss: 0.34756791591644287
+Epoch [16/100], Step [11/26], Loss: 0.6260045766830444
+Epoch [16/100], Step [12/26], Loss: 0.8337610960006714
+Epoch [16/100], Step [13/26], Loss: 0.7100321650505066
+Epoch [16/100], Step [14/26], Loss: 0.586113452911377
+Epoch [16/100], Step [15/26], Loss: 0.7484614849090576
+Epoch [16/100], Step [16/26], Loss: 0.5637531876564026
+Epoch [16/100], Step [17/26], Loss: 0.5994439125061035
+Epoch [16/100], Step [18/26], Loss: 0.5415248870849609
+Epoch [16/100], Step [19/26], Loss: 0.5961947441101074
+Epoch [16/100], Step [20/26], Loss: 0.7621713280677795
+Epoch [16/100], Step [21/26], Loss: 0.7062130570411682
+Epoch [16/100], Step [22/26], Loss: 0.6491501927375793
+Epoch [16/100], Step [23/26], Loss: 0.6158701181411743
+Epoch [16/100], Step [24/26], Loss: 0.5852625966072083
+Epoch [16/100], Step [25/26], Loss: 0.5922755599021912
+Epoch [16/100], Step [26/26], Loss: 0.6084249019622803
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Epoch [17/100], Step [1/26], Loss: 0.734259843826294
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch [17/100], Step [2/26], Loss: 0.46131572127342224
+Epoch [17/100], Step [3/26], Loss: 0.5834552645683289
+Epoch [17/100], Step [4/26], Loss: 0.41748982667922974
+Epoch [17/100], Step [5/26], Loss: 0.8377470970153809
+Epoch [17/100], Step [6/26], Loss: 0.8241183161735535
+Epoch [17/100], Step [7/26], Loss: 0.3066405653953552
+Epoch [17/100], Step [8/26], Loss: 0.745267391204834
+Epoch [17/100], Step [9/26], Loss: 0.7618992924690247
+Epoch [17/100], Step [10/26], Loss: 0.3216472864151001
+Epoch [17/100], Step [11/26], Loss: 0.560080349445343
+Epoch [17/100], Step [12/26], Loss: 0.9859570264816284
+Epoch [17/100], Step [13/26], Loss: 0.6992371082305908
+Epoch [17/100], Step [14/26], Loss: 0.4590447247028351
+Epoch [17/100], Step [15/26], Loss: 0.6795493364334106
+Epoch [17/100], Step [16/26], Loss: 0.4675265848636627
+Epoch [17/100], Step [17/26], Loss: 0.5921562910079956
+Epoch [17/100], Step [18/26], Loss: 0.5588120818138123
+Epoch [17/100], Step [19/26], Loss: 0.7451461553573608
+Epoch [17/100], Step [20/26], Loss: 0.7696807384490967
+Epoch [17/100], Step [21/26], Loss: 0.6904966831207275
+Epoch [17/100], Step [22/26], Loss: 0.6454584002494812
+Epoch [17/100], Step [23/26], Loss: 0.6582693457603455
+Epoch [17/100], Step [24/26], Loss: 0.6227239370346069
+Epoch [17/100], Step [25/26], Loss: 0.6769176721572876
+Epoch [17/100], Step [26/26], Loss: 0.568726658821106
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch [18/100], Step [1/26], Loss: 0.5989740490913391
+Epoch [18/100], Step [2/26], Loss: 0.5049741864204407
+Epoch [18/100], Step [3/26], Loss: 0.5458986163139343
+Epoch [18/100], Step [4/26], Loss: 0.4106326103210449
+Epoch [18/100], Step [5/26], Loss: 0.974597156047821
+Epoch [18/100], Step [6/26], Loss: 0.6485887765884399
+Epoch [18/100], Step [7/26], Loss: 0.2643061876296997
+Epoch [18/100], Step [8/26], Loss: 0.86960369348526
+Epoch [18/100], Step [9/26], Loss: 0.6959069967269897
+Epoch [18/100], Step [10/26], Loss: 0.28941771388053894
+Epoch [18/100], Step [11/26], Loss: 0.4836266040802002
+Epoch [18/100], Step [12/26], Loss: 0.8634207248687744
+Epoch [18/100], Step [13/26], Loss: 0.6897026896476746
+Epoch [18/100], Step [14/26], Loss: 0.4681287407875061
+Epoch [18/100], Step [15/26], Loss: 0.6613192558288574
+Epoch [18/100], Step [16/26], Loss: 0.5864399671554565
+Epoch [18/100], Step [17/26], Loss: 0.522602915763855
+Epoch [18/100], Step [18/26], Loss: 0.5386587381362915
+Epoch [18/100], Step [19/26], Loss: 0.5629992485046387
+Epoch [18/100], Step [20/26], Loss: 0.6903337240219116
+Epoch [18/100], Step [21/26], Loss: 0.7793530225753784
+Epoch [18/100], Step [22/26], Loss: 0.5925361514091492
+Epoch [18/100], Step [23/26], Loss: 0.6338160634040833
+Epoch [18/100], Step [24/26], Loss: 0.6004496812820435
+Epoch [18/100], Step [25/26], Loss: 0.5844229459762573
+Epoch [18/100], Step [26/26], Loss: 0.532264769077301
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+Epoch [19/100], Step [1/26], Loss: 0.5510232448577881
+Epoch [19/100], Step [2/26], Loss: 0.5397363901138306
+Epoch [19/100], Step [3/26], Loss: 0.4827166795730591
+Epoch [19/100], Step [4/26], Loss: 0.4155600965023041
+Epoch [19/100], Step [5/26], Loss: 0.7983015775680542
+Epoch [19/100], Step [6/26], Loss: 0.6790564060211182
+Epoch [19/100], Step [7/26], Loss: 0.29045021533966064
+Epoch [19/100], Step [8/26], Loss: 0.8650282621383667
+Epoch [19/100], Step [9/26], Loss: 0.6226199865341187
+Epoch [19/100], Step [10/26], Loss: 0.2713129222393036
+Epoch [19/100], Step [11/26], Loss: 0.5763263702392578
+Epoch [19/100], Step [12/26], Loss: 0.8370635509490967
+Epoch [19/100], Step [13/26], Loss: 0.6826974749565125
+Epoch [19/100], Step [14/26], Loss: 0.43923091888427734
+Epoch [19/100], Step [15/26], Loss: 0.6475868225097656
+Epoch [19/100], Step [16/26], Loss: 0.5305939316749573
+Epoch [19/100], Step [17/26], Loss: 0.5212018489837646
+Epoch [19/100], Step [18/26], Loss: 0.5176934003829956
+Epoch [19/100], Step [19/26], Loss: 0.6828454732894897
+Epoch [19/100], Step [20/26], Loss: 0.680444598197937
+Epoch [19/100], Step [21/26], Loss: 0.7531181573867798
+Epoch [19/100], Step [22/26], Loss: 0.6849460601806641
+Epoch [19/100], Step [23/26], Loss: 0.5945161581039429
+Epoch [19/100], Step [24/26], Loss: 0.7079004645347595
+Epoch [19/100], Step [25/26], Loss: 0.5789286494255066
+Epoch [19/100], Step [26/26], Loss: 0.6084048748016357
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch [20/100], Step [1/26], Loss: 0.626570463180542
+Epoch [20/100], Step [2/26], Loss: 0.5572845339775085
+Epoch [20/100], Step [3/26], Loss: 0.5796117186546326
+Epoch [20/100], Step [4/26], Loss: 0.5881973505020142
+Epoch [20/100], Step [5/26], Loss: 0.9061335325241089
+Epoch [20/100], Step [6/26], Loss: 0.7506366968154907
+Epoch [20/100], Step [7/26], Loss: 0.3901580572128296
+Epoch [20/100], Step [8/26], Loss: 0.7959433794021606
+Epoch [20/100], Step [9/26], Loss: 0.7024766206741333
+Epoch [20/100], Step [10/26], Loss: 0.31474795937538147
+Epoch [20/100], Step [11/26], Loss: 0.5637393593788147
+Epoch [20/100], Step [12/26], Loss: 0.9445949792861938
+Epoch [20/100], Step [13/26], Loss: 0.7560521960258484
+Epoch [20/100], Step [14/26], Loss: 0.5722734332084656
+Epoch [20/100], Step [15/26], Loss: 0.7373907566070557
+Epoch [20/100], Step [16/26], Loss: 0.5221202373504639
+Epoch [20/100], Step [17/26], Loss: 0.5815405249595642
+Epoch [20/100], Step [18/26], Loss: 0.4720011353492737
+Epoch [20/100], Step [19/26], Loss: 0.7120140790939331
+Epoch [20/100], Step [20/26], Loss: 0.7654125094413757
+Epoch [20/100], Step [21/26], Loss: 0.7101792097091675
+Epoch [20/100], Step [22/26], Loss: 0.5959854125976562
+Epoch [20/100], Step [23/26], Loss: 0.6028818488121033
+Epoch [20/100], Step [24/26], Loss: 0.7118557691574097
+Epoch [20/100], Step [25/26], Loss: 0.5810131430625916
+Epoch [20/100], Step [26/26], Loss: 0.5877702236175537
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Epoch [21/100], Step [1/26], Loss: 0.668599009513855
+Epoch [21/100], Step [2/26], Loss: 0.5965647101402283
+Epoch [21/100], Step [3/26], Loss: 0.5990782380104065
+Epoch [21/100], Step [4/26], Loss: 0.4496302306652069
+Epoch [21/100], Step [5/26], Loss: 0.7744399905204773
+Epoch [21/100], Step [6/26], Loss: 0.675397515296936
+Epoch [21/100], Step [7/26], Loss: 0.3369767367839813
+Epoch [21/100], Step [8/26], Loss: 0.6884913444519043
+Epoch [21/100], Step [9/26], Loss: 0.7862712144851685
+Epoch [21/100], Step [10/26], Loss: 0.3155789077281952
+Epoch [21/100], Step [11/26], Loss: 0.5249460935592651
+Epoch [21/100], Step [12/26], Loss: 1.0136576890945435
+Epoch [21/100], Step [13/26], Loss: 0.8384454250335693
+Epoch [21/100], Step [14/26], Loss: 0.5685694813728333
+Epoch [21/100], Step [15/26], Loss: 0.6493361592292786
+Epoch [21/100], Step [16/26], Loss: 0.6192631125450134
+Epoch [21/100], Step [17/26], Loss: 0.6055610775947571
+Epoch [21/100], Step [18/26], Loss: 0.5059114098548889
+Epoch [21/100], Step [19/26], Loss: 0.5947359204292297
+Epoch [21/100], Step [20/26], Loss: 0.710834264755249
+Epoch [21/100], Step [21/26], Loss: 0.7692488431930542
+Epoch [21/100], Step [22/26], Loss: 0.6277072429656982
+Epoch [21/100], Step [23/26], Loss: 0.660498321056366
+Epoch [21/100], Step [24/26], Loss: 0.5875895023345947
+Epoch [21/100], Step [25/26], Loss: 0.6377939581871033
+Epoch [21/100], Step [26/26], Loss: 0.580803632736206
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0]
+Epoch [22/100], Step [1/26], Loss: 0.6266226768493652
+Epoch [22/100], Step [2/26], Loss: 0.5454133749008179
+Epoch [22/100], Step [3/26], Loss: 0.5198571681976318
+Epoch [22/100], Step [4/26], Loss: 0.47042104601860046
+Epoch [22/100], Step [5/26], Loss: 0.9311708211898804
+Epoch [22/100], Step [6/26], Loss: 0.7507252097129822
+Epoch [22/100], Step [7/26], Loss: 0.38288193941116333
+Epoch [22/100], Step [8/26], Loss: 0.8524467349052429
+Epoch [22/100], Step [9/26], Loss: 0.7331585884094238
+Epoch [22/100], Step [10/26], Loss: 0.3908730149269104
+Epoch [22/100], Step [11/26], Loss: 0.6153561472892761
+Epoch [22/100], Step [12/26], Loss: 0.9964486956596375
+Epoch [22/100], Step [13/26], Loss: 0.801966667175293
+Epoch [22/100], Step [14/26], Loss: 0.4965777099132538
+Epoch [22/100], Step [15/26], Loss: 0.6759644746780396
+Epoch [22/100], Step [16/26], Loss: 0.6553521156311035
+Epoch [22/100], Step [17/26], Loss: 0.5478167533874512
+Epoch [22/100], Step [18/26], Loss: 0.5157870054244995
+Epoch [22/100], Step [19/26], Loss: 0.623561680316925
+Epoch [22/100], Step [20/26], Loss: 0.6903854012489319
+Epoch [22/100], Step [21/26], Loss: 0.7742832899093628
+Epoch [22/100], Step [22/26], Loss: 0.628095805644989
+Epoch [22/100], Step [23/26], Loss: 0.7314717769622803
+Epoch [22/100], Step [24/26], Loss: 0.7231766581535339
+Epoch [22/100], Step [25/26], Loss: 0.7201055288314819
+Epoch [22/100], Step [26/26], Loss: 0.6177464723587036
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0]
+Epoch [23/100], Step [1/26], Loss: 0.760646641254425
+Epoch [23/100], Step [2/26], Loss: 0.6446579098701477
+Epoch [23/100], Step [3/26], Loss: 0.6317437887191772
+Epoch [23/100], Step [4/26], Loss: 0.6293357610702515
+Epoch [23/100], Step [5/26], Loss: 0.8072752952575684
+Epoch [23/100], Step [6/26], Loss: 0.6556680798530579
+Epoch [23/100], Step [7/26], Loss: 0.47168052196502686
+Epoch [23/100], Step [8/26], Loss: 0.6949352622032166
+Epoch [23/100], Step [9/26], Loss: 0.7680695056915283
+Epoch [23/100], Step [10/26], Loss: 0.40362900495529175
+Epoch [23/100], Step [11/26], Loss: 0.6005528569221497
+Epoch [23/100], Step [12/26], Loss: 0.9881321787834167
+Epoch [23/100], Step [13/26], Loss: 0.7702839374542236
+Epoch [23/100], Step [14/26], Loss: 0.5523692965507507
+Epoch [23/100], Step [15/26], Loss: 0.716932475566864
+Epoch [23/100], Step [16/26], Loss: 0.644745945930481
+Epoch [23/100], Step [17/26], Loss: 0.5462117195129395
+Epoch [23/100], Step [18/26], Loss: 0.4650026559829712
+Epoch [23/100], Step [19/26], Loss: 0.8136777877807617
+Epoch [23/100], Step [20/26], Loss: 0.8446402549743652
+Epoch [23/100], Step [21/26], Loss: 0.9713047742843628
+Epoch [23/100], Step [22/26], Loss: 0.6236585974693298
+Epoch [23/100], Step [23/26], Loss: 0.6068588495254517
+Epoch [23/100], Step [24/26], Loss: 0.638359785079956
+Epoch [23/100], Step [25/26], Loss: 0.657404363155365
+Epoch [23/100], Step [26/26], Loss: 0.6865900158882141
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+Validation at Epoch 23 , Accuracy: 0.83333 , sensitivity: 1.0, specificity: 0.6 , roc_score: 0.68571
+Epoch [24/100], Step [1/26], Loss: 0.6987632513046265
+Epoch [24/100], Step [2/26], Loss: 0.6169732213020325
+Epoch [24/100], Step [3/26], Loss: 0.5640059113502502
+Epoch [24/100], Step [4/26], Loss: 0.5031834840774536
+Epoch [24/100], Step [5/26], Loss: 0.7151212692260742
+Epoch [24/100], Step [6/26], Loss: 0.6244156360626221
+Epoch [24/100], Step [7/26], Loss: 0.4281903803348541
+Epoch [24/100], Step [8/26], Loss: 0.7213820219039917
+Epoch [24/100], Step [9/26], Loss: 0.7139097452163696
+Epoch [24/100], Step [10/26], Loss: 0.4105660021305084
+Epoch [24/100], Step [11/26], Loss: 0.5015870928764343
+Epoch [24/100], Step [12/26], Loss: 0.9110859036445618
+Epoch [24/100], Step [13/26], Loss: 0.8499163389205933
+Epoch [24/100], Step [14/26], Loss: 0.5533061027526855
+Epoch [24/100], Step [15/26], Loss: 0.6824812889099121
+Epoch [24/100], Step [16/26], Loss: 0.5812618732452393
+Epoch [24/100], Step [17/26], Loss: 0.5681580305099487
+Epoch [24/100], Step [18/26], Loss: 0.4418107271194458
+Epoch [24/100], Step [19/26], Loss: 0.6153535842895508
+Epoch [24/100], Step [20/26], Loss: 0.8270574808120728
+Epoch [24/100], Step [21/26], Loss: 0.7637404203414917
+Epoch [24/100], Step [22/26], Loss: 0.7223223447799683
+Epoch [24/100], Step [23/26], Loss: 0.5357430577278137
+Epoch [24/100], Step [24/26], Loss: 0.6945888996124268
+Epoch [24/100], Step [25/26], Loss: 0.6247018575668335
+Epoch [24/100], Step [26/26], Loss: 0.6097579002380371
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0]
+Epoch [25/100], Step [1/26], Loss: 0.6248555779457092
+Epoch [25/100], Step [2/26], Loss: 0.5768991708755493
+Epoch [25/100], Step [3/26], Loss: 0.5710492730140686
+Epoch [25/100], Step [4/26], Loss: 0.42912107706069946
+Epoch [25/100], Step [5/26], Loss: 0.864011287689209
+Epoch [25/100], Step [6/26], Loss: 0.677105188369751
+Epoch [25/100], Step [7/26], Loss: 0.3609827160835266
+Epoch [25/100], Step [8/26], Loss: 0.743247389793396
+Epoch [25/100], Step [9/26], Loss: 0.7641801834106445
+Epoch [25/100], Step [10/26], Loss: 0.3244674801826477
+Epoch [25/100], Step [11/26], Loss: 0.5318818092346191
+Epoch [25/100], Step [12/26], Loss: 0.9009325504302979
+Epoch [25/100], Step [13/26], Loss: 0.6542442440986633
+Epoch [25/100], Step [14/26], Loss: 0.5129651427268982
+Epoch [25/100], Step [15/26], Loss: 0.7278903126716614
+Epoch [25/100], Step [16/26], Loss: 0.4788273572921753
+Epoch [25/100], Step [17/26], Loss: 0.5405356287956238
+Epoch [25/100], Step [18/26], Loss: 0.4423210024833679
+Epoch [25/100], Step [19/26], Loss: 0.5572330355644226
+Epoch [25/100], Step [20/26], Loss: 0.7689813375473022
+Epoch [25/100], Step [21/26], Loss: 0.6984238624572754
+Epoch [25/100], Step [22/26], Loss: 0.6133415102958679
+Epoch [25/100], Step [23/26], Loss: 0.6488412618637085
+Epoch [25/100], Step [24/26], Loss: 0.6426973342895508
+Epoch [25/100], Step [25/26], Loss: 0.523849368095398
+Epoch [25/100], Step [26/26], Loss: 0.6033223271369934
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Epoch [26/100], Step [1/26], Loss: 0.6118155717849731
+Epoch [26/100], Step [2/26], Loss: 0.5114172101020813
+Epoch [26/100], Step [3/26], Loss: 0.5467238426208496
+Epoch [26/100], Step [4/26], Loss: 0.5120418667793274
+Epoch [26/100], Step [5/26], Loss: 0.7294286489486694
+Epoch [26/100], Step [6/26], Loss: 0.6437673568725586
+Epoch [26/100], Step [7/26], Loss: 0.3564454913139343
+Epoch [26/100], Step [8/26], Loss: 0.6411498785018921
+Epoch [26/100], Step [9/26], Loss: 0.6732369661331177
+Epoch [26/100], Step [10/26], Loss: 0.3205592930316925
+Epoch [26/100], Step [11/26], Loss: 0.5606945753097534
+Epoch [26/100], Step [12/26], Loss: 0.8643330335617065
+Epoch [26/100], Step [13/26], Loss: 0.7563725709915161
+Epoch [26/100], Step [14/26], Loss: 0.5260835289955139
+Epoch [26/100], Step [15/26], Loss: 0.6443390846252441
+Epoch [26/100], Step [16/26], Loss: 0.5480509996414185
+Epoch [26/100], Step [17/26], Loss: 0.4620492458343506
+Epoch [26/100], Step [18/26], Loss: 0.40718406438827515
+Epoch [26/100], Step [19/26], Loss: 0.6264809370040894
+Epoch [26/100], Step [20/26], Loss: 0.805872917175293
+Epoch [26/100], Step [21/26], Loss: 0.7510519623756409
+Epoch [26/100], Step [22/26], Loss: 0.5846261978149414
+Epoch [26/100], Step [23/26], Loss: 0.6096324920654297
+Epoch [26/100], Step [24/26], Loss: 0.6211987733840942
+Epoch [26/100], Step [25/26], Loss: 0.6069115400314331
+Epoch [26/100], Step [26/26], Loss: 0.7016536593437195
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1]
+Epoch [27/100], Step [1/26], Loss: 0.7377959489822388
+Epoch [27/100], Step [2/26], Loss: 0.6253581643104553
+Epoch [27/100], Step [3/26], Loss: 0.5657982230186462
+Epoch [27/100], Step [4/26], Loss: 0.5655083656311035
+Epoch [27/100], Step [5/26], Loss: 0.84696364402771
+Epoch [27/100], Step [6/26], Loss: 0.6385495662689209
+Epoch [27/100], Step [7/26], Loss: 0.4600135087966919
+Epoch [27/100], Step [8/26], Loss: 0.7397979497909546
+Epoch [27/100], Step [9/26], Loss: 0.7126569747924805
+Epoch [27/100], Step [10/26], Loss: 0.30893051624298096
+Epoch [27/100], Step [11/26], Loss: 0.5419390201568604
+Epoch [27/100], Step [12/26], Loss: 0.9071130156517029
+Epoch [27/100], Step [13/26], Loss: 0.682039737701416
+Epoch [27/100], Step [14/26], Loss: 0.4637680649757385
+Epoch [27/100], Step [15/26], Loss: 0.6669449806213379
+Epoch [27/100], Step [16/26], Loss: 0.563188910484314
+Epoch [27/100], Step [17/26], Loss: 0.5372872948646545
+Epoch [27/100], Step [18/26], Loss: 0.36947378516197205
+Epoch [27/100], Step [19/26], Loss: 0.6616917848587036
+Epoch [27/100], Step [20/26], Loss: 0.8114485740661621
+Epoch [27/100], Step [21/26], Loss: 0.8342783451080322
+Epoch [27/100], Step [22/26], Loss: 0.598149836063385
+Epoch [27/100], Step [23/26], Loss: 0.5956994295120239
+Epoch [27/100], Step [24/26], Loss: 0.5413881540298462
+Epoch [27/100], Step [25/26], Loss: 0.5461380481719971
+Epoch [27/100], Step [26/26], Loss: 0.6215358972549438
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+Epoch [28/100], Step [1/26], Loss: 0.5832371711730957
+Epoch [28/100], Step [2/26], Loss: 0.5942774415016174
+Epoch [28/100], Step [3/26], Loss: 0.7269126176834106
+Epoch [28/100], Step [4/26], Loss: 0.474130243062973
+Epoch [28/100], Step [5/26], Loss: 0.7812986373901367
+Epoch [28/100], Step [6/26], Loss: 0.5859401226043701
+Epoch [28/100], Step [7/26], Loss: 0.5101646184921265
+Epoch [28/100], Step [8/26], Loss: 0.6542333960533142
+Epoch [28/100], Step [9/26], Loss: 0.6865091323852539
+Epoch [28/100], Step [10/26], Loss: 0.3628343343734741
+Epoch [28/100], Step [11/26], Loss: 0.4967615306377411
+Epoch [28/100], Step [12/26], Loss: 0.8679553866386414
+Epoch [28/100], Step [13/26], Loss: 0.7107674479484558
+Epoch [28/100], Step [14/26], Loss: 0.4825194478034973
+Epoch [28/100], Step [15/26], Loss: 0.7808222770690918
+Epoch [28/100], Step [16/26], Loss: 0.5088047981262207
+Epoch [28/100], Step [17/26], Loss: 0.4781246781349182
+Epoch [28/100], Step [18/26], Loss: 0.38956984877586365
+Epoch [28/100], Step [19/26], Loss: 0.6235487461090088
+Epoch [28/100], Step [20/26], Loss: 0.7255262732505798
+Epoch [28/100], Step [21/26], Loss: 0.8294941186904907
+Epoch [28/100], Step [22/26], Loss: 0.5308178663253784
+Epoch [28/100], Step [23/26], Loss: 0.6283223032951355
+Epoch [28/100], Step [24/26], Loss: 0.675771951675415
+Epoch [28/100], Step [25/26], Loss: 0.7408490180969238
+Epoch [28/100], Step [26/26], Loss: 0.7213314771652222
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+Epoch [29/100], Step [1/26], Loss: 0.667671799659729
+Epoch [29/100], Step [2/26], Loss: 0.525461733341217
+Epoch [29/100], Step [3/26], Loss: 0.4899596571922302
+Epoch [29/100], Step [4/26], Loss: 0.4902542233467102
+Epoch [29/100], Step [5/26], Loss: 0.8138359785079956
+Epoch [29/100], Step [6/26], Loss: 0.650711178779602
+Epoch [29/100], Step [7/26], Loss: 0.39206546545028687
+Epoch [29/100], Step [8/26], Loss: 0.7663792967796326
+Epoch [29/100], Step [9/26], Loss: 0.6994763612747192
+Epoch [29/100], Step [10/26], Loss: 0.27602487802505493
+Epoch [29/100], Step [11/26], Loss: 0.5704658031463623
+Epoch [29/100], Step [12/26], Loss: 0.8592761754989624
+Epoch [29/100], Step [13/26], Loss: 0.6927719116210938
+Epoch [29/100], Step [14/26], Loss: 0.5702457427978516
+Epoch [29/100], Step [15/26], Loss: 0.6523605585098267
+Epoch [29/100], Step [16/26], Loss: 0.5175209641456604
+Epoch [29/100], Step [17/26], Loss: 0.49568742513656616
+Epoch [29/100], Step [18/26], Loss: 0.4532138705253601
+Epoch [29/100], Step [19/26], Loss: 0.6518812775611877
+Epoch [29/100], Step [20/26], Loss: 0.7143012881278992
+Epoch [29/100], Step [21/26], Loss: 0.8065483570098877
+Epoch [29/100], Step [22/26], Loss: 0.612755298614502
+Epoch [29/100], Step [23/26], Loss: 0.600096583366394
+Epoch [29/100], Step [24/26], Loss: 0.5706926584243774
+Epoch [29/100], Step [25/26], Loss: 0.6593433618545532
+Epoch [29/100], Step [26/26], Loss: 0.5914961695671082
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch [30/100], Step [1/26], Loss: 0.5551533102989197
+Epoch [30/100], Step [2/26], Loss: 0.5796723961830139
+Epoch [30/100], Step [3/26], Loss: 0.5799002051353455
+Epoch [30/100], Step [4/26], Loss: 0.6355141997337341
+Epoch [30/100], Step [5/26], Loss: 0.7551693916320801
+Epoch [30/100], Step [6/26], Loss: 0.7558825612068176
+Epoch [30/100], Step [7/26], Loss: 0.388755202293396
+Epoch [30/100], Step [8/26], Loss: 0.6486271619796753
+Epoch [30/100], Step [9/26], Loss: 0.6445530652999878
+Epoch [30/100], Step [10/26], Loss: 0.3910221457481384
+Epoch [30/100], Step [11/26], Loss: 0.5676037073135376
+Epoch [30/100], Step [12/26], Loss: 0.9069417119026184
+Epoch [30/100], Step [13/26], Loss: 0.7424941658973694
+Epoch [30/100], Step [14/26], Loss: 0.5062333345413208
+Epoch [30/100], Step [15/26], Loss: 0.7337403297424316
+Epoch [30/100], Step [16/26], Loss: 0.6028770208358765
+Epoch [30/100], Step [17/26], Loss: 0.4924713671207428
+Epoch [30/100], Step [18/26], Loss: 0.46973299980163574
+Epoch [30/100], Step [19/26], Loss: 0.7262332439422607
+Epoch [30/100], Step [20/26], Loss: 0.7857149243354797
+Epoch [30/100], Step [21/26], Loss: 0.8459577560424805
+Epoch [30/100], Step [22/26], Loss: 0.7116890549659729
+Epoch [30/100], Step [23/26], Loss: 0.6906748414039612
+Epoch [30/100], Step [24/26], Loss: 0.720055341720581
+Epoch [30/100], Step [25/26], Loss: 0.590571939945221
+Epoch [30/100], Step [26/26], Loss: 0.7661352157592773
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Epoch [31/100], Step [1/26], Loss: 0.6485214233398438
+Epoch [31/100], Step [2/26], Loss: 0.6029766798019409
+Epoch [31/100], Step [3/26], Loss: 0.7149186134338379
+Epoch [31/100], Step [4/26], Loss: 0.704375684261322
+Epoch [31/100], Step [5/26], Loss: 0.7699703574180603
+Epoch [31/100], Step [6/26], Loss: 0.7350590825080872
+Epoch [31/100], Step [7/26], Loss: 0.47069114446640015
+Epoch [31/100], Step [8/26], Loss: 0.7031305432319641
+Epoch [31/100], Step [9/26], Loss: 0.6840294003486633
+Epoch [31/100], Step [10/26], Loss: 0.4266609251499176
+Epoch [31/100], Step [11/26], Loss: 0.7196158170700073
+Epoch [31/100], Step [12/26], Loss: 1.0224404335021973
+Epoch [31/100], Step [13/26], Loss: 0.7663052678108215
+Epoch [31/100], Step [14/26], Loss: 0.5771521925926208
+Epoch [31/100], Step [15/26], Loss: 0.6659542322158813
+Epoch [31/100], Step [16/26], Loss: 0.7338341474533081
+Epoch [31/100], Step [17/26], Loss: 0.6647542715072632
+Epoch [31/100], Step [18/26], Loss: 0.3853813409805298
+Epoch [31/100], Step [19/26], Loss: 0.7798774242401123
+Epoch [31/100], Step [20/26], Loss: 0.9282614588737488
+Epoch [31/100], Step [21/26], Loss: 0.8709640502929688
+Epoch [31/100], Step [22/26], Loss: 0.7530542612075806
+Epoch [31/100], Step [23/26], Loss: 0.6257055997848511
+Epoch [31/100], Step [24/26], Loss: 0.6992045640945435
+Epoch [31/100], Step [25/26], Loss: 0.5980826616287231
+Epoch [31/100], Step [26/26], Loss: 0.6752313375473022
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch [32/100], Step [1/26], Loss: 0.6531140804290771
+Epoch [32/100], Step [2/26], Loss: 0.6048811674118042
+Epoch [32/100], Step [3/26], Loss: 0.6857432723045349
+Epoch [32/100], Step [4/26], Loss: 0.614098310470581
+Epoch [32/100], Step [5/26], Loss: 0.7136034965515137
+Epoch [32/100], Step [6/26], Loss: 0.765691876411438
+Epoch [32/100], Step [7/26], Loss: 0.6001759767532349
+Epoch [32/100], Step [8/26], Loss: 0.8592770099639893
+Epoch [32/100], Step [9/26], Loss: 0.7073729634284973
+Epoch [32/100], Step [10/26], Loss: 0.4330950975418091
+Epoch [32/100], Step [11/26], Loss: 0.5633777379989624
+Epoch [32/100], Step [12/26], Loss: 0.8972116112709045
+Epoch [32/100], Step [13/26], Loss: 0.7083226442337036
+Epoch [32/100], Step [14/26], Loss: 0.5688536167144775
+Epoch [32/100], Step [15/26], Loss: 0.8296120166778564
+Epoch [32/100], Step [16/26], Loss: 0.6926214098930359
+Epoch [32/100], Step [17/26], Loss: 0.4873002767562866
+Epoch [32/100], Step [18/26], Loss: 0.5386444330215454
+Epoch [32/100], Step [19/26], Loss: 0.7072068452835083
+Epoch [32/100], Step [20/26], Loss: 0.9364553689956665
+Epoch [32/100], Step [21/26], Loss: 0.9713646173477173
+Epoch [32/100], Step [22/26], Loss: 0.6563292741775513
+Epoch [32/100], Step [23/26], Loss: 0.6093550324440002
+Epoch [32/100], Step [24/26], Loss: 0.6336447596549988
+Epoch [32/100], Step [25/26], Loss: 0.6275787353515625
+Epoch [32/100], Step [26/26], Loss: 0.7060794830322266
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Epoch [33/100], Step [1/26], Loss: 0.6471575498580933
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch [33/100], Step [2/26], Loss: 0.7325168251991272
+Epoch [33/100], Step [3/26], Loss: 0.6426705718040466
+Epoch [33/100], Step [4/26], Loss: 0.6302102208137512
+Epoch [33/100], Step [5/26], Loss: 0.7494242191314697
+Epoch [33/100], Step [6/26], Loss: 0.6255087852478027
+Epoch [33/100], Step [7/26], Loss: 0.45606303215026855
+Epoch [33/100], Step [8/26], Loss: 0.7040493488311768
+Epoch [33/100], Step [9/26], Loss: 0.7625374794006348
+Epoch [33/100], Step [10/26], Loss: 0.4404364824295044
+Epoch [33/100], Step [11/26], Loss: 0.7158087491989136
+Epoch [33/100], Step [12/26], Loss: 0.8847123384475708
+Epoch [33/100], Step [13/26], Loss: 0.8407595157623291
+Epoch [33/100], Step [14/26], Loss: 0.549820065498352
+Epoch [33/100], Step [15/26], Loss: 0.646562397480011
+Epoch [33/100], Step [16/26], Loss: 0.5413979291915894
+Epoch [33/100], Step [17/26], Loss: 0.5023564100265503
+Epoch [33/100], Step [18/26], Loss: 0.46894994378089905
+Epoch [33/100], Step [19/26], Loss: 0.7009378671646118
+Epoch [33/100], Step [20/26], Loss: 0.891941249370575
+Epoch [33/100], Step [21/26], Loss: 0.8975769877433777
+Epoch [33/100], Step [22/26], Loss: 0.7090401649475098
+Epoch [33/100], Step [23/26], Loss: 0.6558966040611267
+Epoch [33/100], Step [24/26], Loss: 0.6174755096435547
+Epoch [33/100], Step [25/26], Loss: 0.6185839772224426
+Epoch [33/100], Step [26/26], Loss: 0.6121834516525269
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch [34/100], Step [1/26], Loss: 0.6572054624557495
+Epoch [34/100], Step [2/26], Loss: 0.5585985779762268
+Epoch [34/100], Step [3/26], Loss: 0.55384361743927
+Epoch [34/100], Step [4/26], Loss: 0.5425119400024414
+Epoch [34/100], Step [5/26], Loss: 0.7221182584762573
+Epoch [34/100], Step [6/26], Loss: 0.7292475700378418
+Epoch [34/100], Step [7/26], Loss: 0.43739956617355347
+Epoch [34/100], Step [8/26], Loss: 0.7602570056915283
+Epoch [34/100], Step [9/26], Loss: 0.6296818256378174
+Epoch [34/100], Step [10/26], Loss: 0.4047386646270752
+Epoch [34/100], Step [11/26], Loss: 0.6395815014839172
+Epoch [34/100], Step [12/26], Loss: 0.9365061521530151
+Epoch [34/100], Step [13/26], Loss: 0.7521324753761292
+Epoch [34/100], Step [14/26], Loss: 0.6086814403533936
+Epoch [34/100], Step [15/26], Loss: 0.673213005065918
+Epoch [34/100], Step [16/26], Loss: 0.574143648147583
+Epoch [34/100], Step [17/26], Loss: 0.6889310479164124
+Epoch [34/100], Step [18/26], Loss: 0.39989784359931946
+Epoch [34/100], Step [19/26], Loss: 0.6103459596633911
+Epoch [34/100], Step [20/26], Loss: 0.818686842918396
+Epoch [34/100], Step [21/26], Loss: 0.8213478922843933
+Epoch [34/100], Step [22/26], Loss: 0.8058257102966309
+Epoch [34/100], Step [23/26], Loss: 0.7052433490753174
+Epoch [34/100], Step [24/26], Loss: 0.7302443385124207
+Epoch [34/100], Step [25/26], Loss: 0.6755595207214355
+Epoch [34/100], Step [26/26], Loss: 0.6367737054824829
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+Epoch [35/100], Step [1/26], Loss: 0.6436141133308411
+Epoch [35/100], Step [2/26], Loss: 0.5525092482566833
+Epoch [35/100], Step [3/26], Loss: 0.5534560680389404
+Epoch [35/100], Step [4/26], Loss: 0.4571436047554016
+Epoch [35/100], Step [5/26], Loss: 0.7330877184867859
+Epoch [35/100], Step [6/26], Loss: 0.75343918800354
+Epoch [35/100], Step [7/26], Loss: 0.40481090545654297
+Epoch [35/100], Step [8/26], Loss: 0.7165137529373169
+Epoch [35/100], Step [9/26], Loss: 0.764063835144043
+Epoch [35/100], Step [10/26], Loss: 0.315829873085022
+Epoch [35/100], Step [11/26], Loss: 0.519038736820221
+Epoch [35/100], Step [12/26], Loss: 0.8831978440284729
+Epoch [35/100], Step [13/26], Loss: 0.741367757320404
+Epoch [35/100], Step [14/26], Loss: 0.5749596357345581
+Epoch [35/100], Step [15/26], Loss: 0.6847056150436401
+Epoch [35/100], Step [16/26], Loss: 0.5010830163955688
+Epoch [35/100], Step [17/26], Loss: 0.5881179571151733
+Epoch [35/100], Step [18/26], Loss: 0.5065934658050537
+Epoch [35/100], Step [19/26], Loss: 0.6646798253059387
+Epoch [35/100], Step [20/26], Loss: 0.9071809649467468
+Epoch [35/100], Step [21/26], Loss: 0.794788122177124
+Epoch [35/100], Step [22/26], Loss: 0.6452996134757996
+Epoch [35/100], Step [23/26], Loss: 0.6141357421875
+Epoch [35/100], Step [24/26], Loss: 0.6408721208572388
+Epoch [35/100], Step [25/26], Loss: 0.667259156703949
+Epoch [35/100], Step [26/26], Loss: 0.5789712071418762
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Epoch [36/100], Step [1/26], Loss: 0.6167622804641724
+Epoch [36/100], Step [2/26], Loss: 0.6174741983413696
+Epoch [36/100], Step [3/26], Loss: 0.6372284889221191
+Epoch [36/100], Step [4/26], Loss: 0.46237075328826904
+Epoch [36/100], Step [5/26], Loss: 0.8332461714744568
+Epoch [36/100], Step [6/26], Loss: 0.5960665941238403
+Epoch [36/100], Step [7/26], Loss: 0.373258501291275
+Epoch [36/100], Step [8/26], Loss: 0.675634503364563
+Epoch [36/100], Step [9/26], Loss: 0.6514778733253479
+Epoch [36/100], Step [10/26], Loss: 0.4884641170501709
+Epoch [36/100], Step [11/26], Loss: 0.4962068200111389
+Epoch [36/100], Step [12/26], Loss: 0.9224663972854614
+Epoch [36/100], Step [13/26], Loss: 0.797589898109436
+Epoch [36/100], Step [14/26], Loss: 0.567427933216095
+Epoch [36/100], Step [15/26], Loss: 0.7617967128753662
+Epoch [36/100], Step [16/26], Loss: 0.56990647315979
+Epoch [36/100], Step [17/26], Loss: 0.5473081469535828
+Epoch [36/100], Step [18/26], Loss: 0.45319128036499023
+Epoch [36/100], Step [19/26], Loss: 0.6626495122909546
+Epoch [36/100], Step [20/26], Loss: 0.8401378393173218
+Epoch [36/100], Step [21/26], Loss: 0.7937583923339844
+Epoch [36/100], Step [22/26], Loss: 0.6195240020751953
+Epoch [36/100], Step [23/26], Loss: 0.5858889222145081
+Epoch [36/100], Step [24/26], Loss: 0.6843683123588562
+Epoch [36/100], Step [25/26], Loss: 0.5788204073905945
+Epoch [36/100], Step [26/26], Loss: 0.6500171422958374
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+Epoch [37/100], Step [1/26], Loss: 0.6945610046386719
+Epoch [37/100], Step [2/26], Loss: 0.6600791215896606
+Epoch [37/100], Step [3/26], Loss: 0.6040273904800415
+Epoch [37/100], Step [4/26], Loss: 0.5711819529533386
+Epoch [37/100], Step [5/26], Loss: 0.7123056054115295
+Epoch [37/100], Step [6/26], Loss: 0.6920552253723145
+Epoch [37/100], Step [7/26], Loss: 0.407905638217926
+Epoch [37/100], Step [8/26], Loss: 0.7136358022689819
+Epoch [37/100], Step [9/26], Loss: 0.6754106283187866
+Epoch [37/100], Step [10/26], Loss: 0.3738453984260559
+Epoch [37/100], Step [11/26], Loss: 0.4978342652320862
+Epoch [37/100], Step [12/26], Loss: 0.8288317918777466
+Epoch [37/100], Step [13/26], Loss: 0.7893567085266113
+Epoch [37/100], Step [14/26], Loss: 0.5405501127243042
+Epoch [37/100], Step [15/26], Loss: 0.6805035471916199
+Epoch [37/100], Step [16/26], Loss: 0.5465316772460938
+Epoch [37/100], Step [17/26], Loss: 0.5278298854827881
+Epoch [37/100], Step [18/26], Loss: 0.3429761230945587
+Epoch [37/100], Step [19/26], Loss: 0.7777420878410339
+Epoch [37/100], Step [20/26], Loss: 0.9261317253112793
+Epoch [37/100], Step [21/26], Loss: 1.037406086921692
+Epoch [37/100], Step [22/26], Loss: 0.7220773696899414
+Epoch [37/100], Step [23/26], Loss: 0.6772950887680054
+Epoch [37/100], Step [24/26], Loss: 0.7348796129226685
+Epoch [37/100], Step [25/26], Loss: 0.685688853263855
+Epoch [37/100], Step [26/26], Loss: 0.6382774114608765
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Epoch [38/100], Step [1/26], Loss: 0.7099125385284424
+Epoch [38/100], Step [2/26], Loss: 0.7245403528213501
+Epoch [38/100], Step [3/26], Loss: 0.6433817148208618
+Epoch [38/100], Step [4/26], Loss: 0.5851584672927856
+Epoch [38/100], Step [5/26], Loss: 0.7685792446136475
+Epoch [38/100], Step [6/26], Loss: 0.8207900524139404
+Epoch [38/100], Step [7/26], Loss: 0.5758724212646484
+Epoch [38/100], Step [8/26], Loss: 0.719054639339447
+Epoch [38/100], Step [9/26], Loss: 0.7437868118286133
+Epoch [38/100], Step [10/26], Loss: 0.501681387424469
+Epoch [38/100], Step [11/26], Loss: 0.6452376246452332
+Epoch [38/100], Step [12/26], Loss: 0.9012002348899841
+Epoch [38/100], Step [13/26], Loss: 0.8579369783401489
+Epoch [38/100], Step [14/26], Loss: 0.5329031944274902
+Epoch [38/100], Step [15/26], Loss: 0.7321102619171143
+Epoch [38/100], Step [16/26], Loss: 0.5948586463928223
+Epoch [38/100], Step [17/26], Loss: 0.5944168567657471
+Epoch [38/100], Step [18/26], Loss: 0.4899119436740875
+Epoch [38/100], Step [19/26], Loss: 0.7179643511772156
+Epoch [38/100], Step [20/26], Loss: 0.9446755647659302
+Epoch [38/100], Step [21/26], Loss: 0.9227016568183899
+Epoch [38/100], Step [22/26], Loss: 0.6176663041114807
+Epoch [38/100], Step [23/26], Loss: 0.7096239328384399
+Epoch [38/100], Step [24/26], Loss: 0.6054206490516663
+Epoch [38/100], Step [25/26], Loss: 0.5993956923484802
+Epoch [38/100], Step [26/26], Loss: 0.6475604176521301
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch [39/100], Step [1/26], Loss: 0.717792272567749
+Epoch [39/100], Step [2/26], Loss: 0.5883798599243164
+Epoch [39/100], Step [3/26], Loss: 0.6863378286361694
+Epoch [39/100], Step [4/26], Loss: 0.6079432964324951
+Epoch [39/100], Step [5/26], Loss: 0.7137516736984253
+Epoch [39/100], Step [6/26], Loss: 0.7901315689086914
+Epoch [39/100], Step [7/26], Loss: 0.4672201871871948
+Epoch [39/100], Step [8/26], Loss: 0.7301846742630005
+Epoch [39/100], Step [9/26], Loss: 0.738496720790863
+Epoch [39/100], Step [10/26], Loss: 0.5380614995956421
+Epoch [39/100], Step [11/26], Loss: 0.6003826856613159
+Epoch [39/100], Step [12/26], Loss: 0.903451681137085
+Epoch [39/100], Step [13/26], Loss: 0.7606021165847778
+Epoch [39/100], Step [14/26], Loss: 0.5979006290435791
+Epoch [39/100], Step [15/26], Loss: 0.7586165070533752
+Epoch [39/100], Step [16/26], Loss: 0.6600925326347351
+Epoch [39/100], Step [17/26], Loss: 0.6024951934814453
+Epoch [39/100], Step [18/26], Loss: 0.49612292647361755
+Epoch [39/100], Step [19/26], Loss: 0.765755295753479
+Epoch [39/100], Step [20/26], Loss: 0.8819363117218018
+Epoch [39/100], Step [21/26], Loss: 0.9828993082046509
+Epoch [39/100], Step [22/26], Loss: 0.6737442016601562
+Epoch [39/100], Step [23/26], Loss: 0.6332373023033142
+Epoch [39/100], Step [24/26], Loss: 0.6795666813850403
+Epoch [39/100], Step [25/26], Loss: 0.6582673788070679
+Epoch [39/100], Step [26/26], Loss: 0.647124171257019
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Epoch [40/100], Step [1/26], Loss: 0.8327904939651489
+Epoch [40/100], Step [2/26], Loss: 0.5865508317947388
+Epoch [40/100], Step [3/26], Loss: 0.6377235651016235
+Epoch [40/100], Step [4/26], Loss: 0.5390869975090027
+Epoch [40/100], Step [5/26], Loss: 0.8413576483726501
+Epoch [40/100], Step [6/26], Loss: 0.8379822373390198
+Epoch [40/100], Step [7/26], Loss: 0.5723742246627808
+Epoch [40/100], Step [8/26], Loss: 0.7443675994873047
+Epoch [40/100], Step [9/26], Loss: 0.8172131180763245
+Epoch [40/100], Step [10/26], Loss: 0.5152102112770081
+Epoch [40/100], Step [11/26], Loss: 0.6325410604476929
+Epoch [40/100], Step [12/26], Loss: 0.9577215909957886
+Epoch [40/100], Step [13/26], Loss: 0.7719238996505737
+Epoch [40/100], Step [14/26], Loss: 0.6440688371658325
+Epoch [40/100], Step [15/26], Loss: 0.7451554536819458
+Epoch [40/100], Step [16/26], Loss: 0.6885199546813965
+Epoch [40/100], Step [17/26], Loss: 0.6801650524139404
+Epoch [40/100], Step [18/26], Loss: 0.502176821231842
+Epoch [40/100], Step [19/26], Loss: 0.7614445686340332
+Epoch [40/100], Step [20/26], Loss: 0.8507322669029236
+Epoch [40/100], Step [21/26], Loss: 0.9251489639282227
+Epoch [40/100], Step [22/26], Loss: 0.6871926784515381
+Epoch [40/100], Step [23/26], Loss: 0.7000693082809448
+Epoch [40/100], Step [24/26], Loss: 0.6557612419128418
+Epoch [40/100], Step [25/26], Loss: 0.6150968074798584
+Epoch [40/100], Step [26/26], Loss: 0.6941179633140564
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch [41/100], Step [1/26], Loss: 0.7397310733795166
+Epoch [41/100], Step [2/26], Loss: 0.6308801174163818
+Epoch [41/100], Step [3/26], Loss: 0.6618167161941528
+Epoch [41/100], Step [4/26], Loss: 0.5768900513648987
+Epoch [41/100], Step [5/26], Loss: 0.9510793089866638
+Epoch [41/100], Step [6/26], Loss: 0.6787992715835571
+Epoch [41/100], Step [7/26], Loss: 0.529534101486206
+Epoch [41/100], Step [8/26], Loss: 0.7722629308700562
+Epoch [41/100], Step [9/26], Loss: 0.7777664661407471
+Epoch [41/100], Step [10/26], Loss: 0.46062448620796204
+Epoch [41/100], Step [11/26], Loss: 0.5350167155265808
+Epoch [41/100], Step [12/26], Loss: 0.8497336506843567
+Epoch [41/100], Step [13/26], Loss: 0.756572961807251
+Epoch [41/100], Step [14/26], Loss: 0.5403499603271484
+Epoch [41/100], Step [15/26], Loss: 0.8492666482925415
+Epoch [41/100], Step [16/26], Loss: 0.599545419216156
+Epoch [41/100], Step [17/26], Loss: 0.717758297920227
+Epoch [41/100], Step [18/26], Loss: 0.6689421534538269
+Epoch [41/100], Step [19/26], Loss: 0.7085365653038025
+Epoch [41/100], Step [20/26], Loss: 1.0021497011184692
+Epoch [41/100], Step [21/26], Loss: 0.8929034471511841
+Epoch [41/100], Step [22/26], Loss: 0.707617461681366
+Epoch [41/100], Step [23/26], Loss: 0.8060429692268372
+Epoch [41/100], Step [24/26], Loss: 0.6804038286209106
+Epoch [41/100], Step [25/26], Loss: 0.6106880307197571
+Epoch [41/100], Step [26/26], Loss: 0.6236709356307983
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Epoch [42/100], Step [1/26], Loss: 0.7440345287322998
+Epoch [42/100], Step [2/26], Loss: 0.5647503137588501
+Epoch [42/100], Step [3/26], Loss: 0.7231011390686035
+Epoch [42/100], Step [4/26], Loss: 0.6642359495162964
+Epoch [42/100], Step [5/26], Loss: 0.808621883392334
+Epoch [42/100], Step [6/26], Loss: 0.7334855794906616
+Epoch [42/100], Step [7/26], Loss: 0.5179513692855835
+Epoch [42/100], Step [8/26], Loss: 0.7540626525878906
+Epoch [42/100], Step [9/26], Loss: 0.6818124055862427
+Epoch [42/100], Step [10/26], Loss: 0.48214009404182434
+Epoch [42/100], Step [11/26], Loss: 0.6484365463256836
+Epoch [42/100], Step [12/26], Loss: 0.8998128175735474
+Epoch [42/100], Step [13/26], Loss: 0.7123857736587524
+Epoch [42/100], Step [14/26], Loss: 0.6171250343322754
+Epoch [42/100], Step [15/26], Loss: 0.7976655960083008
+Epoch [42/100], Step [16/26], Loss: 0.5539586544036865
+Epoch [42/100], Step [17/26], Loss: 0.6535516381263733
+Epoch [42/100], Step [18/26], Loss: 0.49114909768104553
+Epoch [42/100], Step [19/26], Loss: 0.7920064926147461
+Epoch [42/100], Step [20/26], Loss: 0.9341152906417847
+Epoch [42/100], Step [21/26], Loss: 0.9644148945808411
+Epoch [42/100], Step [22/26], Loss: 0.7752302885055542
+Epoch [42/100], Step [23/26], Loss: 0.6063762903213501
+Epoch [42/100], Step [24/26], Loss: 0.536698043346405
+Epoch [42/100], Step [25/26], Loss: 0.6442874670028687
+Epoch [42/100], Step [26/26], Loss: 0.5982801914215088
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Epoch [43/100], Step [1/26], Loss: 0.7196477651596069
+Epoch [43/100], Step [2/26], Loss: 0.5617251992225647
+Epoch [43/100], Step [3/26], Loss: 0.6588120460510254
+Epoch [43/100], Step [4/26], Loss: 0.5594978928565979
+Epoch [43/100], Step [5/26], Loss: 0.7995801568031311
+Epoch [43/100], Step [6/26], Loss: 0.7012176513671875
+Epoch [43/100], Step [7/26], Loss: 0.6101106405258179
+Epoch [43/100], Step [8/26], Loss: 0.7177067995071411
+Epoch [43/100], Step [9/26], Loss: 0.6917195916175842
+Epoch [43/100], Step [10/26], Loss: 0.4780905246734619
+Epoch [43/100], Step [11/26], Loss: 0.5923390984535217
+Epoch [43/100], Step [12/26], Loss: 0.9104510545730591
+Epoch [43/100], Step [13/26], Loss: 0.7773488759994507
+Epoch [43/100], Step [14/26], Loss: 0.5094314813613892
+Epoch [43/100], Step [15/26], Loss: 0.8560894131660461
+Epoch [43/100], Step [16/26], Loss: 0.6042190790176392
+Epoch [43/100], Step [17/26], Loss: 0.5893161296844482
+Epoch [43/100], Step [18/26], Loss: 0.428913950920105
+Epoch [43/100], Step [19/26], Loss: 0.7069884538650513
+Epoch [43/100], Step [20/26], Loss: 0.9578458070755005
+Epoch [43/100], Step [21/26], Loss: 0.9435380697250366
+Epoch [43/100], Step [22/26], Loss: 0.7457634210586548
+Epoch [43/100], Step [23/26], Loss: 0.532467782497406
+Epoch [43/100], Step [24/26], Loss: 0.6197568774223328
+Epoch [43/100], Step [25/26], Loss: 0.6644154787063599
+Epoch [43/100], Step [26/26], Loss: 0.6709421873092651
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Epoch [44/100], Step [1/26], Loss: 0.7065138816833496
+Epoch [44/100], Step [2/26], Loss: 0.6557942628860474
+Epoch [44/100], Step [3/26], Loss: 0.6344262361526489
+Epoch [44/100], Step [4/26], Loss: 0.5886712074279785
+Epoch [44/100], Step [5/26], Loss: 0.8703968524932861
+Epoch [44/100], Step [6/26], Loss: 0.6497937440872192
+Epoch [44/100], Step [7/26], Loss: 0.4695266783237457
+Epoch [44/100], Step [8/26], Loss: 0.7291754484176636
+Epoch [44/100], Step [9/26], Loss: 0.7081918716430664
+Epoch [44/100], Step [10/26], Loss: 0.45760345458984375
+Epoch [44/100], Step [11/26], Loss: 0.5595749616622925
+Epoch [44/100], Step [12/26], Loss: 0.8903088569641113
+Epoch [44/100], Step [13/26], Loss: 0.8598231077194214
+Epoch [44/100], Step [14/26], Loss: 0.4931659400463104
+Epoch [44/100], Step [15/26], Loss: 0.7139009237289429
+Epoch [44/100], Step [16/26], Loss: 0.6173703074455261
+Epoch [44/100], Step [17/26], Loss: 0.6524162888526917
+Epoch [44/100], Step [18/26], Loss: 0.536872148513794
+Epoch [44/100], Step [19/26], Loss: 0.6905083656311035
+Epoch [44/100], Step [20/26], Loss: 0.9640461802482605
+Epoch [44/100], Step [21/26], Loss: 0.8423821926116943
+Epoch [44/100], Step [22/26], Loss: 0.6973202228546143
+Epoch [44/100], Step [23/26], Loss: 0.7515058517456055
+Epoch [44/100], Step [24/26], Loss: 0.5945478677749634
+Epoch [44/100], Step [25/26], Loss: 0.8053811192512512
+Epoch [44/100], Step [26/26], Loss: 0.7006078362464905
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0]
+Epoch [45/100], Step [1/26], Loss: 0.7321303486824036
+Epoch [45/100], Step [2/26], Loss: 0.6310534477233887
+Epoch [45/100], Step [3/26], Loss: 0.6465163230895996
+Epoch [45/100], Step [4/26], Loss: 0.47299182415008545
+Epoch [45/100], Step [5/26], Loss: 0.9018553495407104
+Epoch [45/100], Step [6/26], Loss: 0.7607239484786987
+Epoch [45/100], Step [7/26], Loss: 0.46704402565956116
+Epoch [45/100], Step [8/26], Loss: 0.8143064975738525
+Epoch [45/100], Step [9/26], Loss: 0.7527723908424377
+Epoch [45/100], Step [10/26], Loss: 0.39596322178840637
+Epoch [45/100], Step [11/26], Loss: 0.5353105068206787
+Epoch [45/100], Step [12/26], Loss: 0.9378331303596497
+Epoch [45/100], Step [13/26], Loss: 0.6836246252059937
+Epoch [45/100], Step [14/26], Loss: 0.6394582986831665
+Epoch [45/100], Step [15/26], Loss: 0.6563899517059326
+Epoch [45/100], Step [16/26], Loss: 0.5801091194152832
+Epoch [45/100], Step [17/26], Loss: 0.5824865102767944
+Epoch [45/100], Step [18/26], Loss: 0.42374512553215027
+Epoch [45/100], Step [19/26], Loss: 0.6387229561805725
+Epoch [45/100], Step [20/26], Loss: 0.7811501622200012
+Epoch [45/100], Step [21/26], Loss: 0.7824358344078064
+Epoch [45/100], Step [22/26], Loss: 0.685944676399231
+Epoch [45/100], Step [23/26], Loss: 0.7622019648551941
+Epoch [45/100], Step [24/26], Loss: 0.6282268762588501
+Epoch [45/100], Step [25/26], Loss: 0.6153525710105896
+Epoch [45/100], Step [26/26], Loss: 0.6971480250358582
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+Epoch [46/100], Step [1/26], Loss: 0.7279624342918396
+Epoch [46/100], Step [2/26], Loss: 0.5847331881523132
+Epoch [46/100], Step [3/26], Loss: 0.5837748646736145
+Epoch [46/100], Step [4/26], Loss: 0.5197819471359253
+Epoch [46/100], Step [5/26], Loss: 0.8240387439727783
+Epoch [46/100], Step [6/26], Loss: 0.8167613744735718
+Epoch [46/100], Step [7/26], Loss: 0.41838538646698
+Epoch [46/100], Step [8/26], Loss: 0.6748337745666504
+Epoch [46/100], Step [9/26], Loss: 0.7276360392570496
+Epoch [46/100], Step [10/26], Loss: 0.35051265358924866
+Epoch [46/100], Step [11/26], Loss: 0.5358946919441223
+Epoch [46/100], Step [12/26], Loss: 0.9393641352653503
+Epoch [46/100], Step [13/26], Loss: 0.8100594878196716
+Epoch [46/100], Step [14/26], Loss: 0.6092755198478699
+Epoch [46/100], Step [15/26], Loss: 0.6754288673400879
+Epoch [46/100], Step [16/26], Loss: 0.6497151851654053
+Epoch [46/100], Step [17/26], Loss: 0.6112642288208008
+Epoch [46/100], Step [18/26], Loss: 0.5633810758590698
+Epoch [46/100], Step [19/26], Loss: 0.6446890830993652
+Epoch [46/100], Step [20/26], Loss: 0.7945492267608643
+Epoch [46/100], Step [21/26], Loss: 0.8630694150924683
+Epoch [46/100], Step [22/26], Loss: 0.6098974943161011
+Epoch [46/100], Step [23/26], Loss: 0.6328737139701843
+Epoch [46/100], Step [24/26], Loss: 0.5763724446296692
+Epoch [46/100], Step [25/26], Loss: 0.5988126397132874
+Epoch [46/100], Step [26/26], Loss: 0.5814333558082581
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+Epoch [47/100], Step [1/26], Loss: 0.6839657425880432
+Epoch [47/100], Step [2/26], Loss: 0.6361323595046997
+Epoch [47/100], Step [3/26], Loss: 0.5388567447662354
+Epoch [47/100], Step [4/26], Loss: 0.401987224817276
+Epoch [47/100], Step [5/26], Loss: 0.9009877443313599
+Epoch [47/100], Step [6/26], Loss: 0.8167449235916138
+Epoch [47/100], Step [7/26], Loss: 0.3557905852794647
+Epoch [47/100], Step [8/26], Loss: 0.8349628448486328
+Epoch [47/100], Step [9/26], Loss: 0.7565014362335205
+Epoch [47/100], Step [10/26], Loss: 0.2877316474914551
+Epoch [47/100], Step [11/26], Loss: 0.5198697447776794
+Epoch [47/100], Step [12/26], Loss: 0.7797689437866211
+Epoch [47/100], Step [13/26], Loss: 0.7329117059707642
+Epoch [47/100], Step [14/26], Loss: 0.5380927920341492
+Epoch [47/100], Step [15/26], Loss: 0.6955279111862183
+Epoch [47/100], Step [16/26], Loss: 0.5955989360809326
+Epoch [47/100], Step [17/26], Loss: 0.656179666519165
+Epoch [47/100], Step [18/26], Loss: 0.5317566394805908
+Epoch [47/100], Step [19/26], Loss: 0.650208592414856
+Epoch [47/100], Step [20/26], Loss: 0.8114380836486816
+Epoch [47/100], Step [21/26], Loss: 0.9299576282501221
+Epoch [47/100], Step [22/26], Loss: 0.6245670914649963
+Epoch [47/100], Step [23/26], Loss: 0.6661621332168579
+Epoch [47/100], Step [24/26], Loss: 0.6959240436553955
+Epoch [47/100], Step [25/26], Loss: 0.5481764078140259
+Epoch [47/100], Step [26/26], Loss: 0.5910211801528931
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0]
+Epoch [48/100], Step [1/26], Loss: 0.8289023637771606
+Epoch [48/100], Step [2/26], Loss: 0.6016732454299927
+Epoch [48/100], Step [3/26], Loss: 0.5722213983535767
+Epoch [48/100], Step [4/26], Loss: 0.3298485279083252
+Epoch [48/100], Step [5/26], Loss: 1.0340964794158936
+Epoch [48/100], Step [6/26], Loss: 0.6987500786781311
+Epoch [48/100], Step [7/26], Loss: 0.36536186933517456
+Epoch [48/100], Step [8/26], Loss: 0.6895722150802612
+Epoch [48/100], Step [9/26], Loss: 0.8477088212966919
+Epoch [48/100], Step [10/26], Loss: 0.33919981122016907
+Epoch [48/100], Step [11/26], Loss: 0.5197571516036987
+Epoch [48/100], Step [12/26], Loss: 0.8915699124336243
+Epoch [48/100], Step [13/26], Loss: 0.6901657581329346
+Epoch [48/100], Step [14/26], Loss: 0.5005303621292114
+Epoch [48/100], Step [15/26], Loss: 0.6402564644813538
+Epoch [48/100], Step [16/26], Loss: 0.6493138074874878
+Epoch [48/100], Step [17/26], Loss: 0.5959292650222778
+Epoch [48/100], Step [18/26], Loss: 0.5148502588272095
+Epoch [48/100], Step [19/26], Loss: 0.6483901143074036
+Epoch [48/100], Step [20/26], Loss: 0.6928369998931885
+Epoch [48/100], Step [21/26], Loss: 0.8600469827651978
+Epoch [48/100], Step [22/26], Loss: 0.5190510153770447
+Epoch [48/100], Step [23/26], Loss: 0.585932731628418
+Epoch [48/100], Step [24/26], Loss: 0.6043722033500671
+Epoch [48/100], Step [25/26], Loss: 0.6478700041770935
+Epoch [48/100], Step [26/26], Loss: 0.5686137080192566
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+Epoch [49/100], Step [1/26], Loss: 0.6447368264198303
+Epoch [49/100], Step [2/26], Loss: 0.49879294633865356
+Epoch [49/100], Step [3/26], Loss: 0.5449985861778259
+Epoch [49/100], Step [4/26], Loss: 0.36612898111343384
+Epoch [49/100], Step [5/26], Loss: 1.0995328426361084
+Epoch [49/100], Step [6/26], Loss: 0.7629149556159973
+Epoch [49/100], Step [7/26], Loss: 0.3352096974849701
+Epoch [49/100], Step [8/26], Loss: 0.6790904402732849
+Epoch [49/100], Step [9/26], Loss: 0.7779514789581299
+Epoch [49/100], Step [10/26], Loss: 0.18575537204742432
+Epoch [49/100], Step [11/26], Loss: 0.5381870269775391
+Epoch [49/100], Step [12/26], Loss: 0.9875861406326294
+Epoch [49/100], Step [13/26], Loss: 0.5871639251708984
+Epoch [49/100], Step [14/26], Loss: 0.5606006383895874
+Epoch [49/100], Step [15/26], Loss: 0.7422411441802979
+Epoch [49/100], Step [16/26], Loss: 0.6136882305145264
+Epoch [49/100], Step [17/26], Loss: 0.5704273581504822
+Epoch [49/100], Step [18/26], Loss: 0.6283670663833618
+Epoch [49/100], Step [19/26], Loss: 0.6238212585449219
+Epoch [49/100], Step [20/26], Loss: 0.6590014696121216
+Epoch [49/100], Step [21/26], Loss: 0.7231884002685547
+Epoch [49/100], Step [22/26], Loss: 0.6783897280693054
+Epoch [49/100], Step [23/26], Loss: 0.544106125831604
+Epoch [49/100], Step [24/26], Loss: 0.6431477069854736
+Epoch [49/100], Step [25/26], Loss: 0.5901814103126526
+Epoch [49/100], Step [26/26], Loss: 0.5774810314178467
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+Epoch [50/100], Step [1/26], Loss: 0.5897180438041687
+Epoch [50/100], Step [2/26], Loss: 0.4398394823074341
+Epoch [50/100], Step [3/26], Loss: 0.44565343856811523
+Epoch [50/100], Step [4/26], Loss: 0.30451688170433044
+Epoch [50/100], Step [5/26], Loss: 0.918502151966095
+Epoch [50/100], Step [6/26], Loss: 0.8125166296958923
+Epoch [50/100], Step [7/26], Loss: 0.23758839070796967
+Epoch [50/100], Step [8/26], Loss: 0.6874130368232727
+Epoch [50/100], Step [9/26], Loss: 0.6715261936187744
+Epoch [50/100], Step [10/26], Loss: 0.3211204409599304
+Epoch [50/100], Step [11/26], Loss: 0.5314606428146362
+Epoch [50/100], Step [12/26], Loss: 0.8085943460464478
+Epoch [50/100], Step [13/26], Loss: 0.638160228729248
+Epoch [50/100], Step [14/26], Loss: 0.601092517375946
+Epoch [50/100], Step [15/26], Loss: 0.7306462526321411
+Epoch [50/100], Step [16/26], Loss: 0.4957934617996216
+Epoch [50/100], Step [17/26], Loss: 0.645553708076477
+Epoch [50/100], Step [18/26], Loss: 0.5075141191482544
+Epoch [50/100], Step [19/26], Loss: 0.5591812133789062
+Epoch [50/100], Step [20/26], Loss: 0.6899387836456299
+Epoch [50/100], Step [21/26], Loss: 0.7019224166870117
+Epoch [50/100], Step [22/26], Loss: 0.5516930222511292
+Epoch [50/100], Step [23/26], Loss: 0.5833550691604614
+Epoch [50/100], Step [24/26], Loss: 0.6349586844444275
+Epoch [50/100], Step [25/26], Loss: 0.62949538230896
+Epoch [50/100], Step [26/26], Loss: 0.6425578594207764
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+Epoch [51/100], Step [1/26], Loss: 0.6151331067085266
+Epoch [51/100], Step [2/26], Loss: 0.440529465675354
+Epoch [51/100], Step [3/26], Loss: 0.48693323135375977
+Epoch [51/100], Step [4/26], Loss: 0.3288588523864746
+Epoch [51/100], Step [5/26], Loss: 1.0025755167007446
+Epoch [51/100], Step [6/26], Loss: 0.7936378121376038
+Epoch [51/100], Step [7/26], Loss: 0.3330463469028473
+Epoch [51/100], Step [8/26], Loss: 0.7295616865158081
+Epoch [51/100], Step [9/26], Loss: 0.6916526556015015
+Epoch [51/100], Step [10/26], Loss: 0.24253308773040771
+Epoch [51/100], Step [11/26], Loss: 0.4549211859703064
+Epoch [51/100], Step [12/26], Loss: 0.6980807185173035
+Epoch [51/100], Step [13/26], Loss: 0.7490804195404053
+Epoch [51/100], Step [14/26], Loss: 0.5681499242782593
+Epoch [51/100], Step [15/26], Loss: 0.7769554257392883
+Epoch [51/100], Step [16/26], Loss: 0.5927028656005859
+Epoch [51/100], Step [17/26], Loss: 0.6521561741828918
+Epoch [51/100], Step [18/26], Loss: 0.5972855091094971
+Epoch [51/100], Step [19/26], Loss: 0.59862220287323
+Epoch [51/100], Step [20/26], Loss: 0.6537004709243774
+Epoch [51/100], Step [21/26], Loss: 0.8201446533203125
+Epoch [51/100], Step [22/26], Loss: 0.5941398739814758
+Epoch [51/100], Step [23/26], Loss: 0.7452755570411682
+Epoch [51/100], Step [24/26], Loss: 0.6325905323028564
+Epoch [51/100], Step [25/26], Loss: 0.6779963970184326
+Epoch [51/100], Step [26/26], Loss: 0.6651390194892883
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Epoch [52/100], Step [1/26], Loss: 0.6411906480789185
+Epoch [52/100], Step [2/26], Loss: 0.43319588899612427
+Epoch [52/100], Step [3/26], Loss: 0.576276421546936
+Epoch [52/100], Step [4/26], Loss: 0.399671733379364
+Epoch [52/100], Step [5/26], Loss: 0.7973892688751221
+Epoch [52/100], Step [6/26], Loss: 0.8030693531036377
+Epoch [52/100], Step [7/26], Loss: 0.3338381350040436
+Epoch [52/100], Step [8/26], Loss: 0.7813767790794373
+Epoch [52/100], Step [9/26], Loss: 0.7770125865936279
+Epoch [52/100], Step [10/26], Loss: 0.24933679401874542
+Epoch [52/100], Step [11/26], Loss: 0.5599797964096069
+Epoch [52/100], Step [12/26], Loss: 0.8938867449760437
+Epoch [52/100], Step [13/26], Loss: 0.7448328733444214
+Epoch [52/100], Step [14/26], Loss: 0.5557226538658142
+Epoch [52/100], Step [15/26], Loss: 0.6220640540122986
+Epoch [52/100], Step [16/26], Loss: 0.5987472534179688
+Epoch [52/100], Step [17/26], Loss: 0.7290380001068115
+Epoch [52/100], Step [18/26], Loss: 0.5509355664253235
+Epoch [52/100], Step [19/26], Loss: 0.7180319428443909
+Epoch [52/100], Step [20/26], Loss: 0.7750426530838013
+Epoch [52/100], Step [21/26], Loss: 0.7982025742530823
+Epoch [52/100], Step [22/26], Loss: 0.6311564445495605
+Epoch [52/100], Step [23/26], Loss: 0.6004624962806702
+Epoch [52/100], Step [24/26], Loss: 0.6482667922973633
+Epoch [52/100], Step [25/26], Loss: 0.6998244524002075
+Epoch [52/100], Step [26/26], Loss: 0.5801159143447876
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+Epoch [53/100], Step [1/26], Loss: 0.5834591388702393
+Epoch [53/100], Step [2/26], Loss: 0.6510589122772217
+Epoch [53/100], Step [3/26], Loss: 0.5950971245765686
+Epoch [53/100], Step [4/26], Loss: 0.5563676357269287
+Epoch [53/100], Step [5/26], Loss: 0.8217912316322327
+Epoch [53/100], Step [6/26], Loss: 0.635366678237915
+Epoch [53/100], Step [7/26], Loss: 0.3800925016403198
+Epoch [53/100], Step [8/26], Loss: 0.7491201162338257
+Epoch [53/100], Step [9/26], Loss: 0.8135868906974792
+Epoch [53/100], Step [10/26], Loss: 0.28153353929519653
+Epoch [53/100], Step [11/26], Loss: 0.5524172186851501
+Epoch [53/100], Step [12/26], Loss: 0.8455739617347717
+Epoch [53/100], Step [13/26], Loss: 0.7806653380393982
+Epoch [53/100], Step [14/26], Loss: 0.5296590924263
+Epoch [53/100], Step [15/26], Loss: 0.6256158947944641
+Epoch [53/100], Step [16/26], Loss: 0.6015089750289917
+Epoch [53/100], Step [17/26], Loss: 0.5102206468582153
+Epoch [53/100], Step [18/26], Loss: 0.5570719838142395
+Epoch [53/100], Step [19/26], Loss: 0.632541298866272
+Epoch [53/100], Step [20/26], Loss: 0.8325895071029663
+Epoch [53/100], Step [21/26], Loss: 0.7558701634407043
+Epoch [53/100], Step [22/26], Loss: 0.5813625454902649
+Epoch [53/100], Step [23/26], Loss: 0.7059584856033325
+Epoch [53/100], Step [24/26], Loss: 0.5504059791564941
+Epoch [53/100], Step [25/26], Loss: 0.7481940388679504
+Epoch [53/100], Step [26/26], Loss: 0.6641988158226013
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1]
+Epoch [54/100], Step [1/26], Loss: 0.6517702341079712
+Epoch [54/100], Step [2/26], Loss: 0.5158476829528809
+Epoch [54/100], Step [3/26], Loss: 0.5844475030899048
+Epoch [54/100], Step [4/26], Loss: 0.43452897667884827
+Epoch [54/100], Step [5/26], Loss: 0.8017132878303528
+Epoch [54/100], Step [6/26], Loss: 0.7096753716468811
+Epoch [54/100], Step [7/26], Loss: 0.4004405438899994
+Epoch [54/100], Step [8/26], Loss: 0.6171859502792358
+Epoch [54/100], Step [9/26], Loss: 0.7506682872772217
+Epoch [54/100], Step [10/26], Loss: 0.2389528453350067
+Epoch [54/100], Step [11/26], Loss: 0.611764669418335
+Epoch [54/100], Step [12/26], Loss: 0.8352185487747192
+Epoch [54/100], Step [13/26], Loss: 0.693171501159668
+Epoch [54/100], Step [14/26], Loss: 0.4261655807495117
+Epoch [54/100], Step [15/26], Loss: 0.5997065305709839
+Epoch [54/100], Step [16/26], Loss: 0.772596001625061
+Epoch [54/100], Step [17/26], Loss: 0.5453106164932251
+Epoch [54/100], Step [18/26], Loss: 0.5060523748397827
+Epoch [54/100], Step [19/26], Loss: 0.5880797505378723
+Epoch [54/100], Step [20/26], Loss: 0.822278618812561
+Epoch [54/100], Step [21/26], Loss: 0.6598232984542847
+Epoch [54/100], Step [22/26], Loss: 0.6142947673797607
+Epoch [54/100], Step [23/26], Loss: 0.5604008436203003
+Epoch [54/100], Step [24/26], Loss: 0.6335352659225464
+Epoch [54/100], Step [25/26], Loss: 0.5649741888046265
+Epoch [54/100], Step [26/26], Loss: 0.6152881979942322
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]
+Epoch [55/100], Step [1/26], Loss: 0.6408026814460754
+Epoch [55/100], Step [2/26], Loss: 0.49946698546409607
+Epoch [55/100], Step [3/26], Loss: 0.47465285658836365
+Epoch [55/100], Step [4/26], Loss: 0.4772045314311981
+Epoch [55/100], Step [5/26], Loss: 0.8047918081283569
+Epoch [55/100], Step [6/26], Loss: 0.6036139726638794
+Epoch [55/100], Step [7/26], Loss: 0.2822842597961426
+Epoch [55/100], Step [8/26], Loss: 0.6733938455581665
+Epoch [55/100], Step [9/26], Loss: 0.7148101329803467
+Epoch [55/100], Step [10/26], Loss: 0.24291078746318817
+Epoch [55/100], Step [11/26], Loss: 0.5110412836074829
+Epoch [55/100], Step [12/26], Loss: 0.8310500979423523
+Epoch [55/100], Step [13/26], Loss: 0.5739446878433228
+Epoch [55/100], Step [14/26], Loss: 0.4822307825088501
+Epoch [55/100], Step [15/26], Loss: 0.6775404810905457
+Epoch [55/100], Step [16/26], Loss: 0.40880370140075684
+Epoch [55/100], Step [17/26], Loss: 0.5363093614578247
+Epoch [55/100], Step [18/26], Loss: 0.42303842306137085
+Epoch [55/100], Step [19/26], Loss: 0.7104585766792297
+Epoch [55/100], Step [20/26], Loss: 0.7674350142478943
+Epoch [55/100], Step [21/26], Loss: 0.7267307639122009
+Epoch [55/100], Step [22/26], Loss: 0.6243395805358887
+Epoch [55/100], Step [23/26], Loss: 0.8348047733306885
+Epoch [55/100], Step [24/26], Loss: 0.5449061989784241
+Epoch [55/100], Step [25/26], Loss: 0.5936272144317627
+Epoch [55/100], Step [26/26], Loss: 0.6074893474578857
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Epoch [56/100], Step [1/26], Loss: 0.5383846759796143
+Epoch [56/100], Step [2/26], Loss: 0.39829325675964355
+Epoch [56/100], Step [3/26], Loss: 0.4586217999458313
+Epoch [56/100], Step [4/26], Loss: 0.3856346011161804
+Epoch [56/100], Step [5/26], Loss: 1.193507194519043
+Epoch [56/100], Step [6/26], Loss: 0.8105109930038452
+Epoch [56/100], Step [7/26], Loss: 0.36766260862350464
+Epoch [56/100], Step [8/26], Loss: 0.6669008731842041
+Epoch [56/100], Step [9/26], Loss: 0.7306444644927979
+Epoch [56/100], Step [10/26], Loss: 0.27826961874961853
+Epoch [56/100], Step [11/26], Loss: 0.5515347123146057
+Epoch [56/100], Step [12/26], Loss: 0.7358646392822266
+Epoch [56/100], Step [13/26], Loss: 0.6757047176361084
+Epoch [56/100], Step [14/26], Loss: 0.4813207983970642
+Epoch [56/100], Step [15/26], Loss: 0.5347440838813782
+Epoch [56/100], Step [16/26], Loss: 0.5309444069862366
+Epoch [56/100], Step [17/26], Loss: 0.6095101237297058
+Epoch [56/100], Step [18/26], Loss: 0.3998566269874573
+Epoch [56/100], Step [19/26], Loss: 0.5518051385879517
+Epoch [56/100], Step [20/26], Loss: 0.756176233291626
+Epoch [56/100], Step [21/26], Loss: 0.7987005114555359
+Epoch [56/100], Step [22/26], Loss: 0.5248475074768066
+Epoch [56/100], Step [23/26], Loss: 0.7319377660751343
+Epoch [56/100], Step [24/26], Loss: 0.6266015768051147
+Epoch [56/100], Step [25/26], Loss: 0.5448668599128723
+Epoch [56/100], Step [26/26], Loss: 0.5779241919517517
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Epoch [57/100], Step [1/26], Loss: 0.5597238540649414
+Epoch [57/100], Step [2/26], Loss: 0.45209288597106934
+Epoch [57/100], Step [3/26], Loss: 0.49219852685928345
+Epoch [57/100], Step [4/26], Loss: 0.4313267171382904
+Epoch [57/100], Step [5/26], Loss: 0.9240964651107788
+Epoch [57/100], Step [6/26], Loss: 0.6440777778625488
+Epoch [57/100], Step [7/26], Loss: 0.42087090015411377
+Epoch [57/100], Step [8/26], Loss: 0.6279749274253845
+Epoch [57/100], Step [9/26], Loss: 0.6426684856414795
+Epoch [57/100], Step [10/26], Loss: 0.30820101499557495
+Epoch [57/100], Step [11/26], Loss: 0.6263763308525085
+Epoch [57/100], Step [12/26], Loss: 0.7958509922027588
+Epoch [57/100], Step [13/26], Loss: 0.7614960670471191
+Epoch [57/100], Step [14/26], Loss: 0.5159475207328796
+Epoch [57/100], Step [15/26], Loss: 0.5866699814796448
+Epoch [57/100], Step [16/26], Loss: 0.576583981513977
+Epoch [57/100], Step [17/26], Loss: 0.5826760530471802
+Epoch [57/100], Step [18/26], Loss: 0.5182696580886841
+Epoch [57/100], Step [19/26], Loss: 0.7835646867752075
+Epoch [57/100], Step [20/26], Loss: 0.6982821822166443
+Epoch [57/100], Step [21/26], Loss: 0.7429136633872986
+Epoch [57/100], Step [22/26], Loss: 0.6556523442268372
+Epoch [57/100], Step [23/26], Loss: 0.7431153059005737
+Epoch [57/100], Step [24/26], Loss: 0.5776877999305725
+Epoch [57/100], Step [25/26], Loss: 0.5193564891815186
+Epoch [57/100], Step [26/26], Loss: 0.6173458099365234
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch [58/100], Step [1/26], Loss: 0.6801878809928894
+Epoch [58/100], Step [2/26], Loss: 0.3446289300918579
+Epoch [58/100], Step [3/26], Loss: 0.6034424304962158
+Epoch [58/100], Step [4/26], Loss: 0.3789808452129364
+Epoch [58/100], Step [5/26], Loss: 0.8679955005645752
+Epoch [58/100], Step [6/26], Loss: 0.7798895239830017
+Epoch [58/100], Step [7/26], Loss: 0.3584609627723694
+Epoch [58/100], Step [8/26], Loss: 0.9701372981071472
+Epoch [58/100], Step [9/26], Loss: 0.7786346673965454
+Epoch [58/100], Step [10/26], Loss: 0.24283146858215332
+Epoch [58/100], Step [11/26], Loss: 0.4336089789867401
+Epoch [58/100], Step [12/26], Loss: 0.7373578548431396
+Epoch [58/100], Step [13/26], Loss: 0.6618028879165649
+Epoch [58/100], Step [14/26], Loss: 0.5523747205734253
+Epoch [58/100], Step [15/26], Loss: 0.7618167996406555
+Epoch [58/100], Step [16/26], Loss: 0.5678749084472656
+Epoch [58/100], Step [17/26], Loss: 0.6651660799980164
+Epoch [58/100], Step [18/26], Loss: 0.5683740973472595
+Epoch [58/100], Step [19/26], Loss: 0.4964490830898285
+Epoch [58/100], Step [20/26], Loss: 0.751631498336792
+Epoch [58/100], Step [21/26], Loss: 0.7886731624603271
+Epoch [58/100], Step [22/26], Loss: 0.6481541395187378
+Epoch [58/100], Step [23/26], Loss: 0.5038794875144958
+Epoch [58/100], Step [24/26], Loss: 0.44463613629341125
+Epoch [58/100], Step [25/26], Loss: 0.5635336637496948
+Epoch [58/100], Step [26/26], Loss: 0.48817551136016846
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+Epoch [59/100], Step [1/26], Loss: 0.6185054183006287
+Epoch [59/100], Step [2/26], Loss: 0.4131668210029602
+Epoch [59/100], Step [3/26], Loss: 0.5052540302276611
+Epoch [59/100], Step [4/26], Loss: 0.31622064113616943
+Epoch [59/100], Step [5/26], Loss: 0.8965198993682861
+Epoch [59/100], Step [6/26], Loss: 0.8031909465789795
+Epoch [59/100], Step [7/26], Loss: 0.3035816252231598
+Epoch [59/100], Step [8/26], Loss: 0.729336142539978
+Epoch [59/100], Step [9/26], Loss: 0.7882404327392578
+Epoch [59/100], Step [10/26], Loss: 0.2270035296678543
+Epoch [59/100], Step [11/26], Loss: 0.45061901211738586
+Epoch [59/100], Step [12/26], Loss: 0.7427734136581421
+Epoch [59/100], Step [13/26], Loss: 0.5939187407493591
+Epoch [59/100], Step [14/26], Loss: 0.47601836919784546
+Epoch [59/100], Step [15/26], Loss: 0.6120623350143433
+Epoch [59/100], Step [16/26], Loss: 0.633247971534729
+Epoch [59/100], Step [17/26], Loss: 0.5051434636116028
+Epoch [59/100], Step [18/26], Loss: 0.3871280252933502
+Epoch [59/100], Step [19/26], Loss: 0.6022806167602539
+Epoch [59/100], Step [20/26], Loss: 0.7379863262176514
+Epoch [59/100], Step [21/26], Loss: 0.7050915360450745
+Epoch [59/100], Step [22/26], Loss: 0.5882980823516846
+Epoch [59/100], Step [23/26], Loss: 0.6244690418243408
+Epoch [59/100], Step [24/26], Loss: 0.6215147972106934
+Epoch [59/100], Step [25/26], Loss: 0.5455876588821411
+Epoch [59/100], Step [26/26], Loss: 0.6033662557601929
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0]
+Epoch [60/100], Step [1/26], Loss: 0.5331414341926575
+Epoch [60/100], Step [2/26], Loss: 0.5049993991851807
+Epoch [60/100], Step [3/26], Loss: 0.4246677756309509
+Epoch [60/100], Step [4/26], Loss: 0.29807448387145996
+Epoch [60/100], Step [5/26], Loss: 0.838056206703186
+Epoch [60/100], Step [6/26], Loss: 0.6729275584220886
+Epoch [60/100], Step [7/26], Loss: 0.22702273726463318
+Epoch [60/100], Step [8/26], Loss: 0.6418376564979553
+Epoch [60/100], Step [9/26], Loss: 0.6826512217521667
+Epoch [60/100], Step [10/26], Loss: 0.23636473715305328
+Epoch [60/100], Step [11/26], Loss: 0.5141169428825378
+Epoch [60/100], Step [12/26], Loss: 0.7758640050888062
+Epoch [60/100], Step [13/26], Loss: 0.5649271011352539
+Epoch [60/100], Step [14/26], Loss: 0.45644208788871765
+Epoch [60/100], Step [15/26], Loss: 0.5428168177604675
+Epoch [60/100], Step [16/26], Loss: 0.4690344035625458
+Epoch [60/100], Step [17/26], Loss: 0.46739527583122253
+Epoch [60/100], Step [18/26], Loss: 0.4461623430252075
+Epoch [60/100], Step [19/26], Loss: 0.5391128063201904
+Epoch [60/100], Step [20/26], Loss: 0.6660938262939453
+Epoch [60/100], Step [21/26], Loss: 0.7848292589187622
+Epoch [60/100], Step [22/26], Loss: 0.6114105582237244
+Epoch [60/100], Step [23/26], Loss: 0.48684585094451904
+Epoch [60/100], Step [24/26], Loss: 0.5323789119720459
+Epoch [60/100], Step [25/26], Loss: 0.472248911857605
+Epoch [60/100], Step [26/26], Loss: 0.5564806461334229
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1]
+Epoch [61/100], Step [1/26], Loss: 0.5145524144172668
+Epoch [61/100], Step [2/26], Loss: 0.46293559670448303
+Epoch [61/100], Step [3/26], Loss: 0.5494909882545471
+Epoch [61/100], Step [4/26], Loss: 0.23569726943969727
+Epoch [61/100], Step [5/26], Loss: 0.7837245464324951
+Epoch [61/100], Step [6/26], Loss: 0.6726758480072021
+Epoch [61/100], Step [7/26], Loss: 0.13910777866840363
+Epoch [61/100], Step [8/26], Loss: 0.5863094329833984
+Epoch [61/100], Step [9/26], Loss: 0.5781590938568115
+Epoch [61/100], Step [10/26], Loss: 0.2642176151275635
+Epoch [61/100], Step [11/26], Loss: 0.5226549506187439
+Epoch [61/100], Step [12/26], Loss: 0.6571391820907593
+Epoch [61/100], Step [13/26], Loss: 0.5953397750854492
+Epoch [61/100], Step [14/26], Loss: 0.45476609468460083
+Epoch [61/100], Step [15/26], Loss: 0.6085127592086792
+Epoch [61/100], Step [16/26], Loss: 0.4004122316837311
+Epoch [61/100], Step [17/26], Loss: 0.5176088809967041
+Epoch [61/100], Step [18/26], Loss: 0.5470888018608093
+Epoch [61/100], Step [19/26], Loss: 0.6261447072029114
+Epoch [61/100], Step [20/26], Loss: 0.6489421129226685
+Epoch [61/100], Step [21/26], Loss: 0.7388565540313721
+Epoch [61/100], Step [22/26], Loss: 0.5422660708427429
+Epoch [61/100], Step [23/26], Loss: 0.4310544431209564
+Epoch [61/100], Step [24/26], Loss: 0.5634452104568481
+Epoch [61/100], Step [25/26], Loss: 0.49364352226257324
+Epoch [61/100], Step [26/26], Loss: 0.3603760004043579
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Epoch [62/100], Step [1/26], Loss: 0.48623549938201904
+Epoch [62/100], Step [2/26], Loss: 0.2062961459159851
+Epoch [62/100], Step [3/26], Loss: 0.5368634462356567
+Epoch [62/100], Step [4/26], Loss: 0.15313182771205902
+Epoch [62/100], Step [5/26], Loss: 1.0806313753128052
+Epoch [62/100], Step [6/26], Loss: 0.6655162572860718
+Epoch [62/100], Step [7/26], Loss: 0.21619927883148193
+Epoch [62/100], Step [8/26], Loss: 0.624198317527771
+Epoch [62/100], Step [9/26], Loss: 0.48627138137817383
+Epoch [62/100], Step [10/26], Loss: 0.45834365487098694
+Epoch [62/100], Step [11/26], Loss: 0.5283924341201782
+Epoch [62/100], Step [12/26], Loss: 0.6769086122512817
+Epoch [62/100], Step [13/26], Loss: 0.652680516242981
+Epoch [62/100], Step [14/26], Loss: 0.49878954887390137
+Epoch [62/100], Step [15/26], Loss: 0.63316810131073
+Epoch [62/100], Step [16/26], Loss: 0.5449537634849548
+Epoch [62/100], Step [17/26], Loss: 0.47267112135887146
+Epoch [62/100], Step [18/26], Loss: 0.46298015117645264
+Epoch [62/100], Step [19/26], Loss: 0.5577096939086914
+Epoch [62/100], Step [20/26], Loss: 0.750634491443634
+Epoch [62/100], Step [21/26], Loss: 0.6784521341323853
+Epoch [62/100], Step [22/26], Loss: 0.5819987058639526
+Epoch [62/100], Step [23/26], Loss: 0.6395736336708069
+Epoch [62/100], Step [24/26], Loss: 0.6070458889007568
+Epoch [62/100], Step [25/26], Loss: 0.5054132342338562
+Epoch [62/100], Step [26/26], Loss: 0.49327391386032104
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0]
+Epoch [63/100], Step [1/26], Loss: 0.8078802824020386
+Epoch [63/100], Step [2/26], Loss: 0.4008120596408844
+Epoch [63/100], Step [3/26], Loss: 0.3619135916233063
+Epoch [63/100], Step [4/26], Loss: 0.3869946002960205
+Epoch [63/100], Step [5/26], Loss: 1.0522785186767578
+Epoch [63/100], Step [6/26], Loss: 0.6966280937194824
+Epoch [63/100], Step [7/26], Loss: 0.1962040215730667
+Epoch [63/100], Step [8/26], Loss: 0.8009625673294067
+Epoch [63/100], Step [9/26], Loss: 0.6463891863822937
+Epoch [63/100], Step [10/26], Loss: 0.21518251299858093
+Epoch [63/100], Step [11/26], Loss: 0.41167351603507996
+Epoch [63/100], Step [12/26], Loss: 0.7540372014045715
+Epoch [63/100], Step [13/26], Loss: 0.5647333860397339
+Epoch [63/100], Step [14/26], Loss: 0.5120363831520081
+Epoch [63/100], Step [15/26], Loss: 0.5934723615646362
+Epoch [63/100], Step [16/26], Loss: 0.5653457641601562
+Epoch [63/100], Step [17/26], Loss: 0.47652220726013184
+Epoch [63/100], Step [18/26], Loss: 0.38632848858833313
+Epoch [63/100], Step [19/26], Loss: 0.5160226821899414
+Epoch [63/100], Step [20/26], Loss: 0.6594804525375366
+Epoch [63/100], Step [21/26], Loss: 0.6082699298858643
+Epoch [63/100], Step [22/26], Loss: 0.5647621154785156
+Epoch [63/100], Step [23/26], Loss: 0.6593540906906128
+Epoch [63/100], Step [24/26], Loss: 0.49342817068099976
+Epoch [63/100], Step [25/26], Loss: 0.5818641781806946
+Epoch [63/100], Step [26/26], Loss: 0.43196311593055725
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+Epoch [64/100], Step [1/26], Loss: 0.4761241376399994
+Epoch [64/100], Step [2/26], Loss: 0.33963221311569214
+Epoch [64/100], Step [3/26], Loss: 0.38582828640937805
+Epoch [64/100], Step [4/26], Loss: 0.2750232219696045
+Epoch [64/100], Step [5/26], Loss: 0.7729818820953369
+Epoch [64/100], Step [6/26], Loss: 0.7074232697486877
+Epoch [64/100], Step [7/26], Loss: 0.2393960952758789
+Epoch [64/100], Step [8/26], Loss: 0.5883725881576538
+Epoch [64/100], Step [9/26], Loss: 0.597733736038208
+Epoch [64/100], Step [10/26], Loss: 0.19713780283927917
+Epoch [64/100], Step [11/26], Loss: 0.4640021324157715
+Epoch [64/100], Step [12/26], Loss: 0.6954749822616577
+Epoch [64/100], Step [13/26], Loss: 0.6906032562255859
+Epoch [64/100], Step [14/26], Loss: 0.4056658148765564
+Epoch [64/100], Step [15/26], Loss: 0.5589715242385864
+Epoch [64/100], Step [16/26], Loss: 0.49033182859420776
+Epoch [64/100], Step [17/26], Loss: 0.5570011138916016
+Epoch [64/100], Step [18/26], Loss: 0.3227003216743469
+Epoch [64/100], Step [19/26], Loss: 0.5100352168083191
+Epoch [64/100], Step [20/26], Loss: 0.5400065779685974
+Epoch [64/100], Step [21/26], Loss: 0.7314157485961914
+Epoch [64/100], Step [22/26], Loss: 0.41209667921066284
+Epoch [64/100], Step [23/26], Loss: 0.5210397839546204
+Epoch [64/100], Step [24/26], Loss: 0.5075381398200989
+Epoch [64/100], Step [25/26], Loss: 0.4503488838672638
+Epoch [64/100], Step [26/26], Loss: 0.48803502321243286
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+Epoch [65/100], Step [1/26], Loss: 0.4506973922252655
+Epoch [65/100], Step [2/26], Loss: 0.45140600204467773
+Epoch [65/100], Step [3/26], Loss: 0.4993307590484619
+Epoch [65/100], Step [4/26], Loss: 0.20671647787094116
+Epoch [65/100], Step [5/26], Loss: 0.886401891708374
+Epoch [65/100], Step [6/26], Loss: 0.8076024055480957
+Epoch [65/100], Step [7/26], Loss: 0.20909346640110016
+Epoch [65/100], Step [8/26], Loss: 0.6275225877761841
+Epoch [65/100], Step [9/26], Loss: 0.7066969871520996
+Epoch [65/100], Step [10/26], Loss: 0.24518735706806183
+Epoch [65/100], Step [11/26], Loss: 0.37700510025024414
+Epoch [65/100], Step [12/26], Loss: 0.7472071647644043
+Epoch [65/100], Step [13/26], Loss: 0.5585753917694092
+Epoch [65/100], Step [14/26], Loss: 0.40368470549583435
+Epoch [65/100], Step [15/26], Loss: 0.5786623954772949
+Epoch [65/100], Step [16/26], Loss: 0.6130173802375793
+Epoch [65/100], Step [17/26], Loss: 0.46872788667678833
+Epoch [65/100], Step [18/26], Loss: 0.39627182483673096
+Epoch [65/100], Step [19/26], Loss: 0.47614002227783203
+Epoch [65/100], Step [20/26], Loss: 0.6181599497795105
+Epoch [65/100], Step [21/26], Loss: 0.5913434028625488
+Epoch [65/100], Step [22/26], Loss: 0.6004591584205627
+Epoch [65/100], Step [23/26], Loss: 0.6189061999320984
+Epoch [65/100], Step [24/26], Loss: 0.5252763032913208
+Epoch [65/100], Step [25/26], Loss: 0.6548592448234558
+Epoch [65/100], Step [26/26], Loss: 0.4833388030529022
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+Epoch [66/100], Step [1/26], Loss: 0.5549598932266235
+Epoch [66/100], Step [2/26], Loss: 0.395280122756958
+Epoch [66/100], Step [3/26], Loss: 0.4636242389678955
+Epoch [66/100], Step [4/26], Loss: 0.3907323479652405
+Epoch [66/100], Step [5/26], Loss: 0.8854228258132935
+Epoch [66/100], Step [6/26], Loss: 0.7164461612701416
+Epoch [66/100], Step [7/26], Loss: 0.15744072198867798
+Epoch [66/100], Step [8/26], Loss: 0.728063702583313
+Epoch [66/100], Step [9/26], Loss: 0.598053514957428
+Epoch [66/100], Step [10/26], Loss: 0.2312156856060028
+Epoch [66/100], Step [11/26], Loss: 0.40400612354278564
+Epoch [66/100], Step [12/26], Loss: 0.6475055813789368
+Epoch [66/100], Step [13/26], Loss: 0.5522717237472534
+Epoch [66/100], Step [14/26], Loss: 0.3952145278453827
+Epoch [66/100], Step [15/26], Loss: 0.5139968395233154
+Epoch [66/100], Step [16/26], Loss: 0.47290951013565063
+Epoch [66/100], Step [17/26], Loss: 0.47095343470573425
+Epoch [66/100], Step [18/26], Loss: 0.3570919632911682
+Epoch [66/100], Step [19/26], Loss: 0.42122966051101685
+Epoch [66/100], Step [20/26], Loss: 0.711681604385376
+Epoch [66/100], Step [21/26], Loss: 0.7611536979675293
+Epoch [66/100], Step [22/26], Loss: 0.5599075555801392
+Epoch [66/100], Step [23/26], Loss: 0.6174388527870178
+Epoch [66/100], Step [24/26], Loss: 0.5282154679298401
+Epoch [66/100], Step [25/26], Loss: 0.6748256683349609
+Epoch [66/100], Step [26/26], Loss: 0.49714118242263794
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1]
+Epoch [67/100], Step [1/26], Loss: 0.6299681067466736
+Epoch [67/100], Step [2/26], Loss: 0.4472735822200775
+Epoch [67/100], Step [3/26], Loss: 0.49197718501091003
+Epoch [67/100], Step [4/26], Loss: 0.31001707911491394
+Epoch [67/100], Step [5/26], Loss: 0.8188821077346802
+Epoch [67/100], Step [6/26], Loss: 0.5007753372192383
+Epoch [67/100], Step [7/26], Loss: 0.29660725593566895
+Epoch [67/100], Step [8/26], Loss: 0.5244909524917603
+Epoch [67/100], Step [9/26], Loss: 0.6179897785186768
+Epoch [67/100], Step [10/26], Loss: 0.1804545819759369
+Epoch [67/100], Step [11/26], Loss: 0.40083813667297363
+Epoch [67/100], Step [12/26], Loss: 0.7083926200866699
+Epoch [67/100], Step [13/26], Loss: 0.6151748895645142
+Epoch [67/100], Step [14/26], Loss: 0.4009971022605896
+Epoch [67/100], Step [15/26], Loss: 0.5089800953865051
+Epoch [67/100], Step [16/26], Loss: 0.44620996713638306
+Epoch [67/100], Step [17/26], Loss: 0.4741887152194977
+Epoch [67/100], Step [18/26], Loss: 0.3169369697570801
+Epoch [67/100], Step [19/26], Loss: 0.48130255937576294
+Epoch [67/100], Step [20/26], Loss: 0.7379112839698792
+Epoch [67/100], Step [21/26], Loss: 0.7054817080497742
+Epoch [67/100], Step [22/26], Loss: 0.5518420934677124
+Epoch [67/100], Step [23/26], Loss: 0.4339200556278229
+Epoch [67/100], Step [24/26], Loss: 0.4108031392097473
+Epoch [67/100], Step [25/26], Loss: 0.495747447013855
+Epoch [67/100], Step [26/26], Loss: 0.4783490002155304
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+Epoch [68/100], Step [1/26], Loss: 0.49056124687194824
+Epoch [68/100], Step [2/26], Loss: 0.30425137281417847
+Epoch [68/100], Step [3/26], Loss: 0.4147859811782837
+Epoch [68/100], Step [4/26], Loss: 0.2992424964904785
+Epoch [68/100], Step [5/26], Loss: 0.7040386199951172
+Epoch [68/100], Step [6/26], Loss: 0.6305098533630371
+Epoch [68/100], Step [7/26], Loss: 0.24224314093589783
+Epoch [68/100], Step [8/26], Loss: 0.6293653249740601
+Epoch [68/100], Step [9/26], Loss: 0.541572093963623
+Epoch [68/100], Step [10/26], Loss: 0.19658541679382324
+Epoch [68/100], Step [11/26], Loss: 0.5010970830917358
+Epoch [68/100], Step [12/26], Loss: 0.6546529531478882
+Epoch [68/100], Step [13/26], Loss: 0.6013868451118469
+Epoch [68/100], Step [14/26], Loss: 0.397748738527298
+Epoch [68/100], Step [15/26], Loss: 0.46707552671432495
+Epoch [68/100], Step [16/26], Loss: 0.4245457947254181
+Epoch [68/100], Step [17/26], Loss: 0.44812822341918945
+Epoch [68/100], Step [18/26], Loss: 0.35201936960220337
+Epoch [68/100], Step [19/26], Loss: 0.48855769634246826
+Epoch [68/100], Step [20/26], Loss: 0.6558583378791809
+Epoch [68/100], Step [21/26], Loss: 0.7029098868370056
+Epoch [68/100], Step [22/26], Loss: 0.4337258040904999
+Epoch [68/100], Step [23/26], Loss: 0.6362575888633728
+Epoch [68/100], Step [24/26], Loss: 0.5707317590713501
+Epoch [68/100], Step [25/26], Loss: 0.6554648876190186
+Epoch [68/100], Step [26/26], Loss: 0.416331946849823
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1]
+Epoch [69/100], Step [1/26], Loss: 0.5023963451385498
+Epoch [69/100], Step [2/26], Loss: 0.30552801489830017
+Epoch [69/100], Step [3/26], Loss: 0.4393143653869629
+Epoch [69/100], Step [4/26], Loss: 0.26113688945770264
+Epoch [69/100], Step [5/26], Loss: 0.9132273197174072
+Epoch [69/100], Step [6/26], Loss: 0.7090499401092529
+Epoch [69/100], Step [7/26], Loss: 0.19983820617198944
+Epoch [69/100], Step [8/26], Loss: 0.5245009660720825
+Epoch [69/100], Step [9/26], Loss: 0.5549410581588745
+Epoch [69/100], Step [10/26], Loss: 0.25715237855911255
+Epoch [69/100], Step [11/26], Loss: 0.46721822023391724
+Epoch [69/100], Step [12/26], Loss: 0.6288868188858032
+Epoch [69/100], Step [13/26], Loss: 0.6088407635688782
+Epoch [69/100], Step [14/26], Loss: 0.3777780532836914
+Epoch [69/100], Step [15/26], Loss: 0.5643824934959412
+Epoch [69/100], Step [16/26], Loss: 0.6473097801208496
+Epoch [69/100], Step [17/26], Loss: 0.446932315826416
+Epoch [69/100], Step [18/26], Loss: 0.3124878406524658
+Epoch [69/100], Step [19/26], Loss: 0.5039567947387695
+Epoch [69/100], Step [20/26], Loss: 0.60326087474823
+Epoch [69/100], Step [21/26], Loss: 0.6368152499198914
+Epoch [69/100], Step [22/26], Loss: 0.5402845144271851
+Epoch [69/100], Step [23/26], Loss: 0.46022841334342957
+Epoch [69/100], Step [24/26], Loss: 0.55866938829422
+Epoch [69/100], Step [25/26], Loss: 0.4333069920539856
+Epoch [69/100], Step [26/26], Loss: 0.43727385997772217
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+Epoch [70/100], Step [1/26], Loss: 0.45293378829956055
+Epoch [70/100], Step [2/26], Loss: 0.4624764919281006
+Epoch [70/100], Step [3/26], Loss: 0.43658891320228577
+Epoch [70/100], Step [4/26], Loss: 0.24223560094833374
+Epoch [70/100], Step [5/26], Loss: 0.7451626658439636
+Epoch [70/100], Step [6/26], Loss: 0.6145946979522705
+Epoch [70/100], Step [7/26], Loss: 0.2503170073032379
+Epoch [70/100], Step [8/26], Loss: 0.6274288892745972
+Epoch [70/100], Step [9/26], Loss: 0.5289381146430969
+Epoch [70/100], Step [10/26], Loss: 0.26709285378456116
+Epoch [70/100], Step [11/26], Loss: 0.4721553921699524
+Epoch [70/100], Step [12/26], Loss: 0.8048969507217407
+Epoch [70/100], Step [13/26], Loss: 0.5747408270835876
+Epoch [70/100], Step [14/26], Loss: 0.32858991622924805
+Epoch [70/100], Step [15/26], Loss: 0.43124067783355713
+Epoch [70/100], Step [16/26], Loss: 0.4746510088443756
+Epoch [70/100], Step [17/26], Loss: 0.4427018165588379
+Epoch [70/100], Step [18/26], Loss: 0.2763965427875519
+Epoch [70/100], Step [19/26], Loss: 0.47289910912513733
+Epoch [70/100], Step [20/26], Loss: 0.6948820352554321
+Epoch [70/100], Step [21/26], Loss: 0.776404082775116
+Epoch [70/100], Step [22/26], Loss: 0.521970272064209
+Epoch [70/100], Step [23/26], Loss: 0.4760057032108307
+Epoch [70/100], Step [24/26], Loss: 0.5461863279342651
+Epoch [70/100], Step [25/26], Loss: 0.5598938465118408
+Epoch [70/100], Step [26/26], Loss: 0.516093373298645
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+Epoch [71/100], Step [1/26], Loss: 0.5137535333633423
+Epoch [71/100], Step [2/26], Loss: 0.4544491469860077
+Epoch [71/100], Step [3/26], Loss: 0.540845513343811
+Epoch [71/100], Step [4/26], Loss: 0.35420387983322144
+Epoch [71/100], Step [5/26], Loss: 0.728793740272522
+Epoch [71/100], Step [6/26], Loss: 0.49443814158439636
+Epoch [71/100], Step [7/26], Loss: 0.21779628098011017
+Epoch [71/100], Step [8/26], Loss: 0.5459209084510803
+Epoch [71/100], Step [9/26], Loss: 0.5292521715164185
+Epoch [71/100], Step [10/26], Loss: 0.25981423258781433
+Epoch [71/100], Step [11/26], Loss: 0.3724985718727112
+Epoch [71/100], Step [12/26], Loss: 0.7714859843254089
+Epoch [71/100], Step [13/26], Loss: 0.6692361235618591
+Epoch [71/100], Step [14/26], Loss: 0.4006412625312805
+Epoch [71/100], Step [15/26], Loss: 0.608450174331665
+Epoch [71/100], Step [16/26], Loss: 0.3684200048446655
+Epoch [71/100], Step [17/26], Loss: 0.4628954529762268
+Epoch [71/100], Step [18/26], Loss: 0.35117125511169434
+Epoch [71/100], Step [19/26], Loss: 0.548200249671936
+Epoch [71/100], Step [20/26], Loss: 0.7780910730361938
+Epoch [71/100], Step [21/26], Loss: 0.6101298928260803
+Epoch [71/100], Step [22/26], Loss: 0.49719762802124023
+Epoch [71/100], Step [23/26], Loss: 0.7471047639846802
+Epoch [71/100], Step [24/26], Loss: 0.49506041407585144
+Epoch [71/100], Step [25/26], Loss: 0.518039345741272
+Epoch [71/100], Step [26/26], Loss: 0.5092661380767822
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 1]
+Epoch [72/100], Step [1/26], Loss: 0.46227017045021057
+Epoch [72/100], Step [2/26], Loss: 0.696581244468689
+Epoch [72/100], Step [3/26], Loss: 0.5271555781364441
+Epoch [72/100], Step [4/26], Loss: 0.36973708868026733
+Epoch [72/100], Step [5/26], Loss: 0.6734846830368042
+Epoch [72/100], Step [6/26], Loss: 0.5381380915641785
+Epoch [72/100], Step [7/26], Loss: 0.30474281311035156
+Epoch [72/100], Step [8/26], Loss: 0.5223494172096252
+Epoch [72/100], Step [9/26], Loss: 0.6133363246917725
+Epoch [72/100], Step [10/26], Loss: 0.2835009694099426
+Epoch [72/100], Step [11/26], Loss: 0.4171903729438782
+Epoch [72/100], Step [12/26], Loss: 0.660523533821106
+Epoch [72/100], Step [13/26], Loss: 0.6527788639068604
+Epoch [72/100], Step [14/26], Loss: 0.35631558299064636
+Epoch [72/100], Step [15/26], Loss: 0.5222095847129822
+Epoch [72/100], Step [16/26], Loss: 0.5341185927391052
+Epoch [72/100], Step [17/26], Loss: 0.41126081347465515
+Epoch [72/100], Step [18/26], Loss: 0.24401576817035675
+Epoch [72/100], Step [19/26], Loss: 0.6447809934616089
+Epoch [72/100], Step [20/26], Loss: 0.7469828724861145
+Epoch [72/100], Step [21/26], Loss: 0.725486159324646
+Epoch [72/100], Step [22/26], Loss: 0.5672425627708435
+Epoch [72/100], Step [23/26], Loss: 0.5451041460037231
+Epoch [72/100], Step [24/26], Loss: 0.6492869257926941
+Epoch [72/100], Step [25/26], Loss: 0.45587781071662903
+Epoch [72/100], Step [26/26], Loss: 0.43719494342803955
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0]
+Epoch [73/100], Step [1/26], Loss: 0.49219557642936707
+Epoch [73/100], Step [2/26], Loss: 0.48730915784835815
+Epoch [73/100], Step [3/26], Loss: 0.44354578852653503
+Epoch [73/100], Step [4/26], Loss: 0.4008260667324066
+Epoch [73/100], Step [5/26], Loss: 0.5841042399406433
+Epoch [73/100], Step [6/26], Loss: 0.48450517654418945
+Epoch [73/100], Step [7/26], Loss: 0.30804815888404846
+Epoch [73/100], Step [8/26], Loss: 0.5255632400512695
+Epoch [73/100], Step [9/26], Loss: 0.610413670539856
+Epoch [73/100], Step [10/26], Loss: 0.2637474536895752
+Epoch [73/100], Step [11/26], Loss: 0.3520786464214325
+Epoch [73/100], Step [12/26], Loss: 0.7134647369384766
+Epoch [73/100], Step [13/26], Loss: 0.5409201979637146
+Epoch [73/100], Step [14/26], Loss: 0.34590280055999756
+Epoch [73/100], Step [15/26], Loss: 0.5244463086128235
+Epoch [73/100], Step [16/26], Loss: 0.5369036197662354
+Epoch [73/100], Step [17/26], Loss: 0.4414275586605072
+Epoch [73/100], Step [18/26], Loss: 0.2732507884502411
+Epoch [73/100], Step [19/26], Loss: 0.4939136803150177
+Epoch [73/100], Step [20/26], Loss: 0.6073565483093262
+Epoch [73/100], Step [21/26], Loss: 0.6745431423187256
+Epoch [73/100], Step [22/26], Loss: 0.4939742088317871
+Epoch [73/100], Step [23/26], Loss: 0.5625468492507935
+Epoch [73/100], Step [24/26], Loss: 0.4891338348388672
+Epoch [73/100], Step [25/26], Loss: 0.5268711447715759
+Epoch [73/100], Step [26/26], Loss: 0.4311755299568176
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+Epoch [74/100], Step [1/26], Loss: 0.5483842492103577
+Epoch [74/100], Step [2/26], Loss: 0.356962114572525
+Epoch [74/100], Step [3/26], Loss: 0.42529183626174927
+Epoch [74/100], Step [4/26], Loss: 0.4403499364852905
+Epoch [74/100], Step [5/26], Loss: 0.5894599556922913
+Epoch [74/100], Step [6/26], Loss: 0.6196435689926147
+Epoch [74/100], Step [7/26], Loss: 0.36829617619514465
+Epoch [74/100], Step [8/26], Loss: 0.6060200333595276
+Epoch [74/100], Step [9/26], Loss: 0.4726642072200775
+Epoch [74/100], Step [10/26], Loss: 0.21394331753253937
+Epoch [74/100], Step [11/26], Loss: 0.41128623485565186
+Epoch [74/100], Step [12/26], Loss: 0.6809692978858948
+Epoch [74/100], Step [13/26], Loss: 0.6049944758415222
+Epoch [74/100], Step [14/26], Loss: 0.32979923486709595
+Epoch [74/100], Step [15/26], Loss: 0.5721330642700195
+Epoch [74/100], Step [16/26], Loss: 0.4333767890930176
+Epoch [74/100], Step [17/26], Loss: 0.43397000432014465
+Epoch [74/100], Step [18/26], Loss: 0.2057071328163147
+Epoch [74/100], Step [19/26], Loss: 0.48025113344192505
+Epoch [74/100], Step [20/26], Loss: 0.654889702796936
+Epoch [74/100], Step [21/26], Loss: 0.7102338075637817
+Epoch [74/100], Step [22/26], Loss: 0.5208941698074341
+Epoch [74/100], Step [23/26], Loss: 0.5438003540039062
+Epoch [74/100], Step [24/26], Loss: 0.46102309226989746
+Epoch [74/100], Step [25/26], Loss: 0.4877191483974457
+Epoch [74/100], Step [26/26], Loss: 0.5143997669219971
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0]
+Epoch [75/100], Step [1/26], Loss: 0.5341934561729431
+Epoch [75/100], Step [2/26], Loss: 0.5762741565704346
+Epoch [75/100], Step [3/26], Loss: 0.40655454993247986
+Epoch [75/100], Step [4/26], Loss: 0.49411672353744507
+Epoch [75/100], Step [5/26], Loss: 0.6311156749725342
+Epoch [75/100], Step [6/26], Loss: 0.6197816133499146
+Epoch [75/100], Step [7/26], Loss: 0.2806724011898041
+Epoch [75/100], Step [8/26], Loss: 0.4739331603050232
+Epoch [75/100], Step [9/26], Loss: 0.508908212184906
+Epoch [75/100], Step [10/26], Loss: 0.25743815302848816
+Epoch [75/100], Step [11/26], Loss: 0.4183593988418579
+Epoch [75/100], Step [12/26], Loss: 0.6368879079818726
+Epoch [75/100], Step [13/26], Loss: 0.5516060590744019
+Epoch [75/100], Step [14/26], Loss: 0.3412485122680664
+Epoch [75/100], Step [15/26], Loss: 0.5570164918899536
+Epoch [75/100], Step [16/26], Loss: 0.43027645349502563
+Epoch [75/100], Step [17/26], Loss: 0.4323682487010956
+Epoch [75/100], Step [18/26], Loss: 0.2997373938560486
+Epoch [75/100], Step [19/26], Loss: 0.6568992137908936
+Epoch [75/100], Step [20/26], Loss: 0.7730301022529602
+Epoch [75/100], Step [21/26], Loss: 0.7211414575576782
+Epoch [75/100], Step [22/26], Loss: 0.49971073865890503
+Epoch [75/100], Step [23/26], Loss: 0.5620038509368896
+Epoch [75/100], Step [24/26], Loss: 0.5152613520622253
+Epoch [75/100], Step [25/26], Loss: 0.4603413939476013
+Epoch [75/100], Step [26/26], Loss: 0.4701807200908661
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1]
+Epoch [76/100], Step [1/26], Loss: 0.5393990874290466
+Epoch [76/100], Step [2/26], Loss: 0.40333276987075806
+Epoch [76/100], Step [3/26], Loss: 0.5045705437660217
+Epoch [76/100], Step [4/26], Loss: 0.5089071393013
+Epoch [76/100], Step [5/26], Loss: 0.606781005859375
+Epoch [76/100], Step [6/26], Loss: 0.49421226978302
+Epoch [76/100], Step [7/26], Loss: 0.333834707736969
+Epoch [76/100], Step [8/26], Loss: 0.47120213508605957
+Epoch [76/100], Step [9/26], Loss: 0.5323026180267334
+Epoch [76/100], Step [10/26], Loss: 0.2937566041946411
+Epoch [76/100], Step [11/26], Loss: 0.41598841547966003
+Epoch [76/100], Step [12/26], Loss: 0.6082435846328735
+Epoch [76/100], Step [13/26], Loss: 0.5941214561462402
+Epoch [76/100], Step [14/26], Loss: 0.3929896354675293
+Epoch [76/100], Step [15/26], Loss: 0.4942946135997772
+Epoch [76/100], Step [16/26], Loss: 0.444966584444046
+Epoch [76/100], Step [17/26], Loss: 0.39961498975753784
+Epoch [76/100], Step [18/26], Loss: 0.21867302060127258
+Epoch [76/100], Step [19/26], Loss: 0.47045189142227173
+Epoch [76/100], Step [20/26], Loss: 0.9028105735778809
+Epoch [76/100], Step [21/26], Loss: 0.8329628705978394
+Epoch [76/100], Step [22/26], Loss: 0.52003413438797
+Epoch [76/100], Step [23/26], Loss: 0.46033036708831787
+Epoch [76/100], Step [24/26], Loss: 0.4839450716972351
+Epoch [76/100], Step [25/26], Loss: 0.4765741229057312
+Epoch [76/100], Step [26/26], Loss: 0.4384438395500183
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+Epoch [77/100], Step [1/26], Loss: 0.5713073015213013
+Epoch [77/100], Step [2/26], Loss: 0.4515465497970581
+Epoch [77/100], Step [3/26], Loss: 0.38258442282676697
+Epoch [77/100], Step [4/26], Loss: 0.3455314636230469
+Epoch [77/100], Step [5/26], Loss: 0.6592629551887512
+Epoch [77/100], Step [6/26], Loss: 0.5284490585327148
+Epoch [77/100], Step [7/26], Loss: 0.3504065275192261
+Epoch [77/100], Step [8/26], Loss: 0.46943795680999756
+Epoch [77/100], Step [9/26], Loss: 0.515574038028717
+Epoch [77/100], Step [10/26], Loss: 0.25136691331863403
+Epoch [77/100], Step [11/26], Loss: 0.40946853160858154
+Epoch [77/100], Step [12/26], Loss: 0.5993819236755371
+Epoch [77/100], Step [13/26], Loss: 0.5478122234344482
+Epoch [77/100], Step [14/26], Loss: 0.29440659284591675
+Epoch [77/100], Step [15/26], Loss: 0.5116848945617676
+Epoch [77/100], Step [16/26], Loss: 0.45123523473739624
+Epoch [77/100], Step [17/26], Loss: 0.4725928008556366
+Epoch [77/100], Step [18/26], Loss: 0.22087042033672333
+Epoch [77/100], Step [19/26], Loss: 0.48364073038101196
+Epoch [77/100], Step [20/26], Loss: 0.7420592308044434
+Epoch [77/100], Step [21/26], Loss: 0.7072247862815857
+Epoch [77/100], Step [22/26], Loss: 0.508667528629303
+Epoch [77/100], Step [23/26], Loss: 0.528613805770874
+Epoch [77/100], Step [24/26], Loss: 0.5054255127906799
+Epoch [77/100], Step [25/26], Loss: 0.5498179197311401
+Epoch [77/100], Step [26/26], Loss: 0.4788036346435547
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1]
+Epoch [78/100], Step [1/26], Loss: 0.5219604969024658
+Epoch [78/100], Step [2/26], Loss: 0.47396010160446167
+Epoch [78/100], Step [3/26], Loss: 0.4442521929740906
+Epoch [78/100], Step [4/26], Loss: 0.5264226198196411
+Epoch [78/100], Step [5/26], Loss: 0.6429609060287476
+Epoch [78/100], Step [6/26], Loss: 0.5017786026000977
+Epoch [78/100], Step [7/26], Loss: 0.2732614576816559
+Epoch [78/100], Step [8/26], Loss: 0.617742657661438
+Epoch [78/100], Step [9/26], Loss: 0.5094487071037292
+Epoch [78/100], Step [10/26], Loss: 0.22684215009212494
+Epoch [78/100], Step [11/26], Loss: 0.3738721013069153
+Epoch [78/100], Step [12/26], Loss: 0.7449226379394531
+Epoch [78/100], Step [13/26], Loss: 0.6557909250259399
+Epoch [78/100], Step [14/26], Loss: 0.343178391456604
+Epoch [78/100], Step [15/26], Loss: 0.516315758228302
+Epoch [78/100], Step [16/26], Loss: 0.4214034676551819
+Epoch [78/100], Step [17/26], Loss: 0.4305720627307892
+Epoch [78/100], Step [18/26], Loss: 0.351642370223999
+Epoch [78/100], Step [19/26], Loss: 0.5320276021957397
+Epoch [78/100], Step [20/26], Loss: 0.6968725323677063
+Epoch [78/100], Step [21/26], Loss: 0.6655243635177612
+Epoch [78/100], Step [22/26], Loss: 0.5231865048408508
+Epoch [78/100], Step [23/26], Loss: 0.3541974723339081
+Epoch [78/100], Step [24/26], Loss: 0.46630316972732544
+Epoch [78/100], Step [25/26], Loss: 0.475130558013916
+Epoch [78/100], Step [26/26], Loss: 0.46307048201560974
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+Epoch [79/100], Step [1/26], Loss: 0.5371565222740173
+Epoch [79/100], Step [2/26], Loss: 0.3424401879310608
+Epoch [79/100], Step [3/26], Loss: 0.44005078077316284
+Epoch [79/100], Step [4/26], Loss: 0.36121445894241333
+Epoch [79/100], Step [5/26], Loss: 0.6061104536056519
+Epoch [79/100], Step [6/26], Loss: 0.45466965436935425
+Epoch [79/100], Step [7/26], Loss: 0.29139140248298645
+Epoch [79/100], Step [8/26], Loss: 0.5229644775390625
+Epoch [79/100], Step [9/26], Loss: 0.5164035558700562
+Epoch [79/100], Step [10/26], Loss: 0.27590829133987427
+Epoch [79/100], Step [11/26], Loss: 0.354267954826355
+Epoch [79/100], Step [12/26], Loss: 0.5650601983070374
+Epoch [79/100], Step [13/26], Loss: 0.5749174356460571
+Epoch [79/100], Step [14/26], Loss: 0.2682802081108093
+Epoch [79/100], Step [15/26], Loss: 0.5108713507652283
+Epoch [79/100], Step [16/26], Loss: 0.4476519823074341
+Epoch [79/100], Step [17/26], Loss: 0.46466872096061707
+Epoch [79/100], Step [18/26], Loss: 0.20895063877105713
+Epoch [79/100], Step [19/26], Loss: 0.4629667103290558
+Epoch [79/100], Step [20/26], Loss: 0.6753699779510498
+Epoch [79/100], Step [21/26], Loss: 0.7039466500282288
+Epoch [79/100], Step [22/26], Loss: 0.4913361668586731
+Epoch [79/100], Step [23/26], Loss: 0.6051710844039917
+Epoch [79/100], Step [24/26], Loss: 0.4883151352405548
+Epoch [79/100], Step [25/26], Loss: 0.4946957528591156
+Epoch [79/100], Step [26/26], Loss: 0.4449719786643982
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0]
+Epoch [80/100], Step [1/26], Loss: 0.5266250967979431
+Epoch [80/100], Step [2/26], Loss: 0.3624325692653656
+Epoch [80/100], Step [3/26], Loss: 0.41212770342826843
+Epoch [80/100], Step [4/26], Loss: 0.4002895951271057
+Epoch [80/100], Step [5/26], Loss: 0.5590332746505737
+Epoch [80/100], Step [6/26], Loss: 0.5614234209060669
+Epoch [80/100], Step [7/26], Loss: 0.28348058462142944
+Epoch [80/100], Step [8/26], Loss: 0.5990954041481018
+Epoch [80/100], Step [9/26], Loss: 0.4807667136192322
+Epoch [80/100], Step [10/26], Loss: 0.1563200056552887
+Epoch [80/100], Step [11/26], Loss: 0.3976229429244995
+Epoch [80/100], Step [12/26], Loss: 0.5186004638671875
+Epoch [80/100], Step [13/26], Loss: 0.5908068418502808
+Epoch [80/100], Step [14/26], Loss: 0.2876166105270386
+Epoch [80/100], Step [15/26], Loss: 0.5086376667022705
+Epoch [80/100], Step [16/26], Loss: 0.5599403381347656
+Epoch [80/100], Step [17/26], Loss: 0.4559745788574219
+Epoch [80/100], Step [18/26], Loss: 0.25181061029434204
+Epoch [80/100], Step [19/26], Loss: 0.4761323928833008
+Epoch [80/100], Step [20/26], Loss: 0.6742121577262878
+Epoch [80/100], Step [21/26], Loss: 0.6726663708686829
+Epoch [80/100], Step [22/26], Loss: 0.5249467492103577
+Epoch [80/100], Step [23/26], Loss: 0.4214923679828644
+Epoch [80/100], Step [24/26], Loss: 0.4913002550601959
+Epoch [80/100], Step [25/26], Loss: 0.47785088419914246
+Epoch [80/100], Step [26/26], Loss: 0.4176749587059021
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Epoch [81/100], Step [1/26], Loss: 0.46858087182044983
+Epoch [81/100], Step [2/26], Loss: 0.35163187980651855
+Epoch [81/100], Step [3/26], Loss: 0.5759190320968628
+Epoch [81/100], Step [4/26], Loss: 0.3613961338996887
+Epoch [81/100], Step [5/26], Loss: 0.8546878099441528
+Epoch [81/100], Step [6/26], Loss: 0.5750108957290649
+Epoch [81/100], Step [7/26], Loss: 0.3620469570159912
+Epoch [81/100], Step [8/26], Loss: 0.4960116744041443
+Epoch [81/100], Step [9/26], Loss: 0.5290935039520264
+Epoch [81/100], Step [10/26], Loss: 0.34458422660827637
+Epoch [81/100], Step [11/26], Loss: 0.41601884365081787
+Epoch [81/100], Step [12/26], Loss: 0.5021346807479858
+Epoch [81/100], Step [13/26], Loss: 0.5428414344787598
+Epoch [81/100], Step [14/26], Loss: 0.3634980022907257
+Epoch [81/100], Step [15/26], Loss: 0.5867059230804443
+Epoch [81/100], Step [16/26], Loss: 0.42760762572288513
+Epoch [81/100], Step [17/26], Loss: 0.560817301273346
+Epoch [81/100], Step [18/26], Loss: 0.3480495810508728
+Epoch [81/100], Step [19/26], Loss: 0.39723730087280273
+Epoch [81/100], Step [20/26], Loss: 0.7216981053352356
+Epoch [81/100], Step [21/26], Loss: 0.9018272161483765
+Epoch [81/100], Step [22/26], Loss: 0.5448548793792725
+Epoch [81/100], Step [23/26], Loss: 0.42759039998054504
+Epoch [81/100], Step [24/26], Loss: 0.48055288195610046
+Epoch [81/100], Step [25/26], Loss: 0.4324290454387665
+Epoch [81/100], Step [26/26], Loss: 0.4359472393989563
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Epoch [82/100], Step [1/26], Loss: 0.4422745108604431
+Epoch [82/100], Step [2/26], Loss: 0.32660239934921265
+Epoch [82/100], Step [3/26], Loss: 0.4116879105567932
+Epoch [82/100], Step [4/26], Loss: 0.34446102380752563
+Epoch [82/100], Step [5/26], Loss: 0.7123618125915527
+Epoch [82/100], Step [6/26], Loss: 0.5445886850357056
+Epoch [82/100], Step [7/26], Loss: 0.30547288060188293
+Epoch [82/100], Step [8/26], Loss: 0.43557435274124146
+Epoch [82/100], Step [9/26], Loss: 0.46724873781204224
+Epoch [82/100], Step [10/26], Loss: 0.2445198893547058
+Epoch [82/100], Step [11/26], Loss: 0.4086686968803406
+Epoch [82/100], Step [12/26], Loss: 0.6096319556236267
+Epoch [82/100], Step [13/26], Loss: 0.5689785480499268
+Epoch [82/100], Step [14/26], Loss: 0.31761661171913147
+Epoch [82/100], Step [15/26], Loss: 0.4106431007385254
+Epoch [82/100], Step [16/26], Loss: 0.5127942562103271
+Epoch [82/100], Step [17/26], Loss: 0.44879838824272156
+Epoch [82/100], Step [18/26], Loss: 0.23465701937675476
+Epoch [82/100], Step [19/26], Loss: 0.47245585918426514
+Epoch [82/100], Step [20/26], Loss: 0.6789031624794006
+Epoch [82/100], Step [21/26], Loss: 0.6428967118263245
+Epoch [82/100], Step [22/26], Loss: 0.5049104690551758
+Epoch [82/100], Step [23/26], Loss: 0.49895650148391724
+Epoch [82/100], Step [24/26], Loss: 0.49680280685424805
+Epoch [82/100], Step [25/26], Loss: 0.4309219419956207
+Epoch [82/100], Step [26/26], Loss: 0.5555406808853149
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1]
+Epoch [83/100], Step [1/26], Loss: 0.4753158390522003
+Epoch [83/100], Step [2/26], Loss: 0.42033353447914124
+Epoch [83/100], Step [3/26], Loss: 0.5503567457199097
+Epoch [83/100], Step [4/26], Loss: 0.3233911395072937
+Epoch [83/100], Step [5/26], Loss: 0.6611417531967163
+Epoch [83/100], Step [6/26], Loss: 0.5533915162086487
+Epoch [83/100], Step [7/26], Loss: 0.2802169919013977
+Epoch [83/100], Step [8/26], Loss: 0.5316116809844971
+Epoch [83/100], Step [9/26], Loss: 0.6403467059135437
+Epoch [83/100], Step [10/26], Loss: 0.27383309602737427
+Epoch [83/100], Step [11/26], Loss: 0.4286586046218872
+Epoch [83/100], Step [12/26], Loss: 0.6596988439559937
+Epoch [83/100], Step [13/26], Loss: 0.5401025414466858
+Epoch [83/100], Step [14/26], Loss: 0.29227396845817566
+Epoch [83/100], Step [15/26], Loss: 0.5463030934333801
+Epoch [83/100], Step [16/26], Loss: 0.45469415187835693
+Epoch [83/100], Step [17/26], Loss: 0.41280946135520935
+Epoch [83/100], Step [18/26], Loss: 0.2258145809173584
+Epoch [83/100], Step [19/26], Loss: 0.4741525650024414
+Epoch [83/100], Step [20/26], Loss: 0.7002130746841431
+Epoch [83/100], Step [21/26], Loss: 0.6609511971473694
+Epoch [83/100], Step [22/26], Loss: 0.5636650919914246
+Epoch [83/100], Step [23/26], Loss: 0.5317761301994324
+Epoch [83/100], Step [24/26], Loss: 0.4982772767543793
+Epoch [83/100], Step [25/26], Loss: 0.5162907838821411
+Epoch [83/100], Step [26/26], Loss: 0.3761952817440033
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+Epoch [84/100], Step [1/26], Loss: 0.5682315230369568
+Epoch [84/100], Step [2/26], Loss: 0.3308607339859009
+Epoch [84/100], Step [3/26], Loss: 0.4195462465286255
+Epoch [84/100], Step [4/26], Loss: 0.3729954957962036
+Epoch [84/100], Step [5/26], Loss: 0.574046790599823
+Epoch [84/100], Step [6/26], Loss: 0.5356767177581787
+Epoch [84/100], Step [7/26], Loss: 0.29009151458740234
+Epoch [84/100], Step [8/26], Loss: 0.4673328101634979
+Epoch [84/100], Step [9/26], Loss: 0.5206716656684875
+Epoch [84/100], Step [10/26], Loss: 0.2698633372783661
+Epoch [84/100], Step [11/26], Loss: 0.44131946563720703
+Epoch [84/100], Step [12/26], Loss: 0.5770096778869629
+Epoch [84/100], Step [13/26], Loss: 0.5669097304344177
+Epoch [84/100], Step [14/26], Loss: 0.3553299307823181
+Epoch [84/100], Step [15/26], Loss: 0.4741126298904419
+Epoch [84/100], Step [16/26], Loss: 0.445757657289505
+Epoch [84/100], Step [17/26], Loss: 0.46659910678863525
+Epoch [84/100], Step [18/26], Loss: 0.23991315066814423
+Epoch [84/100], Step [19/26], Loss: 0.5278085470199585
+Epoch [84/100], Step [20/26], Loss: 0.683262050151825
+Epoch [84/100], Step [21/26], Loss: 0.7666462659835815
+Epoch [84/100], Step [22/26], Loss: 0.5772603750228882
+Epoch [84/100], Step [23/26], Loss: 0.38222065567970276
+Epoch [84/100], Step [24/26], Loss: 0.467376172542572
+Epoch [84/100], Step [25/26], Loss: 0.47479069232940674
+Epoch [84/100], Step [26/26], Loss: 0.5159891247749329
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+Epoch [85/100], Step [1/26], Loss: 0.5520186424255371
+Epoch [85/100], Step [2/26], Loss: 0.3551953434944153
+Epoch [85/100], Step [3/26], Loss: 0.4281851053237915
+Epoch [85/100], Step [4/26], Loss: 0.4404231607913971
+Epoch [85/100], Step [5/26], Loss: 0.6084976196289062
+Epoch [85/100], Step [6/26], Loss: 0.4576529562473297
+Epoch [85/100], Step [7/26], Loss: 0.29980555176734924
+Epoch [85/100], Step [8/26], Loss: 0.4479507803916931
+Epoch [85/100], Step [9/26], Loss: 0.47241121530532837
+Epoch [85/100], Step [10/26], Loss: 0.22307279706001282
+Epoch [85/100], Step [11/26], Loss: 0.4043099880218506
+Epoch [85/100], Step [12/26], Loss: 0.5363274812698364
+Epoch [85/100], Step [13/26], Loss: 0.504439115524292
+Epoch [85/100], Step [14/26], Loss: 0.3380533754825592
+Epoch [85/100], Step [15/26], Loss: 0.43626970052719116
+Epoch [85/100], Step [16/26], Loss: 0.4679715037345886
+Epoch [85/100], Step [17/26], Loss: 0.4471786320209503
+Epoch [85/100], Step [18/26], Loss: 0.24835503101348877
+Epoch [85/100], Step [19/26], Loss: 0.4844256639480591
+Epoch [85/100], Step [20/26], Loss: 0.8386117219924927
+Epoch [85/100], Step [21/26], Loss: 0.6687570214271545
+Epoch [85/100], Step [22/26], Loss: 0.6265444755554199
+Epoch [85/100], Step [23/26], Loss: 0.4600430428981781
+Epoch [85/100], Step [24/26], Loss: 0.4713265895843506
+Epoch [85/100], Step [25/26], Loss: 0.5099165439605713
+Epoch [85/100], Step [26/26], Loss: 0.44222956895828247
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1]
+Epoch [86/100], Step [1/26], Loss: 0.49877482652664185
+Epoch [86/100], Step [2/26], Loss: 0.4750998616218567
+Epoch [86/100], Step [3/26], Loss: 0.5627108812332153
+Epoch [86/100], Step [4/26], Loss: 0.36131584644317627
+Epoch [86/100], Step [5/26], Loss: 0.615899920463562
+Epoch [86/100], Step [6/26], Loss: 0.5396442413330078
+Epoch [86/100], Step [7/26], Loss: 0.3076770305633545
+Epoch [86/100], Step [8/26], Loss: 0.47338593006134033
+Epoch [86/100], Step [9/26], Loss: 0.5657284259796143
+Epoch [86/100], Step [10/26], Loss: 0.2958090603351593
+Epoch [86/100], Step [11/26], Loss: 0.3823733925819397
+Epoch [86/100], Step [12/26], Loss: 0.5936660170555115
+Epoch [86/100], Step [13/26], Loss: 0.47834423184394836
+Epoch [86/100], Step [14/26], Loss: 0.2827908992767334
+Epoch [86/100], Step [15/26], Loss: 0.5346956849098206
+Epoch [86/100], Step [16/26], Loss: 0.5159001350402832
+Epoch [86/100], Step [17/26], Loss: 0.42417070269584656
+Epoch [86/100], Step [18/26], Loss: 0.25894758105278015
+Epoch [86/100], Step [19/26], Loss: 0.49173951148986816
+Epoch [86/100], Step [20/26], Loss: 0.7274014353752136
+Epoch [86/100], Step [21/26], Loss: 0.5302539467811584
+Epoch [86/100], Step [22/26], Loss: 0.8168029189109802
+Epoch [86/100], Step [23/26], Loss: 0.5698039531707764
+Epoch [86/100], Step [24/26], Loss: 0.5180758833885193
+Epoch [86/100], Step [25/26], Loss: 0.4526847004890442
+Epoch [86/100], Step [26/26], Loss: 0.4910740256309509
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Epoch [87/100], Step [1/26], Loss: 0.5961443185806274
+Epoch [87/100], Step [2/26], Loss: 0.2684755027294159
+Epoch [87/100], Step [3/26], Loss: 0.4384903311729431
+Epoch [87/100], Step [4/26], Loss: 0.18929123878479004
+Epoch [87/100], Step [5/26], Loss: 1.4518892765045166
+Epoch [87/100], Step [6/26], Loss: 0.6736570596694946
+Epoch [87/100], Step [7/26], Loss: 0.28530433773994446
+Epoch [87/100], Step [8/26], Loss: 0.4906129837036133
+Epoch [87/100], Step [9/26], Loss: 0.5249503254890442
+Epoch [87/100], Step [10/26], Loss: 0.36435338854789734
+Epoch [87/100], Step [11/26], Loss: 0.39220336079597473
+Epoch [87/100], Step [12/26], Loss: 0.5471990704536438
+Epoch [87/100], Step [13/26], Loss: 0.5211949348449707
+Epoch [87/100], Step [14/26], Loss: 0.3795012831687927
+Epoch [87/100], Step [15/26], Loss: 0.43481725454330444
+Epoch [87/100], Step [16/26], Loss: 0.5654786825180054
+Epoch [87/100], Step [17/26], Loss: 0.4844212532043457
+Epoch [87/100], Step [18/26], Loss: 0.31906211376190186
+Epoch [87/100], Step [19/26], Loss: 0.5377326011657715
+Epoch [87/100], Step [20/26], Loss: 0.7263899445533752
+Epoch [87/100], Step [21/26], Loss: 0.6960245370864868
+Epoch [87/100], Step [22/26], Loss: 0.4803001880645752
+Epoch [87/100], Step [23/26], Loss: 0.6114687323570251
+Epoch [87/100], Step [24/26], Loss: 0.4396941661834717
+Epoch [87/100], Step [25/26], Loss: 0.4293031096458435
+Epoch [87/100], Step [26/26], Loss: 0.45010310411453247
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch [88/100], Step [1/26], Loss: 0.5180404186248779
+Epoch [88/100], Step [2/26], Loss: 0.4240451753139496
+Epoch [88/100], Step [3/26], Loss: 0.38018181920051575
+Epoch [88/100], Step [4/26], Loss: 0.29987862706184387
+Epoch [88/100], Step [5/26], Loss: 0.6605499982833862
+Epoch [88/100], Step [6/26], Loss: 0.5116220712661743
+Epoch [88/100], Step [7/26], Loss: 0.290462851524353
+Epoch [88/100], Step [8/26], Loss: 0.5409823060035706
+Epoch [88/100], Step [9/26], Loss: 0.5188080072402954
+Epoch [88/100], Step [10/26], Loss: 0.20664288103580475
+Epoch [88/100], Step [11/26], Loss: 0.3725033402442932
+Epoch [88/100], Step [12/26], Loss: 0.6645245552062988
+Epoch [88/100], Step [13/26], Loss: 0.5172134041786194
+Epoch [88/100], Step [14/26], Loss: 0.40383243560791016
+Epoch [88/100], Step [15/26], Loss: 0.6597028970718384
+Epoch [88/100], Step [16/26], Loss: 0.49855124950408936
+Epoch [88/100], Step [17/26], Loss: 0.410140722990036
+Epoch [88/100], Step [18/26], Loss: 0.2746480703353882
+Epoch [88/100], Step [19/26], Loss: 0.4050487279891968
+Epoch [88/100], Step [20/26], Loss: 0.6266208291053772
+Epoch [88/100], Step [21/26], Loss: 0.6969771385192871
+Epoch [88/100], Step [22/26], Loss: 0.4291846752166748
+Epoch [88/100], Step [23/26], Loss: 0.5688821077346802
+Epoch [88/100], Step [24/26], Loss: 0.4841058850288391
+Epoch [88/100], Step [25/26], Loss: 0.5001159906387329
+Epoch [88/100], Step [26/26], Loss: 0.4472559094429016
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0]
+Epoch [89/100], Step [1/26], Loss: 0.47099268436431885
+Epoch [89/100], Step [2/26], Loss: 0.6290987730026245
+Epoch [89/100], Step [3/26], Loss: 0.5211124420166016
+Epoch [89/100], Step [4/26], Loss: 0.354986310005188
+Epoch [89/100], Step [5/26], Loss: 0.6264340877532959
+Epoch [89/100], Step [6/26], Loss: 0.607913613319397
+Epoch [89/100], Step [7/26], Loss: 0.3040408790111542
+Epoch [89/100], Step [8/26], Loss: 0.5022859573364258
+Epoch [89/100], Step [9/26], Loss: 0.4822538495063782
+Epoch [89/100], Step [10/26], Loss: 0.23503431677818298
+Epoch [89/100], Step [11/26], Loss: 0.41474729776382446
+Epoch [89/100], Step [12/26], Loss: 0.7084313631057739
+Epoch [89/100], Step [13/26], Loss: 0.5647929906845093
+Epoch [89/100], Step [14/26], Loss: 0.28072217106819153
+Epoch [89/100], Step [15/26], Loss: 0.491550087928772
+Epoch [89/100], Step [16/26], Loss: 0.42697617411613464
+Epoch [89/100], Step [17/26], Loss: 0.3912585973739624
+Epoch [89/100], Step [18/26], Loss: 0.27746549248695374
+Epoch [89/100], Step [19/26], Loss: 0.4960494637489319
+Epoch [89/100], Step [20/26], Loss: 0.5834406614303589
+Epoch [89/100], Step [21/26], Loss: 0.6732613444328308
+Epoch [89/100], Step [22/26], Loss: 0.5682048797607422
+Epoch [89/100], Step [23/26], Loss: 0.4592241048812866
+Epoch [89/100], Step [24/26], Loss: 0.3930954933166504
+Epoch [89/100], Step [25/26], Loss: 0.4354575276374817
+Epoch [89/100], Step [26/26], Loss: 0.4223286509513855
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+Epoch [90/100], Step [1/26], Loss: 0.5116503834724426
+Epoch [90/100], Step [2/26], Loss: 0.47765329480171204
+Epoch [90/100], Step [3/26], Loss: 0.40462350845336914
+Epoch [90/100], Step [4/26], Loss: 0.33267641067504883
+Epoch [90/100], Step [5/26], Loss: 0.6715914607048035
+Epoch [90/100], Step [6/26], Loss: 0.5947937965393066
+Epoch [90/100], Step [7/26], Loss: 0.21694308519363403
+Epoch [90/100], Step [8/26], Loss: 0.4936903715133667
+Epoch [90/100], Step [9/26], Loss: 0.5614537596702576
+Epoch [90/100], Step [10/26], Loss: 0.2373097538948059
+Epoch [90/100], Step [11/26], Loss: 0.5067789554595947
+Epoch [90/100], Step [12/26], Loss: 0.6222996711730957
+Epoch [90/100], Step [13/26], Loss: 0.5275502800941467
+Epoch [90/100], Step [14/26], Loss: 0.33475351333618164
+Epoch [90/100], Step [15/26], Loss: 0.4323849081993103
+Epoch [90/100], Step [16/26], Loss: 0.5390991568565369
+Epoch [90/100], Step [17/26], Loss: 0.46930480003356934
+Epoch [90/100], Step [18/26], Loss: 0.40476229786872864
+Epoch [90/100], Step [19/26], Loss: 0.4679372310638428
+Epoch [90/100], Step [20/26], Loss: 0.6409851908683777
+Epoch [90/100], Step [21/26], Loss: 0.654534637928009
+Epoch [90/100], Step [22/26], Loss: 0.5808243751525879
+Epoch [90/100], Step [23/26], Loss: 0.5449068546295166
+Epoch [90/100], Step [24/26], Loss: 0.49469807744026184
+Epoch [90/100], Step [25/26], Loss: 0.4525676965713501
+Epoch [90/100], Step [26/26], Loss: 0.4593791961669922
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Epoch [91/100], Step [1/26], Loss: 0.49032729864120483
+Epoch [91/100], Step [2/26], Loss: 0.30465346574783325
+Epoch [91/100], Step [3/26], Loss: 0.44646790623664856
+Epoch [91/100], Step [4/26], Loss: 0.28461503982543945
+Epoch [91/100], Step [5/26], Loss: 0.6743490695953369
+Epoch [91/100], Step [6/26], Loss: 0.5421645045280457
+Epoch [91/100], Step [7/26], Loss: 0.2678794264793396
+Epoch [91/100], Step [8/26], Loss: 0.45477622747421265
+Epoch [91/100], Step [9/26], Loss: 0.5048093199729919
+Epoch [91/100], Step [10/26], Loss: 0.2346627116203308
+Epoch [91/100], Step [11/26], Loss: 0.3635316491127014
+Epoch [91/100], Step [12/26], Loss: 0.5883831977844238
+Epoch [91/100], Step [13/26], Loss: 0.6034478545188904
+Epoch [91/100], Step [14/26], Loss: 0.3072587549686432
+Epoch [91/100], Step [15/26], Loss: 0.42448514699935913
+Epoch [91/100], Step [16/26], Loss: 0.5987569093704224
+Epoch [91/100], Step [17/26], Loss: 0.5201376080513
+Epoch [91/100], Step [18/26], Loss: 0.3503502905368805
+Epoch [91/100], Step [19/26], Loss: 0.45032984018325806
+Epoch [91/100], Step [20/26], Loss: 0.6356157660484314
+Epoch [91/100], Step [21/26], Loss: 0.6761137843132019
+Epoch [91/100], Step [22/26], Loss: 0.5531061887741089
+Epoch [91/100], Step [23/26], Loss: 0.5623497366905212
+Epoch [91/100], Step [24/26], Loss: 0.4551810622215271
+Epoch [91/100], Step [25/26], Loss: 0.4939992129802704
+Epoch [91/100], Step [26/26], Loss: 0.43141472339630127
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+Epoch [92/100], Step [1/26], Loss: 0.6448578834533691
+Epoch [92/100], Step [2/26], Loss: 0.34714004397392273
+Epoch [92/100], Step [3/26], Loss: 0.45316964387893677
+Epoch [92/100], Step [4/26], Loss: 0.4142150580883026
+Epoch [92/100], Step [5/26], Loss: 0.7287985682487488
+Epoch [92/100], Step [6/26], Loss: 0.5134950876235962
+Epoch [92/100], Step [7/26], Loss: 0.2746160626411438
+Epoch [92/100], Step [8/26], Loss: 0.5045607089996338
+Epoch [92/100], Step [9/26], Loss: 0.5312529802322388
+Epoch [92/100], Step [10/26], Loss: 0.2422957420349121
+Epoch [92/100], Step [11/26], Loss: 0.37459129095077515
+Epoch [92/100], Step [12/26], Loss: 0.6094950437545776
+Epoch [92/100], Step [13/26], Loss: 0.566909909248352
+Epoch [92/100], Step [14/26], Loss: 0.420331746339798
+Epoch [92/100], Step [15/26], Loss: 0.5299144387245178
+Epoch [92/100], Step [16/26], Loss: 0.474544882774353
+Epoch [92/100], Step [17/26], Loss: 0.4728294610977173
+Epoch [92/100], Step [18/26], Loss: 0.33582597970962524
+Epoch [92/100], Step [19/26], Loss: 0.5611597895622253
+Epoch [92/100], Step [20/26], Loss: 0.6792135238647461
+Epoch [92/100], Step [21/26], Loss: 0.6875390410423279
+Epoch [92/100], Step [22/26], Loss: 0.5301957130432129
+Epoch [92/100], Step [23/26], Loss: 0.40862399339675903
+Epoch [92/100], Step [24/26], Loss: 0.48309773206710815
+Epoch [92/100], Step [25/26], Loss: 0.4753280282020569
+Epoch [92/100], Step [26/26], Loss: 0.4146547019481659
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch [93/100], Step [1/26], Loss: 0.4854762554168701
+Epoch [93/100], Step [2/26], Loss: 0.36579081416130066
+Epoch [93/100], Step [3/26], Loss: 0.48074832558631897
+Epoch [93/100], Step [4/26], Loss: 0.42238104343414307
+Epoch [93/100], Step [5/26], Loss: 0.6434375047683716
+Epoch [93/100], Step [6/26], Loss: 0.5057401657104492
+Epoch [93/100], Step [7/26], Loss: 0.30799537897109985
+Epoch [93/100], Step [8/26], Loss: 0.5298889875411987
+Epoch [93/100], Step [9/26], Loss: 0.5047746896743774
+Epoch [93/100], Step [10/26], Loss: 0.33375003933906555
+Epoch [93/100], Step [11/26], Loss: 0.4018426239490509
+Epoch [93/100], Step [12/26], Loss: 0.525649905204773
+Epoch [93/100], Step [13/26], Loss: 0.5140021443367004
+Epoch [93/100], Step [14/26], Loss: 0.3484345078468323
+Epoch [93/100], Step [15/26], Loss: 0.5382043123245239
+Epoch [93/100], Step [16/26], Loss: 0.417877733707428
+Epoch [93/100], Step [17/26], Loss: 0.3854406774044037
+Epoch [93/100], Step [18/26], Loss: 0.22994844615459442
+Epoch [93/100], Step [19/26], Loss: 0.5251740217208862
+Epoch [93/100], Step [20/26], Loss: 0.7090553641319275
+Epoch [93/100], Step [21/26], Loss: 0.7143906354904175
+Epoch [93/100], Step [22/26], Loss: 0.5496548414230347
+Epoch [93/100], Step [23/26], Loss: 0.4685130715370178
+Epoch [93/100], Step [24/26], Loss: 0.46379202604293823
+Epoch [93/100], Step [25/26], Loss: 0.46936073899269104
+Epoch [93/100], Step [26/26], Loss: 0.4699108600616455
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+Epoch [94/100], Step [1/26], Loss: 0.6157228946685791
+Epoch [94/100], Step [2/26], Loss: 0.3521954417228699
+Epoch [94/100], Step [3/26], Loss: 0.5067605972290039
+Epoch [94/100], Step [4/26], Loss: 0.3553506135940552
+Epoch [94/100], Step [5/26], Loss: 0.6252096891403198
+Epoch [94/100], Step [6/26], Loss: 0.4798319339752197
+Epoch [94/100], Step [7/26], Loss: 0.33853137493133545
+Epoch [94/100], Step [8/26], Loss: 0.47807979583740234
+Epoch [94/100], Step [9/26], Loss: 0.5436830520629883
+Epoch [94/100], Step [10/26], Loss: 0.2718380093574524
+Epoch [94/100], Step [11/26], Loss: 0.4562395215034485
+Epoch [94/100], Step [12/26], Loss: 0.5075708627700806
+Epoch [94/100], Step [13/26], Loss: 0.5663506388664246
+Epoch [94/100], Step [14/26], Loss: 0.30991309881210327
+Epoch [94/100], Step [15/26], Loss: 0.3957664966583252
+Epoch [94/100], Step [16/26], Loss: 0.5221526622772217
+Epoch [94/100], Step [17/26], Loss: 0.3936193585395813
+Epoch [94/100], Step [18/26], Loss: 0.2845008075237274
+Epoch [94/100], Step [19/26], Loss: 0.5399106740951538
+Epoch [94/100], Step [20/26], Loss: 0.6629651784896851
+Epoch [94/100], Step [21/26], Loss: 0.7008710503578186
+Epoch [94/100], Step [22/26], Loss: 0.5463939905166626
+Epoch [94/100], Step [23/26], Loss: 0.4222135841846466
+Epoch [94/100], Step [24/26], Loss: 0.47214919328689575
+Epoch [94/100], Step [25/26], Loss: 0.3862200975418091
+Epoch [94/100], Step [26/26], Loss: 0.3778427839279175
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Epoch [95/100], Step [1/26], Loss: 0.6129485964775085
+Epoch [95/100], Step [2/26], Loss: 0.3035883605480194
+Epoch [95/100], Step [3/26], Loss: 0.4743688702583313
+Epoch [95/100], Step [4/26], Loss: 0.2849433422088623
+Epoch [95/100], Step [5/26], Loss: 0.6372663378715515
+Epoch [95/100], Step [6/26], Loss: 0.5615478754043579
+Epoch [95/100], Step [7/26], Loss: 0.2571207880973816
+Epoch [95/100], Step [8/26], Loss: 0.4846230447292328
+Epoch [95/100], Step [9/26], Loss: 0.5267902612686157
+Epoch [95/100], Step [10/26], Loss: 0.18704479932785034
+Epoch [95/100], Step [11/26], Loss: 0.4572712481021881
+Epoch [95/100], Step [12/26], Loss: 0.5630959272384644
+Epoch [95/100], Step [13/26], Loss: 0.4764479398727417
+Epoch [95/100], Step [14/26], Loss: 0.31637459993362427
+Epoch [95/100], Step [15/26], Loss: 0.500363826751709
+Epoch [95/100], Step [16/26], Loss: 0.511630654335022
+Epoch [95/100], Step [17/26], Loss: 0.4964729845523834
+Epoch [95/100], Step [18/26], Loss: 0.4267883598804474
+Epoch [95/100], Step [19/26], Loss: 0.4723268747329712
+Epoch [95/100], Step [20/26], Loss: 0.712172269821167
+Epoch [95/100], Step [21/26], Loss: 0.5744414329528809
+Epoch [95/100], Step [22/26], Loss: 0.4930184483528137
+Epoch [95/100], Step [23/26], Loss: 0.42562973499298096
+Epoch [95/100], Step [24/26], Loss: 0.44595515727996826
+Epoch [95/100], Step [25/26], Loss: 0.42629939317703247
+Epoch [95/100], Step [26/26], Loss: 0.4091750681400299
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Epoch [96/100], Step [1/26], Loss: 0.4487065076828003
+Epoch [96/100], Step [2/26], Loss: 0.3682129383087158
+Epoch [96/100], Step [3/26], Loss: 0.4025135040283203
+Epoch [96/100], Step [4/26], Loss: 0.32171130180358887
+Epoch [96/100], Step [5/26], Loss: 0.5763651728630066
+Epoch [96/100], Step [6/26], Loss: 0.5322023630142212
+Epoch [96/100], Step [7/26], Loss: 0.33612799644470215
+Epoch [96/100], Step [8/26], Loss: 0.47808122634887695
+Epoch [96/100], Step [9/26], Loss: 0.6176797747612
+Epoch [96/100], Step [10/26], Loss: 0.25501731038093567
+Epoch [96/100], Step [11/26], Loss: 0.41454583406448364
+Epoch [96/100], Step [12/26], Loss: 0.4958362579345703
+Epoch [96/100], Step [13/26], Loss: 0.6532376408576965
+Epoch [96/100], Step [14/26], Loss: 0.2775420546531677
+Epoch [96/100], Step [15/26], Loss: 0.3900681138038635
+Epoch [96/100], Step [16/26], Loss: 0.48873817920684814
+Epoch [96/100], Step [17/26], Loss: 0.41342854499816895
+Epoch [96/100], Step [18/26], Loss: 0.32654809951782227
+Epoch [96/100], Step [19/26], Loss: 0.5396523475646973
+Epoch [96/100], Step [20/26], Loss: 0.6542601585388184
+Epoch [96/100], Step [21/26], Loss: 0.6650061011314392
+Epoch [96/100], Step [22/26], Loss: 0.5184811353683472
+Epoch [96/100], Step [23/26], Loss: 0.4226944148540497
+Epoch [96/100], Step [24/26], Loss: 0.8453168869018555
+Epoch [96/100], Step [25/26], Loss: 0.5227071642875671
+Epoch [96/100], Step [26/26], Loss: 0.44113579392433167
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+Epoch [97/100], Step [1/26], Loss: 0.5049921274185181
+Epoch [97/100], Step [2/26], Loss: 0.3867896795272827
+Epoch [97/100], Step [3/26], Loss: 0.4153097867965698
+Epoch [97/100], Step [4/26], Loss: 0.27393925189971924
+Epoch [97/100], Step [5/26], Loss: 0.7217673063278198
+Epoch [97/100], Step [6/26], Loss: 0.5304554104804993
+Epoch [97/100], Step [7/26], Loss: 0.17359475791454315
+Epoch [97/100], Step [8/26], Loss: 0.5414234399795532
+Epoch [97/100], Step [9/26], Loss: 0.5104333758354187
+Epoch [97/100], Step [10/26], Loss: 0.17472699284553528
+Epoch [97/100], Step [11/26], Loss: 0.36274421215057373
+Epoch [97/100], Step [12/26], Loss: 0.674561619758606
+Epoch [97/100], Step [13/26], Loss: 0.6041125059127808
+Epoch [97/100], Step [14/26], Loss: 0.290408730506897
+Epoch [97/100], Step [15/26], Loss: 0.4372650980949402
+Epoch [97/100], Step [16/26], Loss: 0.5309114456176758
+Epoch [97/100], Step [17/26], Loss: 0.4661127030849457
+Epoch [97/100], Step [18/26], Loss: 0.26012036204338074
+Epoch [97/100], Step [19/26], Loss: 0.4872899651527405
+Epoch [97/100], Step [20/26], Loss: 0.6149247884750366
+Epoch [97/100], Step [21/26], Loss: 0.6394208073616028
+Epoch [97/100], Step [22/26], Loss: 0.4867102801799774
+Epoch [97/100], Step [23/26], Loss: 0.5926143527030945
+Epoch [97/100], Step [24/26], Loss: 0.4008611738681793
+Epoch [97/100], Step [25/26], Loss: 0.46349433064460754
+Epoch [97/100], Step [26/26], Loss: 0.42036113142967224
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+Epoch [98/100], Step [1/26], Loss: 0.5811494588851929
+Epoch [98/100], Step [2/26], Loss: 0.41741764545440674
+Epoch [98/100], Step [3/26], Loss: 0.38776957988739014
+Epoch [98/100], Step [4/26], Loss: 0.26918888092041016
+Epoch [98/100], Step [5/26], Loss: 0.6205019354820251
+Epoch [98/100], Step [6/26], Loss: 0.5679656267166138
+Epoch [98/100], Step [7/26], Loss: 0.23868602514266968
+Epoch [98/100], Step [8/26], Loss: 0.5538336634635925
+Epoch [98/100], Step [9/26], Loss: 0.5279473662376404
+Epoch [98/100], Step [10/26], Loss: 0.23189261555671692
+Epoch [98/100], Step [11/26], Loss: 0.425162136554718
+Epoch [98/100], Step [12/26], Loss: 0.4458022117614746
+Epoch [98/100], Step [13/26], Loss: 0.5808137059211731
+Epoch [98/100], Step [14/26], Loss: 0.27149054408073425
+Epoch [98/100], Step [15/26], Loss: 0.409366250038147
+Epoch [98/100], Step [16/26], Loss: 0.3099811375141144
+Epoch [98/100], Step [17/26], Loss: 0.4052039086818695
+Epoch [98/100], Step [18/26], Loss: 0.2602313458919525
+Epoch [98/100], Step [19/26], Loss: 0.47798001766204834
+Epoch [98/100], Step [20/26], Loss: 0.6333695650100708
+Epoch [98/100], Step [21/26], Loss: 0.676336407661438
+Epoch [98/100], Step [22/26], Loss: 0.5206699967384338
+Epoch [98/100], Step [23/26], Loss: 0.44968849420547485
+Epoch [98/100], Step [24/26], Loss: 0.44705572724342346
+Epoch [98/100], Step [25/26], Loss: 0.516269862651825
+Epoch [98/100], Step [26/26], Loss: 0.4567583203315735
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1]
+Epoch [99/100], Step [1/26], Loss: 0.5271245241165161
+Epoch [99/100], Step [2/26], Loss: 0.49175721406936646
+Epoch [99/100], Step [3/26], Loss: 0.4370076060295105
+Epoch [99/100], Step [4/26], Loss: 0.393440842628479
+Epoch [99/100], Step [5/26], Loss: 0.5417242646217346
+Epoch [99/100], Step [6/26], Loss: 0.50168776512146
+Epoch [99/100], Step [7/26], Loss: 0.34920135140419006
+Epoch [99/100], Step [8/26], Loss: 0.46414822340011597
+Epoch [99/100], Step [9/26], Loss: 0.46307992935180664
+Epoch [99/100], Step [10/26], Loss: 0.23158493638038635
+Epoch [99/100], Step [11/26], Loss: 0.4412030577659607
+Epoch [99/100], Step [12/26], Loss: 0.7538246512413025
+Epoch [99/100], Step [13/26], Loss: 0.5498427152633667
+Epoch [99/100], Step [14/26], Loss: 0.37623679637908936
+Epoch [99/100], Step [15/26], Loss: 0.4973071217536926
+Epoch [99/100], Step [16/26], Loss: 0.4786427319049835
+Epoch [99/100], Step [17/26], Loss: 0.4489940404891968
+Epoch [99/100], Step [18/26], Loss: 0.31126514077186584
+Epoch [99/100], Step [19/26], Loss: 0.5004396438598633
+Epoch [99/100], Step [20/26], Loss: 0.6193720698356628
+Epoch [99/100], Step [21/26], Loss: 0.6191922426223755
+Epoch [99/100], Step [22/26], Loss: 0.5607273578643799
+Epoch [99/100], Step [23/26], Loss: 0.45487985014915466
+Epoch [99/100], Step [24/26], Loss: 0.45649805665016174
+Epoch [99/100], Step [25/26], Loss: 0.5073450803756714
+Epoch [99/100], Step [26/26], Loss: 0.4421834945678711
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+Epoch [100/100], Step [1/26], Loss: 0.5976166725158691
+Epoch [100/100], Step [2/26], Loss: 0.34255602955818176
+Epoch [100/100], Step [3/26], Loss: 0.4830470383167267
+Epoch [100/100], Step [4/26], Loss: 0.31628909707069397
+Epoch [100/100], Step [5/26], Loss: 0.5690675973892212
+Epoch [100/100], Step [6/26], Loss: 0.5069130659103394
+Epoch [100/100], Step [7/26], Loss: 0.2765083611011505
+Epoch [100/100], Step [8/26], Loss: 0.5245493650436401
+Epoch [100/100], Step [9/26], Loss: 0.5461937189102173
+Epoch [100/100], Step [10/26], Loss: 0.24457675218582153
+Epoch [100/100], Step [11/26], Loss: 0.44647306203842163
+Epoch [100/100], Step [12/26], Loss: 0.6286062002182007
+Epoch [100/100], Step [13/26], Loss: 0.515110433101654
+Epoch [100/100], Step [14/26], Loss: 0.3438301086425781
+Epoch [100/100], Step [15/26], Loss: 0.5624719262123108
+Epoch [100/100], Step [16/26], Loss: 0.46017545461654663
+Epoch [100/100], Step [17/26], Loss: 0.4369124174118042
+Epoch [100/100], Step [18/26], Loss: 0.2594882547855377
+Epoch [100/100], Step [19/26], Loss: 0.5019876956939697
+Epoch [100/100], Step [20/26], Loss: 0.6886885166168213
+Epoch [100/100], Step [21/26], Loss: 0.6900290846824646
+Epoch [100/100], Step [22/26], Loss: 0.4922947883605957
+Epoch [100/100], Step [23/26], Loss: 0.4758964776992798
+Epoch [100/100], Step [24/26], Loss: 0.4934990406036377
+Epoch [100/100], Step [25/26], Loss: 0.455915629863739
+Epoch [100/100], Step [26/26], Loss: 0.40936973690986633
+[1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+Finished Training

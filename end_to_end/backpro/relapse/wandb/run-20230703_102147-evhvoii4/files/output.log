@@ -1,0 +1,15 @@
+User: minkyoon
+Data Split: {'train': 0.8, 'val': 0.1, 'test': 0.1}
+Epoch: 100
+Batch Size: 4
+Learning Rate: 0.0001
+Setting tau to 1.0
+Using 4 GPUs!
+Traceback (most recent call last):
+  File "/home/minkyoon/crohn/end_to_end/backpro/relapse/backpro_batch_test_complete2.py", line 470, in <module>
+    logits, Y_prob, Y_hat, A_raw, instance_dict = model2(single_image_batch, label=single_label_batch)
+  File "/home/minkyoon/anaconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/minkyoon/anaconda3/lib/python3.9/site-packages/torch/nn/parallel/data_parallel.py", line 154, in forward
+    raise RuntimeError("module must have its parameters and buffers "
+RuntimeError: module must have its parameters and buffers on device cuda:0 (device_ids[0]) but found one of them on device: cuda:3

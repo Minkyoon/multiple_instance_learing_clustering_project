@@ -1,0 +1,1 @@
+Validation, Accuracy: 0.67320, Sensitivity: 0.81730, Specificity: 0.36734, ROC Score: 0.62460

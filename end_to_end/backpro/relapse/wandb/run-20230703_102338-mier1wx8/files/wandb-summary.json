@@ -1,0 +1,1 @@
+{"avg_train_loss": 1.1814401864718933, "_timestamp": 1688351491.1802106, "_runtime": 4072.8986196517944, "_step": 2799, "avg_val_loss": 1.2188179766138394, "accuracy": 0.6666666666666666, "sensitivity": 1.0, "specificity": 0.2, "roc_score": 0.6571428571428573, "epoch": 99, "_wandb": {"runtime": 4072}}

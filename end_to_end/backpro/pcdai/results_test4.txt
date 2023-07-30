@@ -1,0 +1,1 @@
+Test, Accuracy: 0.71604, Sensitivity: 0.84126, Specificity: 0.27777, ROC Score: 0.66225epoch 100 이고 batch 5 bagloss다르게 해보자

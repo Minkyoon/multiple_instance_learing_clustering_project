@@ -1,0 +1,1 @@
+Validation, Accuracy: 0.82222, Sensitivity: 0.82558, Specificity: 0.81632, ROC Score: 0.89819class1_class2인경우 class1에서 relapse라벨뽑은거임!

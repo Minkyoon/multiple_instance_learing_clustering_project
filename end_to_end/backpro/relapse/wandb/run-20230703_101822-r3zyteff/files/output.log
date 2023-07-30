@@ -1,0 +1,29 @@
+User: minkyoon
+Data Split: {'train': 0.8, 'val': 0.1, 'test': 0.1}
+Epoch: 100
+Batch Size: 4
+Learning Rate: 0.0001
+Setting tau to 1.0
+Using 3 GPUs!
+/home/minkyoon/anaconda3/lib/python3.9/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+Traceback (most recent call last):
+  File "/home/minkyoon/crohn/end_to_end/backpro/relapse/backpro_batch_test_complete2.py", line 470, in <module>
+    logits, Y_prob, Y_hat, A_raw, instance_dict = model2(single_image_batch, label=single_label_batch)
+  File "/home/minkyoon/anaconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/minkyoon/anaconda3/lib/python3.9/site-packages/torch/nn/parallel/data_parallel.py", line 169, in forward
+    return self.gather(outputs, self.output_device)
+  File "/home/minkyoon/anaconda3/lib/python3.9/site-packages/torch/nn/parallel/data_parallel.py", line 181, in gather
+    return gather(outputs, output_device, dim=self.dim)
+  File "/home/minkyoon/anaconda3/lib/python3.9/site-packages/torch/nn/parallel/scatter_gather.py", line 78, in gather
+    res = gather_map(outputs)
+  File "/home/minkyoon/anaconda3/lib/python3.9/site-packages/torch/nn/parallel/scatter_gather.py", line 73, in gather_map
+    return type(out)(map(gather_map, zip(*outputs)))
+  File "/home/minkyoon/anaconda3/lib/python3.9/site-packages/torch/nn/parallel/scatter_gather.py", line 69, in gather_map
+    return type(out)((k, gather_map([d[k] for d in outputs]))
+  File "/home/minkyoon/anaconda3/lib/python3.9/site-packages/torch/nn/parallel/scatter_gather.py", line 69, in <genexpr>
+    return type(out)((k, gather_map([d[k] for d in outputs]))
+  File "/home/minkyoon/anaconda3/lib/python3.9/site-packages/torch/nn/parallel/scatter_gather.py", line 73, in gather_map
+    return type(out)(map(gather_map, zip(*outputs)))
+TypeError: expected a sequence of integers or a single integer, got '<map object at 0x7f0890d3e850>'

@@ -1,0 +1,24 @@
+User: minkyoon
+Data Split: {'train': 0.8, 'val': 0.1, 'test': 0.1}
+Epoch: 100
+Batch Size: 4
+Learning Rate: 0.0001
+Setting tau to 1.0
+Traceback (most recent call last):
+  File "/home/minkyoon/crohn/end_to_end/backpro/relapse/backpro_batch_test_complete2.py", line 322, in <module>
+    model=model.to(device)
+  File "/home/minkyoon/anaconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 907, in to
+    return self._apply(convert)
+  File "/home/minkyoon/anaconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 578, in _apply
+    module._apply(fn)
+  File "/home/minkyoon/anaconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 578, in _apply
+    module._apply(fn)
+  File "/home/minkyoon/anaconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 578, in _apply
+    module._apply(fn)
+  File "/home/minkyoon/anaconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 601, in _apply
+    param_applied = fn(param)
+  File "/home/minkyoon/anaconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 905, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.

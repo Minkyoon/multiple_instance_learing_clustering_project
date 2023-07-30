@@ -1,0 +1,10 @@
+User: minkyoon
+Data Split: {'train': 0.8, 'val': 0.1, 'test': 0.1}
+Epoch: 100
+Batch Size: 4
+Learning Rate: 0.0001
+Setting tau to 1.0
+Traceback (most recent call last):
+  File "/home/minkyoon/crohn/end_to_end/backpro/relapse/backpro_batch_test_complete2.py", line 322, in <module>
+    model=model.to(device)
+NameError: name 'device' is not defined
