@@ -199,7 +199,7 @@ class CLAM_SB(nn.Module):
             results_dict = {}
         if return_features:
             results_dict.update({'features': M})
-        return logits, Y_prob, Y_hat, A_raw, results_dict
+        return logits, Y_prob, Y_hat, A_raw, results_dict, A
 
 class CLAM_MB(CLAM_SB):
     def __init__(self, gate = True, size_arg = "small", dropout = True, k_sample=8, n_classes=2,
@@ -273,14 +273,14 @@ class CLAM_MB(CLAM_SB):
             results_dict = {}
         if return_features:
             results_dict.update({'features': M})
-        return logits, Y_prob, Y_hat, A_raw, results_dict
+        return logits, Y_prob, Y_hat, A_raw, results_dict,
     
 model = CLAM_SB()
-state_dict = torch.load('/home/minkyoon/first/CLAM/results/relapse_downsampling/task_1_tumor_vs_normal_CLAM_50_s1/s_1_checkpoint.pt')
+state_dict = torch.load('/home/minkyoon/first/CLAM/results/remission_for_muiltimodal/task_1_tumor_vs_normal_CLAM_50_s1/s_1_checkpoint.pt')
 model.load_state_dict(state_dict)    
     
 # 데이터 로드
-data=torch.load('/home/minkyoon/first/testclam/feature/unifeature/pt_files/1339.pt')
+data=torch.load('/home/minkyoon/crohn/csv/clam/remission/1274.pt')
 
 # 모델을 평가 모드로 설정
 model.eval()
@@ -291,7 +291,7 @@ data = data.to(device)
 
 # 데이터를 모델에 전달하고 attention score를 얻습니다.
 with torch.no_grad():
-    _, _, _, A_raw, _ = model(data)
+    _, _, _, A_raw, _,A = model(data)
 
 
 # 가장 높은 attention score를 가진 instance를 찾습니다.
@@ -314,7 +314,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # CSV 파일에서 데이터 로드
-data = pd.read_csv('/home/minkyoon/crohn/csv/clam/relapse/downsampling/first/1339.csv')
+data = pd.read_csv('/home/minkyoon/crohn/csv/clam/remission/1274.csv')
 
 # top_indices를 numpy 배열로 변환
 top_indices = top_indices.cpu().numpy()
@@ -401,3 +401,7 @@ for index in mid_indices:
     # 이미지 표시
     plt.imshow(image, cmap='gray')
     plt.show()
+
+
+
+## score A_sorted, indices = torch.sort(A, descending=True)

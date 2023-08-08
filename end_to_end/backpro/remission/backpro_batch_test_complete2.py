@@ -256,14 +256,10 @@ class IntegratedModel(nn.Module):
     
     def forward(self, x, label=None):
         # Feature Extraction
-        print(x.shape)
         batch_size, num_images, c, h, w = x.size()
         x = x.view(-1, c, h, w)
-        print(x.shape)
         x = x.float().to(device)  # Convert to float
         h = self.features(x).view(batch_size, num_images, -1)
-        print(h.shape)
-        print(h)
         h = h.squeeze().to(device)
 
         

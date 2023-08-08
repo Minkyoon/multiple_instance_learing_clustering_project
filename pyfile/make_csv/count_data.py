@@ -22,7 +22,7 @@ print(grouped)
 import pandas as pd
 
 # csv 파일 로드
-df = pd.read_csv('/home/minkyoon/crohn/csv/label_data/relapse/relapse_label.csv')
+df = pd.read_csv('/home/minkyoon/crohn/csv/label_data/remission/remission_label.csv')
 
 # 'accession_number'를 기준으로 중복 제거 (처음 나타나는 항목을 유지)
 df = df.drop_duplicates(subset='accession_number')
@@ -35,7 +35,7 @@ print(label_counts)
 import pandas as pd
 
 # csv 파일 로드
-df = pd.read_csv('/home/minkyoon/crohn/for_clam/label/relapse/new_output.csv')
+df = pd.read_csv('/home/minkyoon/crohn/csv/label_data/remission/remission_label.csv')
 
 # 'accession_number'를 기준으로 중복 제거 (처음 나타나는 항목을 유지)
 #df = df.drop_duplicates(subset='accession_number')
