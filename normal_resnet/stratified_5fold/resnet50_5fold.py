@@ -423,16 +423,16 @@ class Classifier(nn.Sequential):
 
 model = Classifier(model_image, **config)
 model
-device = torch.device("cuda:3" )
+device = torch.device("cpu" )
 for fold_num in range(5):
     
     model_image = ResNet()
     model = Classifier(model_image, **config)
 
     classa=f'fold{fold_num}'
-    train_path = f"/home/minkyoon/crohn/csv/normal_resnet/10fold_resnet/train_fold_{fold_num}.csv"
-    valid_path = f"/home/minkyoon/crohn/csv/normal_resnet/10fold_resnet/val_fold_{fold_num}.csv"
-    test_path = f"/home/minkyoon/crohn/csv/normal_resnet/10fold_resnet/test_fold_{fold_num}.csv"
+    train_path = f"/home/minkyoon/crohn/csv/normal_resnet/5fold_resnet_for_startified5fold/train_fold_{fold_num}.csv"
+    valid_path = f"/home/minkyoon/crohn/csv/normal_resnet/5fold_resnet_for_startified5fold/val_fold_{fold_num}.csv"
+    test_path = f"/home/minkyoon/crohn/csv/normal_resnet/5fold_resnet_for_startified5fold/test_fold_{fold_num}.csv"
     
     train_dataset = CustomImageDataset(train_path, transform=transform)
     valid_dataset = CustomImageDataset(valid_path, transform=transform_valid)

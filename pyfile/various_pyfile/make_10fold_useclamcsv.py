@@ -3,10 +3,10 @@ import numpy as np
 import os
 
 # Define the directory
-dir_path = "/home/minkyoon/first/CLAM/splits/task_1_tumor_vs_normalfigure_remission_for_multimodaal_100/"
+dir_path = "/home/minkyoon/crohn/csv/clam/remission/clam_startified5fold"
 
-# Iterate through the 10 csv files
-for i in range(10):
+# Iterate through the 5 csv files
+for i in range(5):
     # Load each split file
     df_split = pd.read_csv(os.path.join(dir_path, f"splits_{i}.csv"))
 
@@ -35,7 +35,7 @@ for i in range(10):
             df_test = pd.concat([df_test, df_original[df_original['accession_number'].isin(test_nums)]])
 
     # Save the new split csv files
-    output_dir = "/home/minkyoon/crohn/csv/normal_resnet/10fold_resnet"
+    output_dir = "/home/minkyoon/crohn/csv/normal_resnet/5fold_resnet_for_startified5fold"
     df_train.to_csv(os.path.join(output_dir, f"train_fold_{i}.csv"), index=False)
     df_val.to_csv(os.path.join(output_dir, f"val_fold_{i}.csv"), index=False)
     df_test.to_csv(os.path.join(output_dir, f"test_fold_{i}.csv"), index=False)
