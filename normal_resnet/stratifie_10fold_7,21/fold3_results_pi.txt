@@ -1,0 +1,1 @@
+Validation, Accuracy: 0.91962, Sensitivity: 0.9375, Specificity: 0.85714, ROC Score: 0.95525여기부터 batch32이전에는 64

@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the results
-with open('/home/minkyoon/first/CLAM/results/remission_stratified/task_1_tumor_vs_normal_CLAM_50_s1/split_0_results.pkl', 'rb') as file:
+with open('/home/minkyoon/first/CLAM/results/remission_stratified_for_sysam_recommend_setting_7,2,1/task_1_tumor_vs_normal_CLAM_50_s1/split_0_results.pkl', 'rb') as file:
     results = pickle.load(file)
 
 # Extract true labels and predicted probabilities
@@ -61,6 +61,11 @@ print(f'Sensitivity: {sensitivity:.2f}')
 print(f'Specificity: {specificity:.2f}')
 print(f'F1-Score: {f1:.2f}')
 print(f'Recall: {recall:.2f}')
+
+
+
+
+
 
 
 

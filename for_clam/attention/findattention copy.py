@@ -303,10 +303,10 @@ max_score, max_index = torch.max(A_raw, dim=1)
 min_score, min_index = torch.min(A_raw, dim=1)
 
 # 가장 높은 attention score를 가진 상위 4개의 인덱스
-top_scores, top_indices = torch.topk(A, k=4, largest=True, dim=1)
+#top_scores, top_indices = torch.topk(A_raw, k=4, largest=True, dim=1)
 
 # 가장 낮은 attention score를 가진 하위 4개의 인덱스
-bottom_scores, bottom_indices = torch.topk(A, k=4, largest=False, dim=1)
+#bottom_scores, bottom_indices = torch.topk(A_raw, k=4, largest=False, dim=1)
 
 
 
@@ -331,9 +331,6 @@ for index in top_indices[0]:
     # 이미지 표시
     plt.imshow(image, cmap='gray')
     plt.show()
-    
-
-print(top_scores, top_indices)
     
     
     

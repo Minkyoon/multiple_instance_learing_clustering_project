@@ -275,7 +275,7 @@ def test(fold_num, test_loader,):
 
     result_string = ('Validation, Accuracy: ' + str(accuracy)[:7] + ', Sensitivity: ' 
         + str(sensitivity)[:7] + ', Specificity: ' + str(f"{specificity}")[:7] 
-        + ', ROC Score: ' + str(roc_score)[:7]+"여기부터 batch32이전에는 64")
+        + ', ROC Score: ' + str(roc_score)[:7])
     with open(f'{classa}_results_pi.txt', 'w') as f:
         f.write(result_string)    
     
@@ -423,16 +423,16 @@ class Classifier(nn.Sequential):
 
 model = Classifier(model_image, **config)
 model
-device = torch.device("cuda:3" )
-for fold_num in range(5):
+device = torch.device("cuda:2" )
+for fold_num in range(10):
     
     model_image = ResNet()
     model = Classifier(model_image, **config)
 
     classa=f'fold{fold_num}'
-    train_path = f"/home/minkyoon/crohn/csv/normal_resnet/5fold_resnet_for_startified5fold/train_fold_{fold_num}.csv"
-    valid_path = f"/home/minkyoon/crohn/csv/normal_resnet/5fold_resnet_for_startified5fold/val_fold_{fold_num}.csv"
-    test_path = f"/home/minkyoon/crohn/csv/normal_resnet/5fold_resnet_for_startified5fold/test_fold_{fold_num}.csv"
+    train_path = f"/home/minkyoon/crohn/csv/normal_resnet/10fold_staratified_8,1,1/train_fold_{fold_num}.csv"
+    valid_path = f"/home/minkyoon/crohn/csv/normal_resnet/10fold_staratified_8,1,1/val_fold_{fold_num}.csv"
+    test_path = f"/home/minkyoon/crohn/csv/normal_resnet/10fold_staratified_8,1,1/test_fold_{fold_num}.csv"
     
     train_dataset = CustomImageDataset(train_path, transform=transform)
     valid_dataset = CustomImageDataset(valid_path, transform=transform_valid)
