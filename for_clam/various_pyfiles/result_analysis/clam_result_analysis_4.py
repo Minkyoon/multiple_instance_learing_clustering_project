@@ -16,7 +16,7 @@ import seaborn as sns
 result_files=[]
 
 for i in range(10):
-    name=f'/home/minkyoon/first/CLAM/results/remission_stratified_for_sysam_recommend_setting_8,1,1/task_1_tumor_vs_normal_CLAM_50_s1/split_{i}_results.pkl'
+    name=f'/home/minkyoon/CLAM2/results2/update_multihead1_add_911_230915_forpaper_save_multihead/remission_multimodal_stratified_721_s1/split_{i}_results.pkl'
     result_files.append(name)
 
 
@@ -36,6 +36,8 @@ for file_path in result_files:
     with open(file_path, 'rb') as file:
         results = pickle.load(file)
         true_labels = [v['label'] for v in results.values()]
+        #predicted_probs = [v['prob'][1] for v in results.values()]
+        #xgboost아닐경우
         predicted_probs = [v['prob'][0, 1] for v in results.values()]
 
         # ROC curve 계산
@@ -44,7 +46,7 @@ for file_path in result_files:
         aurocs.append(roc_auc)
         
         # 각 fold의 ROC curve를 그림에 추가
-        plt.plot(fpr, tpr, color='navy', alpha=0.1)
+     #   plt.plot(fpr, tpr, color='navy', alpha=0.1)
         
         # Interpolation을 사용하여 mean_fpr에 대한 tpr 값을 계산
         tprs.append(np.interp(mean_fpr, fpr, tpr))
@@ -60,7 +62,7 @@ tprs_upper = np.minimum(mean_tpr + std_tpr, 1)
 tprs_lower = np.maximum(mean_tpr - std_tpr, 0)
 
 # 평균 ROC curve와 음영처리된 표준편차 영역을 그림에 추가
-plt.plot(mean_fpr, mean_tpr, color='b', label=r'Mean ROC (AUC = %0.2f $\pm$ %0.2f)' % (mean_auc, std_auc))
+plt.plot(mean_fpr, mean_tpr, color='b', label=r'Mean ROC (AUC = %0.3f $\pm$ %0.2f)' % ((round(mean_auc, 3), std_auc)))
 plt.fill_between(mean_fpr, tprs_lower, tprs_upper, color='grey', alpha=.2)
 
 plt.plot([0, 1], [0, 1], color='navy', linestyle='--')

@@ -37,7 +37,7 @@ import os
 data = pd.read_csv('/home/minkyoon/crohn/csv/label_data/Full_label_data.csv')
 
 # Filter the dataframe to only include rows where the accession_number is 1
-filtered_data = data[data['accession_number'] == 1042]
+filtered_data = data[data['accession_number'] == 882]
 
 # Sort the filtered data by the file path (assuming the file paths are in ascending order)
 

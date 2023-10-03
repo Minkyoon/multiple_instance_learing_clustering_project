@@ -290,7 +290,7 @@ class Attn_Net_Gated(nn.Module):
 
 class CLAM_SB(nn.Module):
     def __init__(self, gate = True, size_arg = "small", dropout = True, k_sample=7, n_classes=2,
-        instance_loss_fn= SmoothTop1SVM(n_classes=2), subtyping=False):
+        instance_loss_fn= SmoothTop1SVM(n_classes=2), subtyping=True):
         super(CLAM_SB, self).__init__()
         self.size_dict = {"small": [1024, 512, 256], "big": [1024, 512, 384]}
         size = self.size_dict[size_arg]
@@ -481,7 +481,9 @@ class IntegratedModel(nn.Module):
 device = torch.device("cuda:2" )
 resultdir=[]
 for fold_num in range(10):
-    model2 = IntegratedModel(feature_extractor=model, clam_model=CLAM_SB()).to(device)
+    model=resnet50_baseline(pretrained=True)
+    clam_model=CLAM_SB()
+    model2 = IntegratedModel(feature_extractor=model, clam_model=clam_model).to(device)
 
     fold=f'fold_{fold_num}'
     train_path = f"/home/minkyoon/crohn/csv/normal_resnet/10fold_staratified_7,2,1/train_fold_{fold_num}.csv"

@@ -166,8 +166,10 @@ def train_and_validate(fold_num, train_loader, valid_loader):
     plot_loss_curve(train_losses, val_losses, save_path)
     
 def test(fold_num, test_loader,):
-        
-    model2 = IntegratedModel(feature_extractor=model, clam_model=CLAM_SB()).to(device)
+    feature_extractor =resnet50_baseline(pretrained=True)
+    clam_model = CLAM_SB()
+    cdcnn_model = Complex3DCNN()    
+    model2 = IntegratedModelWithCDCNN(feature_extractor, clam_model, cdcnn_model).to(device).to(device)
     model2.load_state_dict(torch.load(f'{fold}_endtoend.pt'))
 
 
@@ -290,7 +292,7 @@ class Attn_Net_Gated(nn.Module):
 
 class CLAM_SB(nn.Module):
     def __init__(self, gate = True, size_arg = "small", dropout = True, k_sample=7, n_classes=2,
-        instance_loss_fn= SmoothTop1SVM(n_classes=2), subtyping=False):
+        instance_loss_fn= SmoothTop1SVM(n_classes=2), subtyping=True):
         super(CLAM_SB, self).__init__()
         self.size_dict = {"small": [1024, 512, 256], "big": [1024, 512, 384]}
         size = self.size_dict[size_arg]
@@ -443,22 +445,34 @@ class CustomDataset(Dataset):
 def select_high_attention_images(images, attention_scores, top_k=8):
     # Sort the attention scores in descending order and select top-k images
     _, indices = torch.sort(attention_scores, descending=True)
-    selected_indices = indices[:top_k]
+    selected_indices = indices[0][:top_k]
     selected_images = [images[i] for i in selected_indices]
     return selected_images
 
 
-class Simple3DCNN(nn.Module):
+class Complex3DCNN(nn.Module):
     def __init__(self):
-        super(Simple3DCNN, self).__init__()
-        self.conv1 = nn.Conv3d(1, 16, kernel_size=3, padding=1)
-        self.fc1 = nn.Linear(16 * 8 * 1024, 2)
+        super(Complex3DCNN, self).__init__()
+        self.conv1 = nn.Conv3d(3, 16, kernel_size=3, padding=1)  # (1, 16, 8, 225, 225)
+        self.conv2 = nn.Conv3d(16, 32, kernel_size=3, padding=1) # (1, 32, 4, 112, 112)
+        self.conv3 = nn.Conv3d(32, 64, kernel_size=3, padding=1) # (1, 64, 2, 56, 56)
+        self.pool = nn.MaxPool3d(kernel_size=2, stride=2, padding=0)
+        self.fc1 = nn.Linear(64 * 1* 28 * 28, 128)
+        self.fc2 = nn.Linear(128, 64)
+        self.fc3 = nn.Linear(64, 2)
+        self.dropout = nn.Dropout(0.5)
 
     def forward(self, x):
-        x = F.relu(self.conv1(x))
-        x = x.view(x.size(0), -1)
-        x = self.fc1(x)
+        x = self.pool(F.relu(self.conv1(x))) # Output size: (1, 16, 4, 112, 112)
+        x = self.pool(F.relu(self.conv2(x))) # Output size: (1, 32, 2, 56, 56)
+        x = self.pool(F.relu(self.conv3(x)))  # Output size: (1, 64, 1, 28, 28)
+        x = x.view(x.size(0), -1) # Flatten tensor
+        x = F.relu(self.fc1(x))
+        x = self.dropout(x)
+        x = F.relu(self.fc2(x))
+        x = self.fc3(x)
         return x
+
 
 
 class IntegratedModelWithCDCNN(nn.Module):
@@ -467,6 +481,7 @@ class IntegratedModelWithCDCNN(nn.Module):
         self.features = feature_extractor
         self.clam = clam_model
         self.cdcnn = cdcnn_model
+        self.classifier=nn.Linear(4,2).to(device)
 
     def forward(self, x, label=None):
         # Feature Extraction
@@ -481,8 +496,12 @@ class IntegratedModelWithCDCNN(nn.Module):
         logits, Y_prob, Y_hat, A_raw, results_dict = self.clam(h, label=label)
 
         # Select images with high attention scores
+
         selected_images = select_high_attention_images(x, A_raw)
-        selected_images = torch.stack(selected_images).unsqueeze(1) # Shape: (batch_size, 1, 8, 1024)
+     
+        selected_images = torch.stack(selected_images).unsqueeze(0) # Shape: (batch_size, 1, 8, 1024)
+        selected_images = selected_images.permute(0,2,1,3,4)
+
 
         # CDCNN
         cdcnn_output = self.cdcnn(selected_images)
@@ -491,17 +510,13 @@ class IntegratedModelWithCDCNN(nn.Module):
         combined_output = torch.cat((logits, cdcnn_output), dim=1)
 
         # Optional: Add a linear layer to merge the outputs
-        final_output = nn.Linear(4, 2)(combined_output)
-
-        return final_output
+        final_output = self.classifier(combined_output)
 
 
+        return final_output,Y_prob, Y_hat, A_raw, results_dict
+
+device = torch.device("cuda:3" )
 # Instantiate the models
-feature_extractor = ResNet50()
-clam_model = CLAM()
-cdcnn_model = Simple3DCNN()
-
-integrated_model = IntegratedModelWithCDCNN(feature_extractor, clam_model, cdcnn_model).to(device)
 
 
 
@@ -513,9 +528,12 @@ integrated_model = IntegratedModelWithCDCNN(feature_extractor, clam_model, cdcnn
 
 
 # 통합 모델 초기화
-device = torch.device("cuda:3" )
+
 resultdir=[]
 for fold_num in range(10):
+    feature_extractor =resnet50_baseline(pretrained=True)
+    clam_model = CLAM_SB()
+    cdcnn_model = Complex3DCNN()
     model2 = IntegratedModelWithCDCNN(feature_extractor, clam_model, cdcnn_model).to(device)
 
     fold=f'fold_{fold_num}'

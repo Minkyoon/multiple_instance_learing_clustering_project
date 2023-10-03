@@ -5,7 +5,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the results
-with open('/home/minkyoon/first/CLAM/results/remission_stratified_for_sysam_recommend_setting_7,2,1/task_1_tumor_vs_normal_CLAM_50_s1/split_0_results.pkl', 'rb') as file:
+fold=0
+with open(f'/home/minkyoon/CLAM2/results/update_multihead7_add_911_230823_forpaper/remission_multimodal_stratified_721_s1/split_1_results.pkl', 'rb') as file:
     results = pickle.load(file)
 
 # Extract true labels and predicted probabilities
@@ -155,3 +156,103 @@ print("True Positives:", tp)
 print("True Negatives:", tn)
 print("False Positives:", fp)
 print("False Negatives:", fn)
+
+
+
+import numpy as np
+
+# 주어진 혼동 행렬을 numpy 배열로 생성
+confusion_matrix = np.array([[84,14], [15, 2]])
+
+# 혼동 행렬의 각 요소 추출
+TN = confusion_matrix[0, 0]
+FP = confusion_matrix[0, 1]
+FN = confusion_matrix[1, 0]
+TP = confusion_matrix[1, 1]
+
+# Sensitivity(민감도) 또는 Recall(재현율) 계산
+sensitivity = TP / (TP + FN)
+print(f"Sensitivity: {sensitivity:.3f}")
+
+# Specificity(특이도) 계산
+specificity = TN / (TN + FP)
+print(f"Specificity: {specificity:.3f}")
+
+# Precision(정밀도) 계산
+precision = TP / (TP + FP)
+print(f"Precision: {precision:.3f}")
+
+# F1 Score 계산
+f1_score = 2 * (precision * sensitivity) / (precision + sensitivity)
+print(f"F1 Score: {f1_score:.3f}")
+
+# Accuracy(정확도) 계산
+accuracy = (TP + TN) / (TP + TN + FP + FN)
+print(f"Accuracy: {accuracy:.3f}")
+
+
+import torch
+
+# 주어진 텐서 생성
+tensor = torch.tensor([
+    [0.0141, 0.0354, 0.0245, 0.0136, 0.0177, 0.0247, 0.0140, 0.0312, 0.0188,
+    0.0206, 0.0154, 0.0126, 0.0285, 0.0231, 0.0307, 0.0377, 0.0305, 0.0166,
+    0.0211, 0.0167, 0.0173, 0.0147, 0.0121, 0.0217, 0.0199, 0.0265, 0.0149,
+    0.0293, 0.0190, 0.0231, 0.0267, 0.0100, 0.0195, 0.0222, 0.0169, 0.0206,
+    0.0106, 0.0158, 0.0218, 0.0165, 0.0189, 0.0142, 0.0252, 0.0195, 0.0121,
+    0.0228, 0.0174, 0.0127, 0.0306]
+], device='cuda:0')
+
+# attention score가 높은 순서대로 인덱스를 얻음
+sorted_indices = torch.argsort(tensor, descending=True)
+top_indices = sorted_indices[0, :4]
+
+print("Top 4 indices:", top_indices)
+
+
+import pandas as pd
+
+df=pd.read_csv('/home/minkyoon/CLAM2/data/processed/remission_under_10.csv')
+
+
+df=df.iloc[:, 1:50]
+
+
+
+
+
+
+
+import pandas as pd
+import torch
+
+
+
+# 주어진 텐서 생성
+tensor = torch.tensor([
+    [0.0141, 0.0354, 0.0245, 0.0136, 0.0177, 0.0247, 0.0140, 0.0312, 0.0188,
+    0.0206, 0.0154, 0.0126, 0.0285, 0.0231, 0.0307, 0.0377, 0.0305, 0.0166,
+    0.0211, 0.0167, 0.0173, 0.0147, 0.0121, 0.0217, 0.0199, 0.0265, 0.0149,
+    0.0293, 0.0190, 0.0231, 0.0267, 0.0100, 0.0195, 0.0222, 0.0169, 0.0206,
+    0.0106, 0.0158, 0.0218, 0.0165, 0.0189, 0.0142, 0.0252, 0.0195, 0.0121,
+    0.0228, 0.0174, 0.0127, 0.0306]
+], device='cuda:0')
+tensor = torch.tensor([
+[ 0.0017,0.0016, 0.0013, 0.0016, 0.0022, 0.0022, 0.0017, 0.0020, 0.0015, 0.0021,
+         0.0022, 0.0020, 0.0021, 0.0014, 0.0016, 0.0019, 0.0011, 0.0012, 0.0013,
+         0.0015, 0.0014, 0.0019, 0.0012, 0.0024, 0.0023, 0.0016, 0.0016, 0.0018,
+         0.0014, 0.0013, 0.0014, 0.0012, 0.0013, 0.0014, 0.0020, 0.0020, 0.0014,
+         0.0015, 0.0022, 0.0016, 0.0017, 0.0011, 0.0017, 0.0017, 0.0015, 0.0014,
+          0.0023, 0.0020, 0.0016]
+])
+
+# attention score가 높은 순서대로 인덱스를 얻음
+sorted_indices = torch.argsort(tensor, descending=True)
+top_indices = sorted_indices[0, :10].cpu().numpy()
+
+# 가장 높은 attention score와 해당 인덱스를 출력
+print("Top 10 features with their attention scores:")
+for i in top_indices:
+    feature_name = df.columns[i]
+    feature_values = df[feature_name]
+    print(f"Feature: {feature_name}, Attention Score: {tensor[0, i]:.4f}, ")
